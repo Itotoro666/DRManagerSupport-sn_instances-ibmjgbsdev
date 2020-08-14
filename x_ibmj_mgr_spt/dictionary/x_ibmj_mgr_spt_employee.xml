@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="GBSメンバーリスト" max_length="40" name="x_ibmj_mgr_spt_employee" sizeclass="0" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Dept Code" max_length="10" name="u_dept_code" type="string"/>
+        <element label="Dept Name" max_length="100" name="u_dept_name" type="string"/>
+        <element label="eMail Address" max_length="40" name="u_email_address" type="string"/>
+        <element label="Emp No" mandatory="true" max_length="10" name="u_emp_id" type="string"/>
+        <element label="First Name (E)" max_length="100" name="u_first_name_e" type="string"/>
+        <element label="First Name (J)" max_length="100" name="u_first_name_j" type="string"/>
+        <element label="Manager Flag" max_length="40" name="u_is_manager" type="boolean"/>
+        <element label="LastName (E)" max_length="100" name="u_last_name_e" type="string"/>
+        <element label="LastName (J)" max_length="100" name="u_last_name_j" type="string"/>
+        <element label="Manager eMail Address" max_length="40" name="u_mgr_email_address" type="string"/>
+        <element label="Manager Emp No" max_length="10" name="u_mgr_emp_id" type="string"/>
+        <element label="Manager Notes ID" max_length="50" name="u_mgr_notesid" type="string"/>
+        <element label="Name (E)" max_length="200" name="u_name_e" type="string"/>
+        <element label="Name (J)" max_length="200" name="u_name_j" type="string"/>
+        <element display="true" label="Notes ID" max_length="50" name="u_notesid" type="string"/>
+        <element label="Tel No" max_length="20" name="u_tel_no" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_target_term" table="x_ibmj_mgr_spt_task_master" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_target_term</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Q1</label>
+            <language>en</language>
+            <name>x_ibmj_mgr_spt_task_master</name>
+            <sequence>0</sequence>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-04-30 03:19:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>643e8ea01be89010d16d8735cc4bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-04-30 03:19:14</sys_updated_on>
+            <value>q1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_target_term</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Q2</label>
+            <language>en</language>
+            <name>x_ibmj_mgr_spt_task_master</name>
+            <sequence>1</sequence>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-04-30 03:19:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e43e8ea01be89010d16d8735cc4bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-04-30 03:19:14</sys_updated_on>
+            <value>q2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_target_term</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Q3</label>
+            <language>en</language>
+            <name>x_ibmj_mgr_spt_task_master</name>
+            <sequence>2</sequence>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-04-30 03:19:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a03e8ea01be89010d16d8735cc4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-04-30 03:19:14</sys_updated_on>
+            <value>q3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_target_term</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Q4</label>
+            <language>en</language>
+            <name>x_ibmj_mgr_spt_task_master</name>
+            <sequence>3</sequence>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-04-30 03:19:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c3e8ea01be89010d16d8735cc4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-04-30 03:19:14</sys_updated_on>
+            <value>q4</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_target_term</element>
+            <name>x_ibmj_mgr_spt_task_master</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-04-30 03:19:14</sys_created_on>
+            <sys_id>cf2b608c2f591410b09c11c82799b671</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_target_term</sys_name>
+            <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+            <sys_update_name>sys_choice_x_ibmj_mgr_spt_task_master_u_target_term</sys_update_name>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-04-30 03:19:14</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

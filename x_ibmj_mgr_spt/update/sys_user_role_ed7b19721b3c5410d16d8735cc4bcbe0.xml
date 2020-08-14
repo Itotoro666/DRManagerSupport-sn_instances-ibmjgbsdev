@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>System Privilege Users</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_ibmj_mgr_spt.system_privilege_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>system_privilege_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-19 09:39:54</sys_created_on>
+        <sys_id>ed7b19721b3c5410d16d8735cc4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ibmj_mgr_spt.system_privilege_user</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_user_role_ed7b19721b3c5410d16d8735cc4bcbe0</sys_update_name>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-19 09:39:54</sys_updated_on>
+    </sys_user_role>
+</record_update>

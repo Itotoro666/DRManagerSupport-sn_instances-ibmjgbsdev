@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" label="Task Subcategory" max_length="40" name="x_ibmj_mgr_spt_task_subcategory" sizeclass="0" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="タスクサブカテゴリ番号" max_length="40" name="number" type="string"/>
+        <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Additional Reason -Disp" max_length="40" name="u_awd_add_reason_flg" type="boolean"/>
+        <element label="Type (Big or New) -Disp" max_length="40" name="u_awd_application_type_flg" type="boolean"/>
+        <element label="ファイル添付欄 表示" max_length="40" name="u_awd_attachment_flg" type="boolean"/>
+        <element label="CAMSS 表示" max_length="40" name="u_awd_camss_flg" type="boolean"/>
+        <element label="Close date 表示" max_length="40" name="u_awd_close_date_flg" type="boolean"/>
+        <element label="Close Month 表示" max_length="40" name="u_awd_close_month_flg" type="boolean"/>
+        <element label="Close week 表示" max_length="40" name="u_awd_close_week_flg" type="boolean"/>
+        <element label="Comment 表示" max_length="40" name="u_awd_comment_flg" type="boolean"/>
+        <element label="Contingency use ratio(%) other of AMS-SO 表示" max_length="40" name="u_awd_cont_use_ratio_flg" type="boolean"/>
+        <element label="お客様の課題 表示" max_length="40" name="u_awd_customer_issue_flg" type="boolean"/>
+        <element label="Customer Name（English） 表示" max_length="40" name="u_awd_customer_name_en_flg" type="boolean"/>
+        <element label="お客様名（日本語） 表示" max_length="40" name="u_awd_customer_name_jn_flg" type="boolean"/>
+        <element label="Any Customer SAT date if there is any 表示" max_length="40" name="u_awd_customer_sat_date_flg" type="boolean"/>
+        <element label="Actual GP%-Plan GP%(AMS-SO only) 表示" max_length="40" name="u_awd_gp_var_pln_act_flg" type="boolean"/>
+        <element label="is thie project was a DE project or trouble project, what was initial GP% when表示" max_length="40" name="u_awd_init_gpratio_for_deproj_flg" type="boolean"/>
+        <element label="In Quarter Revenue($) 表示" max_length="40" name="u_awd_in_quarter_revenue_d_flg" type="boolean"/>
+        <element label="How many brand were involved in the project 表示" max_length="40" name="u_awd_num_of_brands_flg" type="boolean"/>
+        <element label="Number of FTE's average on the project 表示" max_length="40" name="u_awd_num_of_fte_flg" type="boolean"/>
+        <element label="OEM 表示" max_length="40" name="u_awd_oem_flg" type="boolean"/>
+        <element label="Opportunity No 表示" max_length="40" name="u_awd_opportunity_no_flg" type="boolean"/>
+        <element label="賞金額($) 表示" max_length="40" name="u_awd_prize_d_flg" type="boolean"/>
+        <element label="賞金額(¥) 表示" max_length="40" name="u_awd_prize_y_flg" type="boolean"/>
+        <element label="業績レター内に記載させて頂くプロジェクト紹介文 表示" max_length="40" name="u_awd_project_introduction_flg" type="boolean"/>
+        <element label="Project Name(English) 表示" max_length="40" name="u_awd_project_name_en_flg" type="boolean"/>
+        <element label="プロジェクト名（日本語） 表示" max_length="40" name="u_awd_project_name_jn_flg" type="boolean"/>
+        <element label="プロジェクト概要 表示" max_length="40" name="u_awd_project_summary_flg" type="boolean"/>
+        <element label="Reason Why nomination PV deal 表示" max_length="40" name="u_awd_reason_flg" type="boolean"/>
+        <element label="申請理由 表示" max_length="40" name="u_awd_request_reason_flg" type="boolean"/>
+        <element label="Roadmap Status 表示" max_length="40" name="u_awd_roadmap_status_flg" type="boolean"/>
+        <element label="Role (English) 表示" max_length="40" name="u_awd_role_en_flg" type="boolean"/>
+        <element label="Service In date 表示" max_length="40" name="u_awd_servicein_date_flg" type="boolean"/>
+        <element label="お客様の課題に対する解決策（どのようなIBM Valueにて提案したか） 表示" max_length="40" name="u_awd_solution_description_flg" type="boolean"/>
+        <element label="SS Manager Notes ID 表示" max_length="40" name="u_awd_ss_mgr_flg" type="boolean"/>
+        <element label="SS Rep Notes ID 表示" max_length="40" name="u_awd_ss_rep_notes_id_flg" type="boolean"/>
+        <element label="予備入力欄 表示" max_length="40" name="u_awd_subentry_field_flg" type="boolean"/>
+        <element label="Target Revenue 表示" max_length="40" name="u_awd_target_revenue_d_flg" type="boolean"/>
+        <element label="Target TCV($) 表示" max_length="40" name="u_awd_target_tcv_d_flg" type="boolean"/>
+        <element label="TCV(M$) 表示" max_length="40" name="u_awd_tcv_d_flg" type="boolean"/>
+        <element label="TSV(M$) 表示" max_length="40" name="u_awd_tsv_d_flg" type="boolean"/>
+        <element label="Work No 表示" max_length="40" name="u_awd_work_no_flg" type="boolean"/>
+        <element label="候補者(適格者リスト) Dept Code(5桁) 表示" max_length="40" name="u_cnd_dept_code_elg_flg" type="boolean"/>
+        <element label="候補者 Dept Code(5桁) 表示" max_length="40" name="u_cnd_dept_code_flg" type="boolean"/>
+        <element label="候補者(適格者リスト) Dept Name(日本語) 表示" max_length="40" name="u_cnd_dept_name_elg_flg" type="boolean"/>
+        <element label="候補者 Dept Name(日本語) 表示" max_length="40" name="u_cnd_dept_name_flg" type="boolean"/>
+        <element label="候補者(適格者リスト) Employee No(6桁) 表示" max_length="40" name="u_cnd_employee_no_elg_flg" type="boolean"/>
+        <element label="候補者 Employee No(6桁) 表示" max_length="40" name="u_cnd_employee_no_flg" type="boolean"/>
+        <element label="候補者(適格者リスト) 所属長NotesID 表示" max_length="40" name="u_cnd_mgr_notes_id_elg_flg" type="boolean"/>
+        <element label="候補者 所属長NotesID 表示" max_length="40" name="u_cnd_mgr_notes_id_flg" type="boolean"/>
+        <element label="候補者(適格者リスト) Name(English) 表示" max_length="40" name="u_cnd_name_en_elg_flg" type="boolean"/>
+        <element label="候補者 Name(English) 表示" max_length="40" name="u_cnd_name_en_flg" type="boolean"/>
+        <element label="候補者(適格者リスト) Name(日本語) 表示" max_length="40" name="u_cnd_name_jp_elg_flg" type="boolean"/>
+        <element label="候補者 Name(日本語) 表示" max_length="40" name="u_cnd_name_jp_flg" type="boolean"/>
+        <element label="候補者(適格者リスト) Notes ID 表示" max_length="40" name="u_cnd_notes_id_elg_flg" type="boolean"/>
+        <element label="候補者 Notes ID 表示" max_length="40" name="u_cnd_notes_id_flg" type="boolean"/>
+        <element label="Nomination Status - Disp" max_length="40" name="u_nomination_status_flag" type="boolean"/>
+        <element label="Owner Group" max_length="32" name="u_owner_group" reference="sys_user_group" type="reference"/>
+        <element label="Parent Task Category" max_length="32" name="u_parent_taskcategory" reference="x_ibmj_mgr_spt_task_category" reference_qual="javascript:'u_parent_taskcategory=' + current.u_parent_tasksubcategory.u_parent_taskcategory;" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Show Button Flag" max_length="40" name="u_show_button_flag" type="boolean"/>
+        <element label="Expire Date" max_length="40" name="u_task_rec_end_dt" type="glide_date"/>
+        <element label="レコード適用開始日" mandatory="true" max_length="40" name="u_task_rec_start_dt" type="glide_date"/>
+        <element display="true" label="Task Subcategory" mandatory="true" max_length="50" name="u_task_subcategory" type="string"/>
+        <index name="index">
+            <element name="u_owner_group"/>
+        </index>
+        <index name="index2">
+            <element name="u_parent_taskcategory"/>
+        </index>
+    </element>
+</database>

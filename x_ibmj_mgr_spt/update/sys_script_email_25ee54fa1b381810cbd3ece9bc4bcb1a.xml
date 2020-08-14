@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>convert_to_local_time</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+	var gdt = new GlideDateTime(current.u_task_due_date.getDisplayValue());
+	template.print('Task Due Date : ' + gdt.getDisplayValue());
+		
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-05-19 05:16:13</sys_created_on>
+        <sys_id>25ee54fa1b381810cbd3ece9bc4bcb1a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>convert_to_local_time</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_script_email_25ee54fa1b381810cbd3ece9bc4bcb1a</sys_update_name>
+        <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+        <sys_updated_on>2020-05-19 05:50:43</sys_updated_on>
+    </sys_script_email>
+</record_update>

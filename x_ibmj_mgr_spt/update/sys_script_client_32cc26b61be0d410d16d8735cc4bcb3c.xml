@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Task Subcategory - Hide update button</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//hide the button flag and set it to false
+	g_form.setValue('u_show_button_flag',false);
+	g_form.setDisplay('u_show_button_flag',false);
+		
+	//Hide the Update button when the form load
+	sysverb_update.hide();
+	sysverb_update_bottom.hide();
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-07 05:21:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>32cc26b61be0d410d16d8735cc4bcb3c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Task Subcategory - Hide update button</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_script_client_32cc26b61be0d410d16d8735cc4bcb3c</sys_update_name>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-07 06:40:13</sys_updated_on>
+        <table>x_ibmj_mgr_spt_task_subcategory</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="タスクマスター" max_length="40" name="x_ibmj_mgr_spt_task_master" sizeclass="0" type="collection">
+        <element label="Additional Reason -Disp" max_length="40" name="u_awd_add_reason_flg" type="boolean"/>
+        <element label="Type (Big or New) -Disp" max_length="40" name="u_awd_application_type_flg" type="boolean"/>
+        <element label="Attachment -Disp" max_length="40" name="u_awd_attachment_flg" type="boolean"/>
+        <element label="CAMSS -Disp" max_length="40" name="u_awd_camss_flg" type="boolean"/>
+        <element label="Close date -Disp" max_length="40" name="u_awd_close_date_flg" type="boolean"/>
+        <element label="Close Month -Disp" max_length="40" name="u_awd_close_month_flg" type="boolean"/>
+        <element label="Close week -Disp" max_length="40" name="u_awd_close_week_flg" type="boolean"/>
+        <element label="Comment -Disp" max_length="40" name="u_awd_comment_flg" type="boolean"/>
+        <element label="Cont. use ratio(%) other of AMS-SO -Disp" max_length="40" name="u_awd_cont_use_ratio_flg" type="boolean"/>
+        <element label="Customer's issue -Disp" max_length="40" name="u_awd_customer_issue_flg" type="boolean"/>
+        <element label="Customer Name（E) -Disp" max_length="40" name="u_awd_customer_name_en_flg" type="boolean"/>
+        <element label="Customer Name（J) -Disp" max_length="40" name="u_awd_customer_name_jn_flg" type="boolean"/>
+        <element label="Customer SAT date -Disp" max_length="40" name="u_awd_customer_sat_date_flg" type="boolean"/>
+        <element label="Actual GP%-Plan GP%(AMS-SO only) -Disp" max_length="40" name="u_awd_gp_var_pln_act_flg" type="boolean"/>
+        <element label="Initial GP% (for DE project) -Disp" max_length="40" name="u_awd_init_gpratio_for_deproj_flg" type="boolean"/>
+        <element label="In Quarter Revenue($) -Disp" max_length="40" name="u_awd_in_quarter_revenue_d_flg" type="boolean"/>
+        <element label="Number of brands -Disp" max_length="40" name="u_awd_num_of_brands_flg" type="boolean"/>
+        <element label="Number of FTE's (average) -Disp" max_length="40" name="u_awd_num_of_fte_flg" type="boolean"/>
+        <element label="OEM -Disp" max_length="40" name="u_awd_oem_flg" type="boolean"/>
+        <element label="Opportunity No -Disp" max_length="40" name="u_awd_opportunity_no_flg" type="boolean"/>
+        <element label="Award Prize ($) -Disp" max_length="40" name="u_awd_prize_d_flg" type="boolean"/>
+        <element label="Award Prize (¥) -Disp" max_length="40" name="u_awd_prize_y_flg" type="boolean"/>
+        <element label="Project Summry for publication -Disp" max_length="40" name="u_awd_project_introduction_flg" type="boolean"/>
+        <element label="Project Name (E) -Disp" max_length="40" name="u_awd_project_name_en_flg" type="boolean"/>
+        <element label="Project Name (J) -Disp" max_length="40" name="u_awd_project_name_jn_flg" type="boolean"/>
+        <element label="Project Summary -Disp" max_length="40" name="u_awd_project_summary_flg" type="boolean"/>
+        <element label="Reason Why nomination PV deal 表示" max_length="40" name="u_awd_reason_flg" type="boolean"/>
+        <element label="申請理由 表示" max_length="40" name="u_awd_request_reason_flg" type="boolean"/>
+        <element label="Roadmap Status 表示" max_length="40" name="u_awd_roadmap_status_flg" type="boolean"/>
+        <element label="Role (English) 表示" max_length="40" name="u_awd_role_en_flg" type="boolean"/>
+        <element label="Service In date 表示" max_length="40" name="u_awd_servicein_date_flg" type="boolean"/>
+        <element label="お客様の課題に対する解決策（どのようなIBM Valueにて提案したか） 表示" max_length="40" name="u_awd_solution_description_flg" type="boolean"/>
+        <element label="SS Manager Notes ID 表示" max_length="40" name="u_awd_ss_mgr_flg" type="boolean"/>
+        <element label="SS Rep Notes ID 表示" max_length="40" name="u_awd_ss_rep_notes_id_flg" type="boolean"/>
+        <element label="予備入力欄 表示" max_length="40" name="u_awd_subentry_field_flg" type="boolean"/>
+        <element label="Target Revenue 表示" max_length="40" name="u_awd_target_revenue_d_flg" type="boolean"/>
+        <element label="Target TCV($) 表示" max_length="40" name="u_awd_target_tcv_d_flg" type="boolean"/>
+        <element label="TCV(M$) 表示" max_length="40" name="u_awd_tcv_d_flg" type="boolean"/>
+        <element label="TSV(M$) 表示" max_length="40" name="u_awd_tsv_d_flg" type="boolean"/>
+        <element label="Work No 表示" max_length="40" name="u_awd_work_no_flg" type="boolean"/>
+        <element label="候補者(適格者リスト) Dept Code(5桁) 表示" max_length="40" name="u_cnd_dept_code_elg_flg" type="boolean"/>
+        <element label="候補者 Dept Code(5桁) 表示" max_length="40" name="u_cnd_dept_code_flg" type="boolean"/>
+        <element label="候補者(適格者リスト) Dept Name(日本語) 表示" max_length="40" name="u_cnd_dept_name_elg_flg" type="boolean"/>
+        <element label="候補者 Dept Name(日本語) 表示" max_length="40" name="u_cnd_dept_name_flg" type="boolean"/>
+        <element label="候補者(適格者リスト) Employee No(6桁) 表示" max_length="40" name="u_cnd_employee_no_elg_flg" type="boolean"/>
+        <element label="候補者 Employee No(6桁) 表示" max_length="40" name="u_cnd_employee_no_flg" type="boolean"/>
+        <element label="候補者(適格者リスト) 所属長NotesID 表示" max_length="40" name="u_cnd_mgr_notes_id_elg_flg" type="boolean"/>
+        <element label="候補者 所属長NotesID 表示" max_length="40" name="u_cnd_mgr_notes_id_flg" type="boolean"/>
+        <element label="候補者(適格者リスト) Name(English) 表示" max_length="40" name="u_cnd_name_en_elg_flg" type="boolean"/>
+        <element label="候補者 Name(English) 表示" max_length="40" name="u_cnd_name_en_flg" type="boolean"/>
+        <element label="候補者(適格者リスト) Name(日本語) 表示" max_length="40" name="u_cnd_name_jp_elg_flg" type="boolean"/>
+        <element label="候補者 Name(日本語) 表示" max_length="40" name="u_cnd_name_jp_flg" type="boolean"/>
+        <element label="候補者(適格者リスト) Notes ID 表示" max_length="40" name="u_cnd_notes_id_elg_flg" type="boolean"/>
+        <element label="候補者 Notes ID 表示" max_length="40" name="u_cnd_notes_id_flg" type="boolean"/>
+        <element label="推薦枠数" max_length="5" name="u_nomination_slot" type="integer"/>
+        <element label="Nomination Status - Disp" max_length="40" name="u_nomination_status_flag" type="boolean"/>
+        <element label="Owner Group" max_length="32" name="u_owner_group" reference="sys_user_group" type="reference"/>
+        <element label="親 Task Category" mandatory="true" max_length="32" name="u_parent_taskcategory" reference="x_ibmj_mgr_spt_task_category" type="reference"/>
+        <element dependent="u_parent_taskcategory" dependent_on_field="u_parent_taskcategory" label="Parent Task Subcategory" mandatory="true" max_length="32" name="u_parent_tasksubcategory" reference="x_ibmj_mgr_spt_task_subcategory" type="reference" use_dependent_field="true"/>
+        <element choice="3" default="q1" label="時期" max_length="10" name="u_target_term" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Q1" sequence="0" value="q1"/>
+                <element inactive_on_update="false" label="Q2" sequence="1" value="q2"/>
+                <element inactive_on_update="false" label="Q3" sequence="2" value="q3"/>
+                <element inactive_on_update="false" label="Q4" sequence="3" value="q4"/>
+            </choice>
+        </element>
+        <element label="年" max_length="4" name="u_target_year" type="string"/>
+        <element label="カテゴリ" max_length="50" name="u_task_category" type="string"/>
+        <element label="タイトル" max_length="100" name="u_task_description" type="string"/>
+        <element label="依頼事項" max_length="8000" name="u_task_detail" type="html"/>
+        <element label="完了期限" max_length="40" name="u_task_due_date" type="glide_date_time"/>
+        <element label="タスク名" max_length="40" name="u_task_name" type="string"/>
+        <element choice="3" default="draft" label="ステータス" max_length="100" name="u_task_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="draft"/>
+                <element inactive_on_update="false" label="ドラフト" language="ja" sequence="1" value="draft"/>
+                <element inactive_on_update="false" label="Accepting" sequence="2" value="accepting"/>
+                <element inactive_on_update="false" label="受付期間中" language="ja" sequence="2" value="accepting"/>
+                <element inactive_on_update="false" label="Reception Cutoff" sequence="3" value="reception_cutoff"/>
+                <element inactive_on_update="false" label="受付締切" language="ja" sequence="3" value="reception_cutoff"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="completed"/>
+                <element inactive_on_update="false" label="完了" language="ja" sequence="4" value="completed"/>
+                <element inactive_on_update="false" label="Closed" sequence="5" value="closed"/>
+                <element inactive_on_update="false" label="クローズ" language="ja" sequence="5" value="closed"/>
+            </choice>
+        </element>
+        <element label="サブカテゴリ" max_length="50" name="u_task_subcategory" type="string"/>
+    </element>
+</database>

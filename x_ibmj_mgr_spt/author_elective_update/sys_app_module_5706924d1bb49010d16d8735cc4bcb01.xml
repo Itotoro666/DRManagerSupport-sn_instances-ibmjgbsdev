@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Manager Support">4e29f0151b449410cbd3ece9bc4bcb7c</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_ibmj_mgr_spt_task_master</name>
+        <order>2201</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-14 03:26:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5706924d1bb49010d16d8735cc4bcb01</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_app_module_5706924d1bb49010d16d8735cc4bcb01</sys_update_name>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-14 06:37:32</sys_updated_on>
+        <timeline_page/>
+        <title>New</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sys_app_module_5706924d1bb49010d16d8735cc4bcb01</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Manager Support">4e29f0151b449410cbd3ece9bc4bcb7c</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_ibmj_mgr_spt_task_master</name><order>2201</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-14 03:26:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5706924d1bb49010d16d8735cc4bcb01</sys_id><sys_mod_count>3</sys_mod_count><sys_name>New</sys_name><sys_overrides/><sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package><sys_policy/><sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope><sys_update_name>sys_app_module_5706924d1bb49010d16d8735cc4bcb01</sys_update_name><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-14 06:37:32</sys_updated_on><timeline_page/><title>New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>235195048</payload_hash>
+        <record_name>New</record_name>
+        <reverted_from/>
+        <source>87b5e9b41b3c5010d16d8735cc4bcbd4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-14 06:37:32</sys_created_on>
+        <sys_id>75d10b051b389010d16d8735cc4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17211e704310000001</sys_recorded_at>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-14 06:37:32</sys_updated_on>
+        <type>Module</type>
+        <update_guid>fdd10b051a3890104d3792483c44db2e</update_guid>
+        <update_guid_history>fdd10b051a3890104d3792483c44db2e:235195048,60589a8d20b49010b11cf97426771f6b:-2137809124,8f47de4dfcb490107ea7cd88eb0c81ff:-1923055912,1526924d17b49010bd7336a0357fe3d7:824761592</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">adf7eb891b789010d16d8735cc4bcb90</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-14 09:24:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>6046870c22a44ad8b08ac10cb11f1564</sys_id>
+        <sys_metadata>5706924d1bb49010d16d8735cc4bcb01</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sys_app_module_5706924d1bb49010d16d8735cc4bcb01</sys_update_name>
+        <sys_update_version display_value="sys_app_module_5706924d1bb49010d16d8735cc4bcb01">75d10b051b389010d16d8735cc4bcb2f</sys_update_version>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-14 09:24:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

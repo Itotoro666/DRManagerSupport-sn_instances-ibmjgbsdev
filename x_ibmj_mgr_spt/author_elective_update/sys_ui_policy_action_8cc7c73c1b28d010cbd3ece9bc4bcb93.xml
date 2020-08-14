@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>u_task_category</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-01 02:10:04</sys_created_on>
+        <sys_id>8cc7c73c1b28d010cbd3ece9bc4bcb93</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_task_category</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_ui_policy_action_8cc7c73c1b28d010cbd3ece9bc4bcb93</sys_update_name>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:10:37</sys_updated_on>
+        <table>x_ibmj_mgr_spt_task_category</table>
+        <ui_policy display_value="Task Category - Hide expire date when on load">0d52a7241b60d010cbd3ece9bc4bcb6a</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sys_ui_policy_action_8cc7c73c1b28d010cbd3ece9bc4bcb93</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>false</disabled><field>u_task_category</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>Jian.Ge</sys_created_by><sys_created_on>2020-05-01 02:10:04</sys_created_on><sys_id>8cc7c73c1b28d010cbd3ece9bc4bcb93</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_task_category</sys_name><sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package><sys_policy/><sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope><sys_update_name>sys_ui_policy_action_8cc7c73c1b28d010cbd3ece9bc4bcb93</sys_update_name><sys_updated_by>Jian.Ge</sys_updated_by><sys_updated_on>2020-05-01 02:10:37</sys_updated_on><table>x_ibmj_mgr_spt_task_category</table><ui_policy display_value="Task Category - Hide expire date when on load">0d52a7241b60d010cbd3ece9bc4bcb6a</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-288728094</payload_hash>
+        <record_name>u_task_category</record_name>
+        <reverted_from/>
+        <source>e49465e11bcc9410cbd3ece9bc4bcb00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-01 02:10:37</sys_created_on>
+        <sys_id>5118cb3c1b28d010cbd3ece9bc4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171cdfffb160000001</sys_recorded_at>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-01 02:10:37</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>9918cb3c5028d010fcd0fc7aa2192b6a</update_guid>
+        <update_guid_history>9918cb3c5028d010fcd0fc7aa2192b6a:-288728094,9df7cf3cba28d010cb12d806e2d2fe17:-1157621215</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-01 06:16:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>29a3d2a0316b4da6aaea7e6d83f9bb64</sys_id>
+        <sys_metadata>8cc7c73c1b28d010cbd3ece9bc4bcb93</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_task_category</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent display_value="Task Category - Hide expire date when on load">0d52a7241b60d010cbd3ece9bc4bcb6a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_8cc7c73c1b28d010cbd3ece9bc4bcb93</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_8cc7c73c1b28d010cbd3ece9bc4bcb93">5118cb3c1b28d010cbd3ece9bc4bcb6b</sys_update_version>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-01 06:16:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

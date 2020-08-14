@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Additional Info" max_length="40" name="x_ibmj_mgr_spt_additional_info" sizeclass="0" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Additional Assignment" max_length="4000" name="u_additional_assignment" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element label="Additional Assignment from bottom" max_length="4000" name="u_additional_assignment_from_bottom" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element label="Additional Reason" max_length="500" name="u_awd_add_reason" type="string"/>
+        <element choice="1" label="Type (Big or New)" max_length="40" name="u_awd_application_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Attachment" max_length="40" name="u_awd_attachment" type="file_attachment"/>
+        <element choice="1" label="CAMSS" max_length="40" name="u_awd_camss" type="choice">
+            <choice/>
+        </element>
+        <element label="Close date" max_length="40" name="u_awd_close_date" type="glide_date"/>
+        <element label="Close Month" max_length="10" name="u_awd_close_month" type="string"/>
+        <element label="Close week" max_length="10" name="u_awd_close_week" type="string"/>
+        <element label="Comment" max_length="500" name="u_awd_comment" type="string"/>
+        <element label="Cont. use ratio(%) other of AMS-SO" max_length="15" name="u_awd_cont_use_ratio" type="decimal"/>
+        <element label="Customer's issue" max_length="1000" name="u_awd_customer_issue" type="string"/>
+        <element label="Customer Name(E)" max_length="100" name="u_awd_customer_name_en" type="string"/>
+        <element label="Customer Name(J)" max_length="100" name="u_awd_customer_name_jn" type="string"/>
+        <element label="Customer SAT Date" max_length="40" name="u_awd_customer_sat_date" type="glide_date"/>
+        <element label="Actual GP%-Plan GP%(AMS-SO only)" max_length="15" name="u_awd_gp_var_pln_act" type="decimal"/>
+        <element label="Initial GP% (for DE project)" max_length="15" name="u_awd_init_gpratio_for_deproj" type="decimal"/>
+        <element label="In Quarter Revenue($)" max_length="20" name="u_awd_in_quarter_revenue_d" type="decimal"/>
+        <element label="Number of  Brands" max_length="40" name="u_awd_num_of_brands" type="integer"/>
+        <element label="Number of FTE's (average)" max_length="40" name="u_awd_num_of_fte" type="integer"/>
+        <element label="OEM" max_length="40" name="u_awd_oem" type="string"/>
+        <element label="Opportunity No" max_length="15" name="u_awd_opportunity_no" type="string"/>
+        <element label="Award Prize ($)" max_length="15" name="u_awd_prize_d" type="decimal"/>
+        <element label="Award Prize (¥)" max_length="40" name="u_awd_prize_y" type="integer"/>
+        <element label="Project Summry for publication" max_length="1000" name="u_awd_project_introduction" type="string"/>
+        <element label="Project Name (E)" max_length="100" name="u_awd_project_name_en" type="string"/>
+        <element label="Project Name (J)" max_length="100" name="u_awd_project_name_jn" type="string"/>
+        <element label="Project Summary" max_length="500" name="u_awd_project_summary" type="string"/>
+        <element label="Reason Why nomination PV deal" max_length="500" name="u_awd_reason" type="string"/>
+        <element label="Reason" max_length="500" name="u_awd_request_reason" type="string"/>
+        <element choice="1" label="Roadmap Status" max_length="40" name="u_awd_roadmap_status" type="choice">
+            <choice/>
+        </element>
+        <element label="Role (E)" max_length="40" name="u_awd_role_en" type="string"/>
+        <element label="Service In date" max_length="40" name="u_awd_servicein_date" type="glide_date"/>
+        <element label="Solution for Customer's issue" max_length="1000" name="u_awd_solution_description" type="string"/>
+        <element label="SS Manager Notes ID" max_length="40" name="u_awd_ss_mgr" type="string"/>
+        <element label="SS Rep Notes ID" max_length="40" name="u_awd_ss_rep_notes_id" type="string"/>
+        <element label="Additonal Field" max_length="8000" name="u_awd_subentry_field" type="html"/>
+        <element label="Target Revenue" max_length="15" name="u_awd_target_revenue_d" type="decimal"/>
+        <element label="Target TCV($)" max_length="15" name="u_awd_target_tcv_d" type="decimal"/>
+        <element label="TCV(M$)" max_length="15" name="u_awd_tcv_d" type="string"/>
+        <element label="TSV(M$)" max_length="15" name="u_awd_tsv_d" type="string"/>
+        <element label="Work No" max_length="10" name="u_awd_work_no" type="string"/>
+        <element label="Candidate" max_length="32" name="u_candidate" reference="x_ibmj_mgr_spt_employee" reference_qual="u_active=true^EQ" reference_qual_condition="u_active=true^EQ" type="reference"/>
+        <element label="Candidate" max_length="32" name="u_candidate_elg" reference="x_ibmj_mgr_spt_eligibility_list" reference_qual="u_active=true^EQ" reference_qual_condition="u_active=true^EQ" type="reference"/>
+        <element label="Candidate Dept Code" max_length="5" name="u_cnd_dept_code" read_only="true" type="string"/>
+        <element label="Candidate Dept Code" max_length="5" name="u_cnd_dept_code_elg" read_only="true" type="string"/>
+        <element label="Candidate Dept Name(J)" max_length="40" name="u_cnd_dept_name" read_only="true" type="string"/>
+        <element label="Candidate Dept Name(J)" max_length="40" name="u_cnd_dept_name_elg" read_only="true" type="string"/>
+        <element label="Candidate Employee No" max_length="10" name="u_cnd_employee_no" read_only="true" type="string"/>
+        <element label="Candidate Employee No" max_length="10" name="u_cnd_employee_no_elg" read_only="true" type="string"/>
+        <element label="Candidate Manager NotesID" max_length="40" name="u_cnd_mgr_notes_id" read_only="true" type="string"/>
+        <element label="Candidate Manager NotesID" max_length="40" name="u_cnd_mgr_notes_id_elg" read_only="true" type="string"/>
+        <element label="Candidate Name(E)" max_length="40" name="u_cnd_name_en" read_only="true" type="string"/>
+        <element label="Candidate Name(E)" max_length="40" name="u_cnd_name_en_elg" read_only="true" type="string"/>
+        <element label="Candidate Name(J)" max_length="40" name="u_cnd_name_jp" read_only="true" type="string"/>
+        <element label="Candidate Name(J)" max_length="40" name="u_cnd_name_jp_elg" read_only="true" type="string"/>
+        <element label="Candidate Notes ID" max_length="40" name="u_cnd_notes_id" read_only="true" type="string"/>
+        <element label="Candidate Notes ID" max_length="40" name="u_cnd_notes_id_elg" read_only="true" type="string"/>
+        <element choice="3" default="selected" label="Nomination Status" max_length="40" name="u_nomination_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Selected" sequence="100" value="selected"/>
+                <element inactive_on_update="false" label="推薦" language="ja" sequence="100" value="selected"/>
+                <element inactive_on_update="false" label="Not Selected" sequence="200" value="notselected"/>
+                <element inactive_on_update="false" label="選外" language="ja" sequence="200" value="notselected"/>
+            </choice>
+        </element>
+        <element label="Owner Group" max_length="32" name="u_owner_group" reference="sys_user_group" type="reference"/>
+        <element label="Parent Manager Task" mandatory="true" max_length="32" name="u_parent_managertask" reference="x_ibmj_mgr_spt_manager_task" type="reference"/>
+        <element label="Parent Task Master" max_length="32" name="u_parent_taskmaster" reference="x_ibmj_mgr_spt_task_master" type="reference"/>
+        <element label="Submitter" max_length="32" name="u_submitter" reference="sys_user" type="reference"/>
+        <element default="true" label="Submit Control Flag" max_length="40" name="u_submit_ctrl_flg" type="boolean"/>
+        <index name="index">
+            <element name="u_submitter"/>
+        </index>
+        <index name="index2">
+            <element name="u_candidate"/>
+        </index>
+        <index name="index3">
+            <element name="u_parent_managertask"/>
+        </index>
+        <index name="index4">
+            <element name="u_owner_group"/>
+        </index>
+        <index name="index5">
+            <element name="u_candidate_elg"/>
+        </index>
+        <index name="index6">
+            <element name="u_parent_taskmaster"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_ibmj_mgr_spt.task_subcategory_user" name="x_ibmj_mgr_spt.task_subcategory_user">cdf359981b609010d16d8735cc4bcbd8</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-04-29 04:26:18</sys_created_on>
+        <sys_id>85f359981b609010d16d8735cc4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cdf359981b609010d16d8735cc4bcbd8</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_embedded_help_role_85f359981b609010d16d8735cc4bcbdb</sys_update_name>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-04-29 04:26:18</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

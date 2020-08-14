@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image>6b0106ea1ba0d410cbd3ece9bc4bcb6d</homepage_image>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon>04f0c2ea1ba0d410cbd3ece9bc4bcbc0</icon>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Manager Support Catalog">742a9d9c1be09010cbd3ece9bc4bcb9b</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-04-29 04:56:32</sys_created_on>
+        <sys_id>7aca55dc1be09010cbd3ece9bc4bcbe2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>HR</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sc_category_7aca55dc1be09010cbd3ece9bc4bcbe2</sys_update_name>
+        <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+        <sys_updated_on>2020-05-06 07:29:40</sys_updated_on>
+        <title>HR</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=7aca55dc1be09010cbd3ece9bc4bcbe2"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#4589ff</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>homepage_image</file_name>
+        <hash>ec0b574030d34c55827b95b1a6ca69bccaf67463833577e0703346123f1e1ec4</hash>
+        <image_height>73</image_height>
+        <image_width>73</image_width>
+        <size_bytes>1440</size_bytes>
+        <size_compressed>1463</size_compressed>
+        <state>available</state>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-05-06 07:29:40</sys_created_on>
+        <sys_id>6b0106ea1ba0d410cbd3ece9bc4bcb6d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+        <sys_updated_on>2020-05-06 07:29:40</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>7aca55dc1be09010cbd3ece9bc4bcbe2</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="homepage_image" sys_id="6b0106ea1ba0d410cbd3ece9bc4bcb6d">6b0106ea1ba0d410cbd3ece9bc4bcb6d</sys_attachment>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-05-06 07:29:40</sys_created_on>
+        <sys_id>ab0106ea1ba0d410cbd3ece9bc4bcb6d</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AaAFX/qJUE5HDQoaCgAAAA1JSERSAAAASQAAAEkIBgAAAHFzC9wAAAABc1JHQgCuzhzpAAAARGVYSWZNTQAqAAAACAABh2kABAAAAAEAAAAaAAAAAAADoAEAAwAAAAEAAQAAoAIABAAAAAEAAABJoAMABAAAAAEAAABJAAAAACr3pBwAAAUKSURBVHgB7ZvbbhNHGMc/O3FMkibQnECqEKqEKEflBlVCVSQaCXqB1EoVL9CX4CF61TfoCyBEpQpQOJa0qlpx0aQJdZNAFUGlQg7kQEIcr03nv2TA3tmdg+Od3UXzXWS8M9/8PfPzHO0vudfMyJmUQF5a6gp9Ag6SxkBwkBwkDQIaLm4kaUBq1/CJzQUbay6Xo61ymf58OEPPF5dobf0l9fZ8QEMD/XTq+BHaUywS9l/mlpjlkj4C/Pd8kcZ/feCDClIAoJEzp+nA0ECwyOpzotMNIygKECioym2RShQSphhAyIxPRZlP3GWJQsIapGO6fjpazfgkCgmLtI6trW/ouMXmkygk7GI61tvTreMWm0+ikLDN65iun45WMz6JQuLnIFnDcQyAX5KWKCR+DkIaZqrysDpx5CV6mHQn7jg+0oQ0E767EXlehd3L8rS4vEybr7ZoY2OTuru7qKtzDw309bF7W43a2wuJ3t0Sg+R5VQbmBU1M/UULS8v+JTY4UHCpHezvo+GTxxiwDxmstqCLlWfra1KtVqN8Pk/Xbv1ES8sr2p3s79tHoyNnqKPQ7tfXrtgCR6uQAKhc3qYfx+6yO9u2cfOLxQ768otRKjBQbW32RpW1IwC+E3q1tUU/3LjdFCAQBeCr12+RV62GTk9j6poVrEGq1qp0Z/w3qlQ8zaaFu6H+2N2fCXq2zAokTLN/5p/SyupaS/q1srru60HXhlmDVJp51NL+lGYf0XsFqbxdoZW19ZZCwmiCrg2zMpJaNc2CQOLSDb6PtSPA5HSp4VeP4C8gCEjgP4jUlzXkB3yGTx4N9ieWZ2uQYmm9JVEr081SX2J7m1RB+n6c6KvviJCmyVIF6fLv7FTObitI02SpglTZOUTzNC2gUgUpLVCC7XCQgkRCno2OAFhQrzxgt3E7B92Q5u4+q1gg+vo00Tcj+lpGIwkLapYBAQvab7oxGEFK24KqPxYaPU370fR33GOXGt+4FU/nv32nErf+u3dSvzIaSWq599PDQdL4XI0gFXa+e+ephr6RC9flqVFlDWeuy1ONKr6LEaSLnxJ1dhAhjcPSqm90TooDTBY0jUZSFjoURxu1IEX9I1NUvmlDo3Si8m3ra5+TpkqzNP/k37fB6IcOfkQnPjls2t5I/zTrS9ck/knevPcLPVsQI2X3D/bTubOf+R1HZL+pZUVfOt3Q8em/50IBAQjAobwZQKifFX0pJHQEU0xmqnJZXZSp6qvKbegrIalirXcbY50FfSUkVaz1bmOss6CvhIRdTGaqclldlKnqq8pt6EshYffBNo9dLMyQj3K+S4X5yPKyoi89AvAOojPYxbCI8n/awycMQM3ubFwbadr1tSGFwUDnwvLrAei8jtKJytfRrPeJ0onKr6+L18oTd5WF3sFWWegMwl02NlkIcVcX7dvbQ3t7e/yy3cQvZkFfCWnu8Tz9MVWi7Yr4E0lHocDCh4/S4Y8PNR0+nAV96XS7dpOFEb9QhxHvHxyg85+/uZ74Q0vzT1b0QyEhEP367ftGMY4471w4d1ZrRGVNXzgCeJ5Hkw9LRoAwcLDroR7qyyyL+gIk7Fal2ceyfkaWoZ5qt8uivgDp2cIiVavNhf6iHurLLIv6oWvSBNvN+NdD9TGLvPM8ryG2cSdz+IQ6jjFr+qGQOAyXviEgTDcHRiTgIIlMhBwHSUAiZjhIIhMhx0ESkIgZDpLIRMhxkAQkYsb/DSoUP8L+s5oAAAAASUVORK5CYIJQVvCdoAUAAA==</data>
+        <length>1940</length>
+        <position>1</position>
+        <sys_attachment display_value="homepage_image" sys_id="6b0106ea1ba0d410cbd3ece9bc4bcb6d">6b0106ea1ba0d410cbd3ece9bc4bcb6d</sys_attachment>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-05-06 07:29:40</sys_created_on>
+        <sys_id>2f0106ea1ba0d410cbd3ece9bc4bcb6d</sys_id>
+    </sys_attachment_doc>
+</record_update>

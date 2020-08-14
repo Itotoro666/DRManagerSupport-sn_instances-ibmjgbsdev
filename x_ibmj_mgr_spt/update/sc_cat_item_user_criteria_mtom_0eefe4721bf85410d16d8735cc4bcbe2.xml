@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="候補者宛 Tapping時、Lines宛催促(PSP/RSP)">e072e07a1bb85410d16d8735cc4bcb31</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-19 06:29:18</sys_created_on>
+        <sys_id>0eefe4721bf85410d16d8735cc4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>候補者宛 Tapping時、Lines宛催促(PSP/RSP).Group Member</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_0eefe4721bf85410d16d8735cc4bcbe2</sys_update_name>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-19 06:29:18</sys_updated_on>
+        <user_criteria display_value="Group Member">35df24721bf85410d16d8735cc4bcb45</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

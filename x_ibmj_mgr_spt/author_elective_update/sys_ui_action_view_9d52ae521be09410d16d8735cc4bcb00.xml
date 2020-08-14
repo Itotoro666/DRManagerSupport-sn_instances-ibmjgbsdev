@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="DELETE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-05 15:16:35</sys_created_on>
+        <sys_id>9d52ae521be09410d16d8735cc4bcb00</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>レコード終了日設定.record update view</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_ui_action display_value="レコード終了日設定">253f77bd1b645410d16d8735cc4bcb18</sys_ui_action>
+        <sys_ui_view display_value="record update view" name="record_update_view">a0d1e6d21be09410d16d8735cc4bcbfc</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_9d52ae521be09410d16d8735cc4bcb00</sys_update_name>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-05 15:16:59</sys_updated_on>
+        <visibility>exclude</visibility>
+    </sys_ui_action_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sys_ui_action_view_9d52ae521be09410d16d8735cc4bcb00</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 15:16:35</sys_created_on><sys_id>9d52ae521be09410d16d8735cc4bcb00</sys_id><sys_mod_count>1</sys_mod_count><sys_name>レコード終了日設定.record update view</sys_name><sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package><sys_policy/><sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope><sys_ui_action display_value="レコード終了日設定">253f77bd1b645410d16d8735cc4bcb18</sys_ui_action><sys_ui_view display_value="record update view" name="record_update_view">a0d1e6d21be09410d16d8735cc4bcbfc</sys_ui_view><sys_update_name>sys_ui_action_view_9d52ae521be09410d16d8735cc4bcb00</sys_update_name><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 15:16:59</sys_updated_on><visibility>exclude</visibility></sys_ui_action_view></record_update>]]></payload>
+        <payload_hash>80352051</payload_hash>
+        <record_name>exclude</record_name>
+        <reverted_from/>
+        <source>e49465e11bcc9410cbd3ece9bc4bcb00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-05 15:16:59</sys_created_on>
+        <sys_id>d762aed21be09410d16d8735cc4bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171e5695c380000001</sys_recorded_at>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-05 15:16:59</sys_updated_on>
+        <type>UI View Action</type>
+        <update_guid>1362aed22fe0941045196e7c6d632add</update_guid>
+        <update_guid_history>1362aed22fe0941045196e7c6d632add:80352051,9152aed2c9e09410c8771b2f1237c92c:-1896154495</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-06 08:12:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_view">sys_ui_action_view</sys_db_object>
+        <sys_id>024cb6632d6b43c2800a32ea51dc2364</sys_id>
+        <sys_metadata>9d52ae521be09410d16d8735cc4bcb00</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>レコード終了日設定.record update view</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent display_value="Set Expire Date">253f77bd1b645410d16d8735cc4bcb18</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sys_ui_action_view_9d52ae521be09410d16d8735cc4bcb00</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_view_9d52ae521be09410d16d8735cc4bcb00">d762aed21be09410d16d8735cc4bcbdd</sys_update_version>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-06 08:12:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

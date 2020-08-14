@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="46ef35da1b689410cbd3ece9bc4bcb6f" sys_domain="global" table="x_ibmj_mgr_spt_manager_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-05 12:46:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86ef35da1b689410cbd3ece9bc4bcb72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ibmj_mgr_spt_manager_task" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="Default view">46ef35da1b689410cbd3ece9bc4bcb6f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="Default view">4204f4731b505010d16d8735cc4bcbef</sys_ui_section>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-05 12:46:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-05 12:46:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46ef35da1b689410cbd3ece9bc4bcb6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ibmj_mgr_spt_manager_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+            <sys_update_name>sys_ui_form_sections_46ef35da1b689410cbd3ece9bc4bcb6f</sys_update_name>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-05 12:46:10</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

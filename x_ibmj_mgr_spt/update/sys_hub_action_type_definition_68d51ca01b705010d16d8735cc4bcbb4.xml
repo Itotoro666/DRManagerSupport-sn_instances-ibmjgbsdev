@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Create all manager task</description>
+        <ih_action>false</ih_action>
+        <internal_name>createallmgrtask</internal_name>
+        <label_cache>[{"name":"{{action.manager_task}}","label":"action➛manager task","type":"action","ref":""},{"name":"{{action.user_id}}","label":"action➛user id","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>d3a737dd1b70d010d16d8735cc4bcb33</latest_snapshot>
+        <master_snapshot>733b4de01bf05010d16d8735cc4bcbf9</master_snapshot>
+        <name>CreateAllMgrTask</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:49:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>68d51ca01b705010d16d8735cc4bcbb4</sys_id>
+        <sys_mod_count>113</sys_mod_count>
+        <sys_name>CreateAllMgrTask</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_68d51ca01b705010d16d8735cc4bcbb4</sys_update_name>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-15 05:11:13</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=68d51ca01b705010d16d8735cc4bcbb4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=68d51ca01b705010d16d8735cc4bcbb4"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=68d51ca01b705010d16d8735cc4bcbb4^sys_idNOT IN9417d4e01b705010d16d8735cc4bcb2e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CreateAllMgrTask">68d51ca01b705010d16d8735cc4bcbb4</action>
+        <cid>ab99e19a-4531-41e3-b197-479fb0b414f4</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create All Mgr Tasks</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:54:26</sys_created_on>
+        <sys_id>9417d4e01b705010d16d8735cc4bcb2e</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-15 05:11:07</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9417d4e01b705010d16d8735cc4bcb2e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9417d4e01b705010d16d8735cc4bcb2e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:54:26</sys_created_on>
+        <sys_id>141718e01b705010d16d8735cc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:54:26</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9417d4e01b705010d16d8735cc4bcb2e</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:54:26</sys_created_on>
+        <sys_id>1c1718e01b705010d16d8735cc4bcbce</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-13 07:51:47</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  var gr_user = new GlideRecord('sys_user');
+  gr_user.addQuery('active', 'true');
+  gr_user.addQuery('u_ismanager', 'true');
+  gr_user.addQuery('manager', inputs.mgr_task.u_assigned_to);
+  gr_user.query();
+  
+  if (gr_user.getRowCount() == 0){
+    //if no lower manager, then update status, exit
+    
+    inputs.mgr_task.u_mgr_task_status='wait_recommend';
+    inputs.mgr_task.update();
+    gs.eventQueue('x_ibmj_mgr_spt.newFirstLineManagerTask',inputs.mgr_task,inputs.mgr_task.number,inputs.mgr_task.u_assigned_to.email);
+    
+  }
+  else {
+    //if lower manager exists, create manager task and call the function again
+    inputs.mgr_task.u_mgr_task_status='assign_complete';
+    inputs.mgr_task.update();
+    gs.eventQueue('x_ibmj_mgr_spt.newMiddleManagerTask',inputs.mgr_task,inputs.mgr_task.number,inputs.mgr_task.u_assigned_to.email);
+    
+    while ( gr_user.next() ) {
+      var gr_mgr_tsk = new GlideRecord('x_ibmj_mgr_spt_manager_task');
+      gr_mgr_tsk.initialize();
+      gr_mgr_tsk.u_parent_managertask = inputs.mgr_task.sys_id;
+      gr_mgr_tsk.u_parent_taskmaster = inputs.mgr_task.u_parent_taskmaster;
+      gr_mgr_tsk.u_assigned_to = gr_user.sys_id;
+      gr_mgr_tsk.u_mgr_task_status = 'assign_complete';
+      gr_mgr_tsk.u_requester = inputs.mgr_task.u_assigned_to;
+      gr_mgr_tsk.u_task_due_date = inputs.mgr_task.u_task_due_date;
+      gr_mgr_tsk.u_task_detail = inputs.mgr_task.u_task_detail;
+      gr_mgr_tsk.u_user_insert_flag = false;
+      gr_mgr_tsk.insert();
+      
+      var newInputs = {}
+      newInputs.mgr_task = gr_mgr_tsk;
+      execute(newInputs,outputs);
+    }
+	
+  }
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9417d4e01b705010d16d8735cc4bcb2e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>9417d4e01b705010d16d8735cc4bcb2e</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:54:26</sys_created_on>
+        <sys_id>d81718e01b705010d16d8735cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:54:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mgr_task</field>
+        <id>9417d4e01b705010d16d8735cc4bcb2e</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:54:26</sys_created_on>
+        <sys_id>d81718e01b705010d16d8735cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:54:26</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9417d4e01b705010d16d8735cc4bcb2e</table>
+        <value>{{action.manager_task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>9417d4e01b705010d16d8735cc4bcb2e</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:54:26</sys_created_on>
+        <sys_id>901718e01b705010d16d8735cc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:54:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>uid</field>
+        <id>9417d4e01b705010d16d8735cc4bcb2e</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:54:26</sys_created_on>
+        <sys_id>181718e01b705010d16d8735cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:54:26</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9417d4e01b705010d16d8735cc4bcb2e</table>
+        <value>{{action.user_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=9417d4e01b705010d16d8735cc4bcb2e^sys_idNOT IN9c17d4e01b705010d16d8735cc4bcb32"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>mgr_task</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create All Mgr Tasks">9417d4e01b705010d16d8735cc4bcb2e</model>
+        <model_id>9417d4e01b705010d16d8735cc4bcb2e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_9417d4e01b705010d16d8735cc4bcb2e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:54:26</sys_created_on>
+        <sys_id>9c17d4e01b705010d16d8735cc4bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:54:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_action_input action="delete_multiple" query="model=68d51ca01b705010d16d8735cc4bcbb4^sys_idNOT INbe0698a01b705010d16d8735cc4bcb1c"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=37ea6a66-71e4-40fd-bb8d-dc1c13085cef</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>manager_task</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>manager task</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="CreateAllMgrTask">68d51ca01b705010d16d8735cc4bcbb4</model>
+        <model_id>68d51ca01b705010d16d8735cc4bcbb4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_68d51ca01b705010d16d8735cc4bcbb4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_ibmj_mgr_spt_manager_task">x_ibmj_mgr_spt_manager_task</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:49:58</sys_created_on>
+        <sys_id>be0698a01b705010d16d8735cc4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:49:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=68d51ca01b705010d16d8735cc4bcbb4^sys_idNOT IN9417d4e01b705010d16d8735cc4bcb2e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CreateAllMgrTask">68d51ca01b705010d16d8735cc4bcbb4</action>
+        <cid>ab99e19a-4531-41e3-b197-479fb0b414f4</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create All Mgr Tasks</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:54:26</sys_created_on>
+        <sys_id>9417d4e01b705010d16d8735cc4bcb2e</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-15 05:11:07</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9417d4e01b705010d16d8735cc4bcb2e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9417d4e01b705010d16d8735cc4bcb2e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:54:26</sys_created_on>
+        <sys_id>141718e01b705010d16d8735cc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:54:26</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9417d4e01b705010d16d8735cc4bcb2e</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:54:26</sys_created_on>
+        <sys_id>1c1718e01b705010d16d8735cc4bcbce</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-13 07:51:47</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  var gr_user = new GlideRecord('sys_user');
+  gr_user.addQuery('active', 'true');
+  gr_user.addQuery('u_ismanager', 'true');
+  gr_user.addQuery('manager', inputs.mgr_task.u_assigned_to);
+  gr_user.query();
+  
+  if (gr_user.getRowCount() == 0){
+    //if no lower manager, then update status, exit
+    
+    inputs.mgr_task.u_mgr_task_status='wait_recommend';
+    inputs.mgr_task.update();
+    gs.eventQueue('x_ibmj_mgr_spt.newFirstLineManagerTask',inputs.mgr_task,inputs.mgr_task.number,inputs.mgr_task.u_assigned_to.email);
+    
+  }
+  else {
+    //if lower manager exists, create manager task and call the function again
+    inputs.mgr_task.u_mgr_task_status='assign_complete';
+    inputs.mgr_task.update();
+    gs.eventQueue('x_ibmj_mgr_spt.newMiddleManagerTask',inputs.mgr_task,inputs.mgr_task.number,inputs.mgr_task.u_assigned_to.email);
+    
+    while ( gr_user.next() ) {
+      var gr_mgr_tsk = new GlideRecord('x_ibmj_mgr_spt_manager_task');
+      gr_mgr_tsk.initialize();
+      gr_mgr_tsk.u_parent_managertask = inputs.mgr_task.sys_id;
+      gr_mgr_tsk.u_parent_taskmaster = inputs.mgr_task.u_parent_taskmaster;
+      gr_mgr_tsk.u_assigned_to = gr_user.sys_id;
+      gr_mgr_tsk.u_mgr_task_status = 'assign_complete';
+      gr_mgr_tsk.u_requester = inputs.mgr_task.u_assigned_to;
+      gr_mgr_tsk.u_task_due_date = inputs.mgr_task.u_task_due_date;
+      gr_mgr_tsk.u_task_detail = inputs.mgr_task.u_task_detail;
+      gr_mgr_tsk.u_user_insert_flag = false;
+      gr_mgr_tsk.insert();
+      
+      var newInputs = {}
+      newInputs.mgr_task = gr_mgr_tsk;
+      execute(newInputs,outputs);
+    }
+	
+  }
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9417d4e01b705010d16d8735cc4bcb2e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>9417d4e01b705010d16d8735cc4bcb2e</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:54:26</sys_created_on>
+        <sys_id>d81718e01b705010d16d8735cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:54:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mgr_task</field>
+        <id>9417d4e01b705010d16d8735cc4bcb2e</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:54:26</sys_created_on>
+        <sys_id>d81718e01b705010d16d8735cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:54:26</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9417d4e01b705010d16d8735cc4bcb2e</table>
+        <value>{{action.manager_task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>9417d4e01b705010d16d8735cc4bcb2e</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:54:26</sys_created_on>
+        <sys_id>901718e01b705010d16d8735cc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:54:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>uid</field>
+        <id>9417d4e01b705010d16d8735cc4bcb2e</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:54:26</sys_created_on>
+        <sys_id>181718e01b705010d16d8735cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:54:26</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9417d4e01b705010d16d8735cc4bcb2e</table>
+        <value>{{action.user_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=9417d4e01b705010d16d8735cc4bcb2e^sys_idNOT IN9c17d4e01b705010d16d8735cc4bcb32"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>mgr_task</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create All Mgr Tasks">9417d4e01b705010d16d8735cc4bcb2e</model>
+        <model_id>9417d4e01b705010d16d8735cc4bcb2e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_9417d4e01b705010d16d8735cc4bcb2e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:54:26</sys_created_on>
+        <sys_id>9c17d4e01b705010d16d8735cc4bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:54:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_68d51ca01b705010d16d8735cc4bcbb4^sys_idNOT INba069ca01b705010d16d8735cc4bcbf1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>manager_task</element>
+        <help/>
+        <hint/>
+        <label>manager task</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_68d51ca01b705010d16d8735cc4bcbb4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:49:58</sys_created_on>
+        <sys_id>ba069ca01b705010d16d8735cc4bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>manager task</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_68d51ca01b705010d16d8735cc4bcbb4_manager_task_en</sys_update_name>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:49:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=68d51ca01b705010d16d8735cc4bcbb4^sys_idNOT IN004b8de01bf05010d16d8735cc4bcb51"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="CreateAllMgrTask">68d51ca01b705010d16d8735cc4bcbb4</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"004b8de01bf05010d16d8735cc4bcb51","name":"plan"}}</plan>
+        <snapshot>d3a737dd1b70d010d16d8735cc4bcb33</snapshot>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>004b8de01bf05010d16d8735cc4bcb51</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-15 05:11:14</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Create all manager task</description>
+        <internal_name>createallmgrtask</internal_name>
+        <label_cache>[{"name":"{{action.manager_task}}","label":"action➛manager task","type":"action","ref":""},{"name":"{{action.user_id}}","label":"action➛user id","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>CreateAllMgrTask</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="CreateAllMgrTask">68d51ca01b705010d16d8735cc4bcbb4</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>733b4de01bf05010d16d8735cc4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 08:42:25</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=733b4de01bf05010d16d8735cc4bcbf9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=733b4de01bf05010d16d8735cc4bcbf9"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=733b4de01bf05010d16d8735cc4bcbf9^sys_idNOT INb33b8de01bf05010d16d8735cc4bcb0e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CreateAllMgrTask">733b4de01bf05010d16d8735cc4bcbf9</action>
+        <cid>ab99e19a-4531-41e3-b197-479fb0b414f4</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create All Mgr Tasks</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:26</sys_created_on>
+        <sys_id>b33b8de01bf05010d16d8735cc4bcb0e</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-15 05:11:13</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b33b8de01bf05010d16d8735cc4bcb0e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b33b8de01bf05010d16d8735cc4bcb0e</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:26</sys_created_on>
+        <sys_id>444b8de01bf05010d16d8735cc4bcb1a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-13 07:51:52</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  var gr_user = new GlideRecord('sys_user');
+  gr_user.addQuery('active', 'true');
+  gr_user.addQuery('u_ismanager', 'true');
+  gr_user.addQuery('manager', inputs.mgr_task.u_assigned_to);
+  gr_user.query();
+  
+  if (gr_user.getRowCount() == 0){
+    //if no lower manager, then update status, exit
+    
+    inputs.mgr_task.u_mgr_task_status='wait_recommend';
+    inputs.mgr_task.update();
+    gs.eventQueue('x_ibmj_mgr_spt.newFirstLineManagerTask',inputs.mgr_task,inputs.mgr_task.number,inputs.mgr_task.u_assigned_to.email);
+    
+  }
+  else {
+    //if lower manager exists, create manager task and call the function again
+    inputs.mgr_task.u_mgr_task_status='assign_complete';
+    inputs.mgr_task.update();
+    gs.eventQueue('x_ibmj_mgr_spt.newMiddleManagerTask',inputs.mgr_task,inputs.mgr_task.number,inputs.mgr_task.u_assigned_to.email);
+    
+    while ( gr_user.next() ) {
+      var gr_mgr_tsk = new GlideRecord('x_ibmj_mgr_spt_manager_task');
+      gr_mgr_tsk.initialize();
+      gr_mgr_tsk.u_parent_managertask = inputs.mgr_task.sys_id;
+      gr_mgr_tsk.u_parent_taskmaster = inputs.mgr_task.u_parent_taskmaster;
+      gr_mgr_tsk.u_assigned_to = gr_user.sys_id;
+      gr_mgr_tsk.u_mgr_task_status = 'assign_complete';
+      gr_mgr_tsk.u_requester = inputs.mgr_task.u_assigned_to;
+      gr_mgr_tsk.u_task_due_date = inputs.mgr_task.u_task_due_date;
+      gr_mgr_tsk.u_task_detail = inputs.mgr_task.u_task_detail;
+      gr_mgr_tsk.u_user_insert_flag = false;
+      gr_mgr_tsk.insert();
+      
+      var newInputs = {}
+      newInputs.mgr_task = gr_mgr_tsk;
+      execute(newInputs,outputs);
+    }
+	
+  }
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b33b8de01bf05010d16d8735cc4bcb0e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:26</sys_created_on>
+        <sys_id>804b8de01bf05010d16d8735cc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 08:42:26</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b33b8de01bf05010d16d8735cc4bcb0e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>b33b8de01bf05010d16d8735cc4bcb0e</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:26</sys_created_on>
+        <sys_id>4c4b8de01bf05010d16d8735cc4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 08:42:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mgr_task</field>
+        <id>b33b8de01bf05010d16d8735cc4bcb0e</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:26</sys_created_on>
+        <sys_id>cc4b8de01bf05010d16d8735cc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 08:42:26</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_b33b8de01bf05010d16d8735cc4bcb0e</table>
+        <value>{{action.manager_task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>b33b8de01bf05010d16d8735cc4bcb0e</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:26</sys_created_on>
+        <sys_id>004b8de01bf05010d16d8735cc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 08:42:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=b33b8de01bf05010d16d8735cc4bcb0e^sys_idNOT IN3f3b8de01bf05010d16d8735cc4bcb10"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>mgr_task</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>mgr_task</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create All Mgr Tasks">b33b8de01bf05010d16d8735cc4bcb0e</model>
+        <model_id>b33b8de01bf05010d16d8735cc4bcb0e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_b33b8de01bf05010d16d8735cc4bcb0e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:26</sys_created_on>
+        <sys_id>3f3b8de01bf05010d16d8735cc4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 08:42:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_action_input action="delete_multiple" query="model=733b4de01bf05010d16d8735cc4bcbf9^sys_idNOT INb33b4de01bf05010d16d8735cc4bcbfa"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=37ea6a66-71e4-40fd-bb8d-dc1c13085cef</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>manager_task</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>manager task</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="CreateAllMgrTask">733b4de01bf05010d16d8735cc4bcbf9</model>
+        <model_id>733b4de01bf05010d16d8735cc4bcbf9</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_733b4de01bf05010d16d8735cc4bcbf9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_ibmj_mgr_spt_manager_task">x_ibmj_mgr_spt_manager_task</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:25</sys_created_on>
+        <sys_id>b33b4de01bf05010d16d8735cc4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 08:42:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=733b4de01bf05010d16d8735cc4bcbf9^sys_idNOT INb33b8de01bf05010d16d8735cc4bcb0e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CreateAllMgrTask">733b4de01bf05010d16d8735cc4bcbf9</action>
+        <cid>ab99e19a-4531-41e3-b197-479fb0b414f4</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create All Mgr Tasks</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:26</sys_created_on>
+        <sys_id>b33b8de01bf05010d16d8735cc4bcb0e</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-15 05:11:13</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b33b8de01bf05010d16d8735cc4bcb0e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b33b8de01bf05010d16d8735cc4bcb0e</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:26</sys_created_on>
+        <sys_id>444b8de01bf05010d16d8735cc4bcb1a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-13 07:51:52</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  var gr_user = new GlideRecord('sys_user');
+  gr_user.addQuery('active', 'true');
+  gr_user.addQuery('u_ismanager', 'true');
+  gr_user.addQuery('manager', inputs.mgr_task.u_assigned_to);
+  gr_user.query();
+  
+  if (gr_user.getRowCount() == 0){
+    //if no lower manager, then update status, exit
+    
+    inputs.mgr_task.u_mgr_task_status='wait_recommend';
+    inputs.mgr_task.update();
+    gs.eventQueue('x_ibmj_mgr_spt.newFirstLineManagerTask',inputs.mgr_task,inputs.mgr_task.number,inputs.mgr_task.u_assigned_to.email);
+    
+  }
+  else {
+    //if lower manager exists, create manager task and call the function again
+    inputs.mgr_task.u_mgr_task_status='assign_complete';
+    inputs.mgr_task.update();
+    gs.eventQueue('x_ibmj_mgr_spt.newMiddleManagerTask',inputs.mgr_task,inputs.mgr_task.number,inputs.mgr_task.u_assigned_to.email);
+    
+    while ( gr_user.next() ) {
+      var gr_mgr_tsk = new GlideRecord('x_ibmj_mgr_spt_manager_task');
+      gr_mgr_tsk.initialize();
+      gr_mgr_tsk.u_parent_managertask = inputs.mgr_task.sys_id;
+      gr_mgr_tsk.u_parent_taskmaster = inputs.mgr_task.u_parent_taskmaster;
+      gr_mgr_tsk.u_assigned_to = gr_user.sys_id;
+      gr_mgr_tsk.u_mgr_task_status = 'assign_complete';
+      gr_mgr_tsk.u_requester = inputs.mgr_task.u_assigned_to;
+      gr_mgr_tsk.u_task_due_date = inputs.mgr_task.u_task_due_date;
+      gr_mgr_tsk.u_task_detail = inputs.mgr_task.u_task_detail;
+      gr_mgr_tsk.u_user_insert_flag = false;
+      gr_mgr_tsk.insert();
+      
+      var newInputs = {}
+      newInputs.mgr_task = gr_mgr_tsk;
+      execute(newInputs,outputs);
+    }
+	
+  }
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b33b8de01bf05010d16d8735cc4bcb0e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:26</sys_created_on>
+        <sys_id>804b8de01bf05010d16d8735cc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 08:42:26</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b33b8de01bf05010d16d8735cc4bcb0e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>b33b8de01bf05010d16d8735cc4bcb0e</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:26</sys_created_on>
+        <sys_id>4c4b8de01bf05010d16d8735cc4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 08:42:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mgr_task</field>
+        <id>b33b8de01bf05010d16d8735cc4bcb0e</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:26</sys_created_on>
+        <sys_id>cc4b8de01bf05010d16d8735cc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 08:42:26</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_b33b8de01bf05010d16d8735cc4bcb0e</table>
+        <value>{{action.manager_task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>b33b8de01bf05010d16d8735cc4bcb0e</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:26</sys_created_on>
+        <sys_id>004b8de01bf05010d16d8735cc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 08:42:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=b33b8de01bf05010d16d8735cc4bcb0e^sys_idNOT IN3f3b8de01bf05010d16d8735cc4bcb10"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>mgr_task</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>mgr_task</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create All Mgr Tasks">b33b8de01bf05010d16d8735cc4bcb0e</model>
+        <model_id>b33b8de01bf05010d16d8735cc4bcb0e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_b33b8de01bf05010d16d8735cc4bcb0e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:26</sys_created_on>
+        <sys_id>3f3b8de01bf05010d16d8735cc4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 08:42:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_733b4de01bf05010d16d8735cc4bcbf9^sys_idNOT IN3f3b8de01bf05010d16d8735cc4bcb0b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>manager_task</element>
+        <help/>
+        <hint/>
+        <label>manager task</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_733b4de01bf05010d16d8735cc4bcbf9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 08:42:25</sys_created_on>
+        <sys_id>3f3b8de01bf05010d16d8735cc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>manager task</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_733b4de01bf05010d16d8735cc4bcbf9_manager_task_en</sys_update_name>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 08:42:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

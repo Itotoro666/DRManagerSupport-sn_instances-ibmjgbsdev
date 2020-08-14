@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="タスクカテゴリ" language="ja" table="x_ibmj_mgr_spt_task_category">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>タスクカテゴリ</label>
+            <language>ja</language>
+            <name>x_ibmj_mgr_spt_task_category</name>
+            <plural>タスクカテゴリs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-04-29 04:52:49</sys_created_on>
+            <sys_id>a90a91dc1b609010d16d8735cc4bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>タスクカテゴリ</sys_name>
+            <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+            <sys_update_name>sys_documentation_x_ibmj_mgr_spt_task_category__ja</sys_update_name>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-04-29 04:52:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

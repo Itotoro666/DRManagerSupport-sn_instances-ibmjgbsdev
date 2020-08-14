@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_first_name_e" label="First Name (E)" language="en" table="x_ibmj_mgr_spt_employee">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_first_name_e</element>
+            <help/>
+            <hint/>
+            <label>First Name (E)</label>
+            <language>en</language>
+            <name>x_ibmj_mgr_spt_employee</name>
+            <plural>First Name (E)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Jian.Ge</sys_created_by>
+            <sys_created_on>2020-05-05 02:49:58</sys_created_on>
+            <sys_id>d99a28882f591410b09c11c82799b602</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>First Name (E)</sys_name>
+            <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+            <sys_update_name>sys_documentation_x_ibmj_mgr_spt_employee_u_first_name_e_en</sys_update_name>
+            <sys_updated_by>Jian.Ge</sys_updated_by>
+            <sys_updated_on>2020-05-05 02:49:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

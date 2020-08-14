@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>ノミネーション</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>ノミネーション</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">d4238ba61b330010d16d8735cc4bcba3</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-04-27 09:24:39</sys_created_on>
+        <sys_id>cc1504ff1bdc1010cbd3ece9bc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ノミネーション</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_wizard_answer_cc1504ff1bdc1010cbd3ece9bc4bcb6c</sys_update_name>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-04-27 09:24:39</sys_updated_on>
+        <table/>
+        <target_url>x_ibmj_mgr_spt_nomination.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sys_wizard_answer_cc1504ff1bdc1010cbd3ece9bc4bcb6c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>ノミネーション</answer><button_label/><dependent_value/><element/><name>ノミネーション</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">d4238ba61b330010d16d8735cc4bcba3</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>Jian.Ge</sys_created_by><sys_created_on>2020-04-27 09:24:39</sys_created_on><sys_id>cc1504ff1bdc1010cbd3ece9bc4bcb6c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ノミネーション</sys_name><sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package><sys_policy/><sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope><sys_update_name>sys_wizard_answer_cc1504ff1bdc1010cbd3ece9bc4bcb6c</sys_update_name><sys_updated_by>Jian.Ge</sys_updated_by><sys_updated_on>2020-04-27 09:24:39</sys_updated_on><table/><target_url>x_ibmj_mgr_spt_nomination.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>1887505785</payload_hash>
+        <record_name>ノミネーション</record_name>
+        <reverted_from/>
+        <source>73c6d0131b101010d16d8735cc4bcb83</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-25 21:25:13</sys_created_on>
+        <sys_id>ecf48d4c1ba85010cbd3ece9bc4bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171b33ae2a80000000</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-04 13:36:55</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>acf48d4c66a85010a829d5dbc84fa0a2</update_guid>
+        <update_guid_history>acf48d4c66a85010a829d5dbc84fa0a2:1887505785</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-04-28 08:42:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>5470837ebcf942709e284fabacda1ba4</sys_id>
+        <sys_metadata>cc1504ff1bdc1010cbd3ece9bc4bcb6c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ノミネーション</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent display_value="">d4238ba61b330010d16d8735cc4bcba3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_cc1504ff1bdc1010cbd3ece9bc4bcb6c</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_cc1504ff1bdc1010cbd3ece9bc4bcb6c">ecf48d4c1ba85010cbd3ece9bc4bcba2</sys_update_version>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-04-28 08:42:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

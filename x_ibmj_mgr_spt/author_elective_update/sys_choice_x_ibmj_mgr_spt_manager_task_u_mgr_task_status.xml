@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_mgr_task_status" table="x_ibmj_mgr_spt_manager_task" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mgr_task_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <sequence>1</sequence>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-13 02:42:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b4241b01bf85010d16d8735cc4bcb92</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:27:57</sys_updated_on>
+            <value>draft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mgr_task_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ドラフト</label>
+            <language>ja</language>
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <sequence>1</sequence>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-13 02:42:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79620d701bf85010d16d8735cc4bcb41</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:27:54</sys_updated_on>
+            <value>draft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mgr_task_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not started</label>
+            <language>en</language>
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <sequence>2</sequence>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-05 09:45:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6166dd521b289410cbd3ece9bc4bcb83</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:28:01</sys_updated_on>
+            <value>not_started</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mgr_task_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>未着手</label>
+            <language>ja</language>
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <sequence>2</sequence>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-07 10:05:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>654e6ffa1b64d410d16d8735cc4bcb55</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:28:04</sys_updated_on>
+            <value>not_started</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mgr_task_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Working</label>
+            <language>en</language>
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <sequence>3</sequence>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-07 09:50:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2cfa2bba1b64d410d16d8735cc4bcb41</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:28:08</sys_updated_on>
+            <value>working</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mgr_task_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>アサイン中</label>
+            <language>ja</language>
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <sequence>3</sequence>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-07 10:06:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f26eaf3e1b64d410d16d8735cc4bcb00</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:28:11</sys_updated_on>
+            <value>working</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mgr_task_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Assign completed</label>
+            <language>en</language>
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <sequence>4</sequence>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-07 09:51:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>731ba3fa1b64d410d16d8735cc4bcb7d</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:28:15</sys_updated_on>
+            <value>assign_complete</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mgr_task_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>部下の処理待</label>
+            <language>ja</language>
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <sequence>4</sequence>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-07 10:06:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>938e2f3e1b64d410d16d8735cc4bcbbb</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:28:18</sys_updated_on>
+            <value>assign_complete</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mgr_task_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wait recommend</label>
+            <language>en</language>
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <sequence>5</sequence>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-05 09:41:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65b51d121b289410cbd3ece9bc4bcb62</sys_id>
+            <sys_mod_count>13</sys_mod_count>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:28:26</sys_updated_on>
+            <value>wait_recommend</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mgr_task_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>推薦待ち</label>
+            <language>ja</language>
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <sequence>5</sequence>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-05 09:56:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>95f8d9921b289410cbd3ece9bc4bcbd8</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:28:29</sys_updated_on>
+            <value>wait_recommend</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mgr_task_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Working recommend</label>
+            <language>en</language>
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <sequence>6</sequence>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-07 09:47:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c0aabba1b64d410d16d8735cc4bcb7f</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:28:36</sys_updated_on>
+            <value>working_recommend</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mgr_task_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>推薦中</label>
+            <language>ja</language>
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <sequence>6</sequence>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-05 09:55:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9a855d21b289410cbd3ece9bc4bcb72</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:28:39</sys_updated_on>
+            <value>working_recommend</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mgr_task_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recommend completed</label>
+            <language>en</language>
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <sequence>7</sequence>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-07 09:50:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ada2fba1b64d410d16d8735cc4bcbdb</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:28:46</sys_updated_on>
+            <value>recommend_complete</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mgr_task_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>推薦完了</label>
+            <language>ja</language>
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <sequence>7</sequence>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-07 10:05:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>321e633e1b64d410d16d8735cc4bcbcc</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:28:49</sys_updated_on>
+            <value>recommend_complete</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_mgr_task_status</element>
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-05 09:41:49</sys_created_on>
+            <sys_id>832b608c2f591410b09c11c82799b643</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_mgr_task_status</sys_name>
+            <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+            <sys_update_name>sys_choice_x_ibmj_mgr_spt_manager_task_u_mgr_task_status</sys_update_name>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-05 09:41:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

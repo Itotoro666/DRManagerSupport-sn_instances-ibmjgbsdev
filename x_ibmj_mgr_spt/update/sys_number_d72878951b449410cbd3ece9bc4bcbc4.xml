@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_ibmj_mgr_spt_mgr_support">x_ibmj_mgr_spt_mgr_support</category>
+        <maximum_digits>8</maximum_digits>
+        <number>1000</number>
+        <prefix>MSP</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>Akiyoshi.Kawabe</sys_created_by>
+        <sys_created_on>2020-04-07 08:27:27</sys_created_on>
+        <sys_id>d72878951b449410cbd3ece9bc4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MSP</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_number_d72878951b449410cbd3ece9bc4bcbc4</sys_update_name>
+        <sys_updated_by>Akiyoshi.Kawabe</sys_updated_by>
+        <sys_updated_on>2020-04-07 08:27:27</sys_updated_on>
+    </sys_number>
+</record_update>

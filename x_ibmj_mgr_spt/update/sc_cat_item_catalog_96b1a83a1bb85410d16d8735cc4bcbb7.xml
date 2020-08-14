@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="内定者アドバイザーノミネーション">92b1a83a1bb85410d16d8735cc4bcbb4</sc_cat_item>
+        <sc_catalog display_value="Manager Support Catalog">742a9d9c1be09010cbd3ece9bc4bcb9b</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-19 05:27:20</sys_created_on>
+        <sys_id>96b1a83a1bb85410d16d8735cc4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manager Support Catalog.内定者アドバイザーノミネーション</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_96b1a83a1bb85410d16d8735cc4bcbb7</sys_update_name>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-19 05:27:20</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

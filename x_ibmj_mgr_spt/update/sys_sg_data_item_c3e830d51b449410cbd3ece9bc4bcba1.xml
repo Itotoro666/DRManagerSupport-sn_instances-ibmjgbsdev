@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Manager Support Manager Support</name>
+        <query_condition/>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>Akiyoshi.Kawabe</sys_created_by>
+        <sys_created_on>2020-04-07 08:30:43</sys_created_on>
+        <sys_id>c3e830d51b449410cbd3ece9bc4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manager Support Manager Support</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_sg_data_item_c3e830d51b449410cbd3ece9bc4bcba1</sys_update_name>
+        <sys_updated_by>Akiyoshi.Kawabe</sys_updated_by>
+        <sys_updated_on>2020-04-07 08:30:43</sys_updated_on>
+        <table>x_ibmj_mgr_spt_mgr_support</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=c3e830d51b449410cbd3ece9bc4bcba1"/>
+</record_update>

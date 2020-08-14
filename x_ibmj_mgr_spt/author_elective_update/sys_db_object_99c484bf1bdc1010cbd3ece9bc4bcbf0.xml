@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>ノミネーション</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_ibmj_mgr_spt_nomination</name>
+        <number_ref display_value="NOM">162374fb1b505010cbd3ece9bc4bcba9</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Task" name="task">5c238ba61b330010d16d8735cc4bcba1</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-04-27 09:24:38</sys_created_on>
+        <sys_id>99c484bf1bdc1010cbd3ece9bc4bcbf0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ノミネーション</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_db_object_99c484bf1bdc1010cbd3ece9bc4bcbf0</sys_update_name>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-04-28 02:11:26</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_ibmj_mgr_spt._user" name="x_ibmj_mgr_spt._user">62744cbf1bdc1010cbd3ece9bc4bcba9</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sys_db_object_99c484bf1bdc1010cbd3ece9bc4bcbf0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>ノミネーション</label><live_feed_enabled>false</live_feed_enabled><name>x_ibmj_mgr_spt_nomination</name><number_ref display_value="NOM">162374fb1b505010cbd3ece9bc4bcba9</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Task" name="task">5c238ba61b330010d16d8735cc4bcba1</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>Jian.Ge</sys_created_by><sys_created_on>2020-04-27 09:24:38</sys_created_on><sys_id>99c484bf1bdc1010cbd3ece9bc4bcbf0</sys_id><sys_mod_count>3</sys_mod_count><sys_name>ノミネーション</sys_name><sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package><sys_policy/><sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope><sys_update_name>sys_db_object_99c484bf1bdc1010cbd3ece9bc4bcbf0</sys_update_name><sys_updated_by>Jian.Ge</sys_updated_by><sys_updated_on>2020-04-28 02:11:26</sys_updated_on><update_access>false</update_access><user_role display_value="x_ibmj_mgr_spt._user" name="x_ibmj_mgr_spt._user">62744cbf1bdc1010cbd3ece9bc4bcba9</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>353386005</payload_hash>
+        <record_name>ノミネーション</record_name>
+        <reverted_from/>
+        <source>e49465e11bcc9410cbd3ece9bc4bcb00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-04-28 02:11:27</sys_created_on>
+        <sys_id>c48be37f1bd45010cbd3ece9bc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171be8da8960000001</sys_recorded_at>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-04-28 02:11:27</sys_updated_on>
+        <type>Table</type>
+        <update_guid>008be37f24d450106673c02c6bccd06c</update_guid>
+        <update_guid_history>008be37f24d450106673c02c6bccd06c:353386005,7ba9f033cf90501080bc2b8d22f05450:-1419518008,2e2378fb945050109a1139b49fd73ee8:353386005,041504ff12dc1010a4559df200e59f7b:-1629035718</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-04-28 08:42:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>1620d28be61c46fb9cb70e98480480b9</sys_id>
+        <sys_metadata>99c484bf1bdc1010cbd3ece9bc4bcbf0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ノミネーション</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sys_db_object_99c484bf1bdc1010cbd3ece9bc4bcbf0</sys_update_name>
+        <sys_update_version display_value="sys_db_object_99c484bf1bdc1010cbd3ece9bc4bcbf0">c48be37f1bd45010cbd3ece9bc4bcb6c</sys_update_version>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-04-28 08:42:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

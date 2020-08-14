@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Test_view1</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-05 05:41:04</sys_created_on>
+        <sys_id>439e545e1bac5410d16d8735cc4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test view1</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_ui_view_439e545e1bac5410d16d8735cc4bcbee</sys_update_name>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-05 05:41:04</sys_updated_on>
+        <title>Test view1</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sys_ui_view_439e545e1bac5410d16d8735cc4bcbee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>Test_view1</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:04</sys_created_on><sys_id>439e545e1bac5410d16d8735cc4bcbee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test view1</sys_name><sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package><sys_policy/><sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope><sys_update_name>sys_ui_view_439e545e1bac5410d16d8735cc4bcbee</sys_update_name><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:04</sys_updated_on><title>Test view1</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>167959528</payload_hash>
+        <record_name>Test view1</record_name>
+        <reverted_from/>
+        <source>e49465e11bcc9410cbd3ece9bc4bcb00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-05 05:41:04</sys_created_on>
+        <sys_id>c39e545e1bac5410d16d8735cc4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171e35a19510000001</sys_recorded_at>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-05 05:41:04</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>0f9e545eafac5410e52f1f76fa3da0ef</update_guid>
+        <update_guid_history>0f9e545eafac5410e52f1f76fa3da0ef:167959528</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-05 05:42:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>12ff7268a1f04e35857e5e7dbb4f7169</sys_id>
+        <sys_metadata>439e545e1bac5410d16d8735cc4bcbee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test view1</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sys_ui_view_439e545e1bac5410d16d8735cc4bcbee</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_439e545e1bac5410d16d8735cc4bcbee">c39e545e1bac5410d16d8735cc4bcbf0</sys_update_version>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-05 05:42:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

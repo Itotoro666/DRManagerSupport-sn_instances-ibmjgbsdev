@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_ibmj_mgr_spt_task_subcategory">x_ibmj_mgr_spt_task_subcategory</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>TSB</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-04-29 04:26:19</sys_created_on>
+        <sys_id>91f3d1d81b609010d16d8735cc4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TSB</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_number_91f3d1d81b609010d16d8735cc4bcb10</sys_update_name>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-04-29 04:26:19</sys_updated_on>
+    </sys_number>
+</record_update>

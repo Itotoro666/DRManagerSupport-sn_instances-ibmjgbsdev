@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Manager Support" max_length="40" name="x_ibmj_mgr_spt_mgr_support" sizeclass="0" type="collection"/>
+</database>

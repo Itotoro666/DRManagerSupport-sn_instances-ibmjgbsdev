@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_awd_work_no_flg" label="Work No -Disp" language="en" table="x_ibmj_mgr_spt_task_master">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_awd_work_no_flg</element>
+            <help/>
+            <hint/>
+            <label>Work No -Disp</label>
+            <language>en</language>
+            <name>x_ibmj_mgr_spt_task_master</name>
+            <plural>Work No -Disps</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 08:45:11</sys_created_on>
+            <sys_id>ed9a28882f591410b09c11c82799b66f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Work No -Disp</sys_name>
+            <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+            <sys_update_name>sys_documentation_x_ibmj_mgr_spt_task_master_u_awd_work_no_flg_en</sys_update_name>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 08:45:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

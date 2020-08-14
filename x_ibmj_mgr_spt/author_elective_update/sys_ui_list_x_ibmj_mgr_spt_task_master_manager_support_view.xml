@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_ibmj_mgr_spt_task_master" version="2" view="Manager_Support_View">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-01 12:25:33</sys_created_on>
+            <sys_id>7cd4d5011ba8d010d16d8735cc4bcb60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-01 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_parent_task_category</element>
+            <list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-01 12:25:33</sys_created_on>
+            <sys_id>fcd4d5011ba8d010d16d8735cc4bcb60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-01 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_parent_tasksubcategory</element>
+            <list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-01 12:25:33</sys_created_on>
+            <sys_id>34d459011ba8d010d16d8735cc4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-01 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_task_status</element>
+            <list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-01 12:25:33</sys_created_on>
+            <sys_id>b4d459011ba8d010d16d8735cc4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-01 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_target_year</element>
+            <list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-01 12:25:33</sys_created_on>
+            <sys_id>38d459011ba8d010d16d8735cc4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-01 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_target_term</element>
+            <list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-01 12:25:33</sys_created_on>
+            <sys_id>b8d459011ba8d010d16d8735cc4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-01 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_task_description</element>
+            <list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-01 12:25:33</sys_created_on>
+            <sys_id>3cd459011ba8d010d16d8735cc4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-01 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_task_name</element>
+            <list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-01 12:25:33</sys_created_on>
+            <sys_id>bcd459011ba8d010d16d8735cc4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-01 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_nomination_slot</element>
+            <list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-01 12:25:33</sys_created_on>
+            <sys_id>30d459011ba8d010d16d8735cc4bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-01 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_task_due_date</element>
+            <list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-01 12:25:33</sys_created_on>
+            <sys_id>b0d459011ba8d010d16d8735cc4bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-01 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_task_category</element>
+            <list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-01 12:25:33</sys_created_on>
+            <sys_id>34d459011ba8d010d16d8735cc4bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-01 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_task_subcategory</element>
+            <list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-01 12:25:33</sys_created_on>
+            <sys_id>b4d459011ba8d010d16d8735cc4bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-01 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_ibmj_mgr_spt_task_master</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-01 12:25:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0d4d5011ba8d010d16d8735cc4bcb60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ibmj_mgr_spt_task_master</sys_name>
+            <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+            <sys_update_name>sys_ui_list_x_ibmj_mgr_spt_task_master_Manager_Support_View</sys_update_name>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-01 12:25:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Manager Support View" name="Manager_Support_View">6d0bce201be89010d16d8735cc4bcb96</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sys_ui_list_x_ibmj_mgr_spt_task_master_Manager_Support_View</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_ibmj_mgr_spt_task_master" version="2" view="Manager_Support_View"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>number</element><list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-01 12:25:33</sys_created_on><sys_id>7cd4d5011ba8d010d16d8735cc4bcb60</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-01 12:25:33</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_parent_task_category</element><list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-01 12:25:33</sys_created_on><sys_id>fcd4d5011ba8d010d16d8735cc4bcb60</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-01 12:25:33</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_parent_tasksubcategory</element><list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-01 12:25:33</sys_created_on><sys_id>34d459011ba8d010d16d8735cc4bcbf4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-01 12:25:33</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_task_status</element><list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-01 12:25:33</sys_created_on><sys_id>b4d459011ba8d010d16d8735cc4bcbf4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-01 12:25:33</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_target_year</element><list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-01 12:25:33</sys_created_on><sys_id>38d459011ba8d010d16d8735cc4bcbf4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-01 12:25:33</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_target_term</element><list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-01 12:25:33</sys_created_on><sys_id>b8d459011ba8d010d16d8735cc4bcbf4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-01 12:25:33</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_task_description</element><list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-01 12:25:33</sys_created_on><sys_id>3cd459011ba8d010d16d8735cc4bcbf4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-01 12:25:33</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_task_name</element><list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id><max_value>false</max_value><min_value>false</min_value><position>7</position><sum>false</sum><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-01 12:25:33</sys_created_on><sys_id>bcd459011ba8d010d16d8735cc4bcbf4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-01 12:25:33</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_nomination_slot</element><list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id><max_value>false</max_value><min_value>false</min_value><position>8</position><sum>false</sum><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-01 12:25:33</sys_created_on><sys_id>30d459011ba8d010d16d8735cc4bcbf5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-01 12:25:33</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_task_due_date</element><list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id><max_value>false</max_value><min_value>false</min_value><position>9</position><sum>false</sum><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-01 12:25:33</sys_created_on><sys_id>b0d459011ba8d010d16d8735cc4bcbf5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-01 12:25:33</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_task_category</element><list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id><max_value>false</max_value><min_value>false</min_value><position>10</position><sum>false</sum><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-01 12:25:33</sys_created_on><sys_id>34d459011ba8d010d16d8735cc4bcbf5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-01 12:25:33</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_task_subcategory</element><list_id display_value="x_ibmj_mgr_spt_task_master" element="NULL" name="x_ibmj_mgr_spt_task_master" parent="NULL" relationship="NULL" sys_domain="global" view="6d0bce201be89010d16d8735cc4bcb96">b0d4d5011ba8d010d16d8735cc4bcb60</list_id><max_value>false</max_value><min_value>false</min_value><position>11</position><sum>false</sum><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-01 12:25:33</sys_created_on><sys_id>b4d459011ba8d010d16d8735cc4bcbf5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-01 12:25:33</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_ibmj_mgr_spt_task_master</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-01 12:25:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b0d4d5011ba8d010d16d8735cc4bcb60</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_ibmj_mgr_spt_task_master</sys_name><sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package><sys_policy/><sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope><sys_update_name>sys_ui_list_x_ibmj_mgr_spt_task_master_Manager_Support_View</sys_update_name><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-01 12:25:33</sys_updated_on><sys_user/><view display_value="Manager Support View" name="Manager_Support_View">6d0bce201be89010d16d8735cc4bcb96</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-528587346</payload_hash>
+        <record_name>Task Master</record_name>
+        <reverted_from/>
+        <source>e49465e11bcc9410cbd3ece9bc4bcb00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-01 12:25:33</sys_created_on>
+        <sys_id>bcd459011ba8d010d16d8735cc4bcbf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d032f6b30000001</sys_recorded_at>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-01 12:25:33</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>f4d4590168a8d01088e2bc440cbaa7f7</update_guid>
+        <update_guid_history>f4d4590168a8d01088e2bc440cbaa7f7:-528587346,55719d8d1c68d010715b9f816b7cc087:658848448</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-07 03:21:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>22a4ec26c0384100839af24a2de2e400</sys_id>
+        <sys_metadata>b0d4d5011ba8d010d16d8735cc4bcb60</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ibmj_mgr_spt_task_master</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent display_value="Task Master">de832c331b505010cbd3ece9bc4bcb00</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_ibmj_mgr_spt_task_master_Manager_Support_View</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_ibmj_mgr_spt_task_master_Manager_Support_View">bcd459011ba8d010d16d8735cc4bcbf7</sys_update_version>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-07 03:21:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

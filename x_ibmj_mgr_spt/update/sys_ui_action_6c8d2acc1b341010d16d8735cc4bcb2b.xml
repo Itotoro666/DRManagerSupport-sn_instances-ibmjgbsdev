@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>managerTask_submit_for_nomination</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments>Submit button on existing (not new) records.&#13;
+Behavior is to update then redirect to previous screen (usually a list)</comments>
+        <condition>current.u_1st_level_flg == false</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint>Submit then return to previous screen</hint>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Submit to upline manager</name>
+        <onclick>SubmitToUplineManagerOnClick()</onclick>
+        <order>100</order>
+        <script><![CDATA[//Client-side 'onclick' function
+function SubmitToUplineManagerOnClick(){
+	var getTskMstVal = new GlideAjax('getValueForSubmitToUplineManagerUIAction');
+    getTskMstVal.addParam('sysparm_name','countRelatedLisRecords');
+    getTskMstVal.addParam('sysparm_sys_id',g_form.getUniqueValue());
+    getTskMstVal.getXML(populateFields);
+}
+
+function populateFields(response){
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+	if(answer == 0){
+		if(g_lang == 'ja'){
+			if(confirm('ノミネーション件数が 0 件です。ノミネーション 0 件で依頼者に提出しますか？')){
+			//Call the UI Action and skip the 'onclick' function
+			gsftSubmit(null, g_form.getFormElement(), 'managerTask_submit_for_nomination'); 
+			}
+			else{
+				return false;
+			}
+		}else{
+			if(confirm("You didn't choose any candidates. " +
+				"Do you want to submit to your superior manager by 0 candidates right now?")){
+			//Call the UI Action and skip the 'onclick' function
+			gsftSubmit(null, g_form.getFormElement(), 'managerTask_submit_for_nomination'); 
+			}
+			else{
+				return false;
+			}
+		}
+	}else{
+		if(g_lang == 'ja'){
+			if(confirm('ノミネーション ' + answer +
+			' 件で依頼者に提出しますか？')){
+				//Call the UI Action and skip the 'onclick' function
+				gsftSubmit(null, g_form.getFormElement(), 'managerTask_submit_for_nomination'); 
+			}
+			else{
+				return false;  
+			}	
+		}else{
+			if(confirm('You have chosen ' + answer +
+			' candidates. Do you want to submit to your superior manager right now?')){
+				//Call the UI Action and skip the 'onclick' function
+				gsftSubmit(null, g_form.getFormElement(), 'managerTask_submit_for_nomination'); 
+			}
+			else{
+				return false;  
+			}
+		}
+	}
+}
+
+//Ensure call to server-side function with no browser errors
+if(typeof window == 'undefined')
+	updateTaskStatus();
+
+//Server-side function
+function updateTaskStatus(){
+	//confirm nominated candidates
+	var loopSwitch = true;
+	var keyForCurrentManagerTask = current.sys_id;
+	var keyForParentManagerTask = current.u_parent_managertask.sys_id;
+	while(loopSwitch){
+		//move candidates to superior manager's list
+		var candidateList = [];
+		var gr = new GlideRecord('x_ibmj_mgr_spt_additional_info');
+		gr.addQuery('u_parent_managertask', keyForCurrentManagerTask);
+		gr.addQuery('u_active', true);
+		gr.addQuery('u_nomination_status', 'Selected');
+		gr.query();
+		while(gr.next()) {
+			if(gr.getValue('u_cnd_name_jp') != '' && gr.getValue('u_cnd_name_jp') != null){
+				candidateList.push(gr.getValue('u_cnd_name_jp'));
+			}else if(gr.getValue('u_cnd_name_jp_elg') != '' && gr.getValue('u_cnd_name_jp_elg') != null){
+				candidateList.push(gr.getValue('u_cnd_name_jp_elg'));
+			}else{
+				candidateList.push('unknown');
+			}
+			gr.u_parent_managertask = keyForParentManagerTask;
+			gr.update();
+		}
+		
+		//change current manager's status and write operation log
+		var gr0 = new GlideRecord('x_ibmj_mgr_spt_manager_task');
+		gr0.addQuery('sys_id', keyForCurrentManagerTask);
+		gr0.addQuery('active', true);
+		gr0.query();
+		gr0.next();
+		gr0.u_mgr_task_status = 'recommend_complete';
+		if(gs.getSession().getLanguage() == 'ja'){
+			if (candidateList.length > 0){
+				gr0.work_notes = '[code]<blockquote>' + candidateList.toString() + '</blockquote>[/code]';
+				gr0.work_notes = '下記候補者で提出しました。';
+			}else{
+				gr0.work_notes = 'ノミネーション0件で提出しました。';
+			}
+		}else{
+			if (candidateList.length > 0){
+				gr0.work_notes = '[code]<blockquote>' + candidateList.toString() + '</blockquote>[/code]';
+				gr0.work_notes = 'You have nominated following candidates to your superior manager.';
+			}else{
+				gr0.work_notes = 'You have nominated 0 candidates to your superior manager.';
+			}
+		}
+		gr0.update();
+
+		//check task status of peers then trigger notification.
+		var completedFlag = true;
+		var peerRecordCount = 0;
+		var gr1 = new GlideRecord('x_ibmj_mgr_spt_manager_task');
+		gr1.addQuery('u_parent_managertask', keyForParentManagerTask);
+		gr1.addQuery('active', true);
+		gr1.query();
+		while(gr1.next()) {
+			peerRecordCount++;
+			if(gr1.u_mgr_task_status  != 'recommend_complete' ){
+				completedFlag = false;
+			}
+		}
+		//gs.addInfoMessage('flag1 : ' + peerRecordCount);
+		//gs.addInfoMessage('flag2 : ' + completedFlag);
+		if(completedFlag && peerRecordCount > 0){
+			var gr2 = new GlideRecord('x_ibmj_mgr_spt_manager_task');
+			gr2.addQuery('sys_id', keyForParentManagerTask);
+			gr2.addQuery('active', true);
+			gr2.query();
+			gr2.next();
+			//check if superior manager keeps unchange in sys_user table.
+			if(gr2.u_assigned_to != null && gr2.u_assigned_to !='' && gr2.u_assigned_to.active){
+				gr2.u_mgr_task_status = 'wait_recommend';
+				gr2.update();
+				gs.eventQueue('x_ibmj_mgr_spt.superiorManagerTask',gr2,gr2.number,gr2.u_assigned_to.email);
+				//var mailAdress = 'wanman@cn.ibm.com';
+				//gs.eventQueue('x_ibmj_mgr_spt.superiorManagerTask',gr2,gr2.number,mailAdress);
+				loopSwitch = false;
+			}else{
+				if(gr2.u_1st_level_flg){
+					if(gs.getSession().getLanguage() == 'ja'){
+						gs.addErrorMessage('該当タスクの依頼者がシステムで存在していませんでした。' + 
+							'管理者へご連絡ください');
+					}else{
+						gs.addErrorMessage('The top level manager of this task doesn\'t exist in user table or ' +
+							'it is currently invalid, please contact administrator.');
+					}
+					loopSwitch = false;
+				}else{
+					keyForCurrentManagerTask = keyForParentManagerTask;
+					keyForParentManagerTask = gr2.u_parent_managertask.sys_id;
+				}	
+			}
+		}else{
+			loopSwitch = false;
+		}
+	}
+	//action.setRedirectURL(current);
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-05-11 02:53:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c8d2acc1b341010d16d8735cc4bcb2b</sys_id>
+        <sys_mod_count>115</sys_mod_count>
+        <sys_name>Submit to upline manager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_ui_action_6c8d2acc1b341010d16d8735cc4bcb2b</sys_update_name>
+        <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+        <sys_updated_on>2020-05-19 06:11:11</sys_updated_on>
+        <table>x_ibmj_mgr_spt_manager_task</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>

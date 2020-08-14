@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_ibmj_mgr_spt_task_master</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Task Master - Set values when insert</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var awd_add_reason_flg             = current.u_parent_tasksubcategory.u_awd_add_reason_flg;                       
+	var awd_application_type_flg       = current.u_parent_tasksubcategory.u_awd_application_type_flg;
+	var awd_attachment_flg             = current.u_parent_tasksubcategory.u_awd_attachment_flg;
+	var awd_camss_flg                  = current.u_parent_tasksubcategory.u_awd_camss_flg;
+	var awd_close_date_flg             = current.u_parent_tasksubcategory.u_awd_close_date_flg;
+	var awd_close_month_flg            = current.u_parent_tasksubcategory.u_awd_close_month_flg;
+	var awd_close_week_flg             = current.u_parent_tasksubcategory.u_awd_close_week_flg;
+	var awd_comment_flg                = current.u_parent_tasksubcategory.u_awd_comment_flg;
+	var awd_cont_use_ratio_flg         = current.u_parent_tasksubcategory.u_awd_cont_use_ratio_flg;
+	var awd_customer_issue_flg         = current.u_parent_tasksubcategory.u_awd_customer_issue_flg;
+	var awd_customer_name_en_flg       = current.u_parent_tasksubcategory.u_awd_customer_name_en_flg;
+	var awd_customer_name_jn_flg       = current.u_parent_tasksubcategory.u_awd_customer_name_jn_flg;
+	var awd_customer_sat_date_flg      = current.u_parent_tasksubcategory.u_awd_customer_sat_date_flg;
+	var awd_gp_var_pln_act_flg         = current.u_parent_tasksubcategory.u_awd_gp_var_pln_act_flg;
+	var awd_init_gpratio_for_deproj_flg = current.u_parent_tasksubcategory.u_awd_init_gpratio_for_deproj_flg;
+	var awd_in_quarter_revenue_d_flg   = current.u_parent_tasksubcategory.u_awd_in_quarter_revenue_d_flg;
+	var awd_num_of_brands_flg          = current.u_parent_tasksubcategory.u_awd_num_of_brands_flg;
+	var awd_num_of_fte_flg             = current.u_parent_tasksubcategory.u_awd_num_of_fte_flg;
+	var awd_oem_flg                    = current.u_parent_tasksubcategory.u_awd_oem_flg;
+	var awd_opportunity_no_flg         = current.u_parent_tasksubcategory.u_awd_opportunity_no_flg;
+	var awd_prize_d_flg                = current.u_parent_tasksubcategory.u_awd_prize_d_flg;
+	var awd_prize_y_flg                = current.u_parent_tasksubcategory.u_awd_prize_y_flg;
+	var awd_project_introduction_flg   = current.u_parent_tasksubcategory.u_awd_project_introduction_flg;
+	var awd_project_name_en_flg        = current.u_parent_tasksubcategory.u_awd_project_name_en_flg;
+	var awd_project_name_jn_flg        = current.u_parent_tasksubcategory.u_awd_project_name_jn_flg;
+	var awd_project_summary_flg        = current.u_parent_tasksubcategory.u_awd_project_summary_flg;
+	var awd_reason_flg                 = current.u_parent_tasksubcategory.u_awd_reason_flg;
+	var awd_request_reason_flg         = current.u_parent_tasksubcategory.u_awd_request_reason_flg;
+	var awd_roadmap_status_flg         = current.u_parent_tasksubcategory.u_awd_roadmap_status_flg;
+	var awd_role_en_flg                = current.u_parent_tasksubcategory.u_awd_role_en_flg;
+	var awd_servicein_date_flg         = current.u_parent_tasksubcategory.u_awd_servicein_date_flg;
+	var awd_solution_description_flg   = current.u_parent_tasksubcategory.u_awd_solution_description_flg;
+	var awd_ss_mgr_flg                 = current.u_parent_tasksubcategory.u_awd_ss_mgr_flg;
+	var awd_ss_rep_notes_id_flg        = current.u_parent_tasksubcategory.u_awd_ss_rep_notes_id_flg;
+	var awd_subentry_field_flg         = current.u_parent_tasksubcategory.u_awd_subentry_field_flg;
+	var awd_target_revenue_d_flg       = current.u_parent_tasksubcategory.u_awd_target_revenue_d_flg;
+	var awd_target_tcv_d_flg           = current.u_parent_tasksubcategory.u_awd_target_tcv_d_flg;
+	var awd_tcv_d_flg                  = current.u_parent_tasksubcategory.u_awd_tcv_d_flg;
+	var awd_tsv_d_flg                  = current.u_parent_tasksubcategory.u_awd_tsv_d_flg;
+	var awd_work_no_flg                = current.u_parent_tasksubcategory.u_awd_work_no_flg;
+	var cnd_dept_code_flg              = current.u_parent_tasksubcategory.u_cnd_dept_code_flg;
+	var cnd_dept_name_flg              = current.u_parent_tasksubcategory.u_cnd_dept_name_flg;
+	var cnd_employee_no_flg            = current.u_parent_tasksubcategory.u_cnd_employee_no_flg;
+	var cnd_mgr_notes_id_flg           = current.u_parent_tasksubcategory.u_cnd_mgr_notes_id_flg;
+	var cnd_name_en_flg                = current.u_parent_tasksubcategory.u_cnd_name_en_flg;
+	var cnd_name_jp_flg                = current.u_parent_tasksubcategory.u_cnd_name_jp_flg;
+	var cnd_notes_id_flg               = current.u_parent_tasksubcategory.u_cnd_notes_id_flg;
+	var cnd_notes_id_elg_flg	       = current.u_parent_tasksubcategory.u_cnd_notes_id_elg_flg;	
+	var cnd_employee_no_elg_flg		   = current.u_parent_tasksubcategory.u_cnd_employee_no_elg_flg;			
+	var cnd_name_jp_elg_flg	           = current.u_parent_tasksubcategory.u_cnd_name_jp_elg_flg;	
+	var cnd_name_en_elg_flg			   = current.u_parent_tasksubcategory.u_cnd_name_en_elg_flg;			
+	var cnd_dept_code_elg_flg		   = current.u_parent_tasksubcategory.u_cnd_dept_code_elg_flg;		
+	var cnd_dept_name_elg_flg		   = current.u_parent_tasksubcategory.u_cnd_dept_name_elg_flg;			
+	var cnd_mgr_notes_id_elg_flg       = current.u_parent_tasksubcategory.u_cnd_mgr_notes_id_elg_flg;
+	var nomination_status_flag         = current.u_parent_tasksubcategory.u_nomination_status_flag;
+
+	current.u_awd_add_reason_flg =               awd_add_reason_flg;                   
+	current.u_awd_application_type_flg =         awd_application_type_flg;
+	current.u_awd_attachment_flg =               awd_attachment_flg;
+	current.u_awd_camss_flg =                    awd_camss_flg;
+	current.u_awd_close_date_flg =               awd_close_date_flg;
+	current.u_awd_close_month_flg =              awd_close_month_flg;
+	current.u_awd_close_week_flg =               awd_close_week_flg;
+	current.u_awd_comment_flg =                  awd_comment_flg;
+	current.u_awd_cont_use_ratio_flg =           awd_cont_use_ratio_flg;
+	current.u_awd_customer_issue_flg =           awd_customer_issue_flg;
+	current.u_awd_customer_name_en_flg =         awd_customer_name_en_flg;
+	current.u_awd_customer_name_jn_flg =         awd_customer_name_jn_flg;
+	current.u_awd_customer_sat_date_flg =        awd_customer_sat_date_flg;
+	current.u_awd_gp_var_pln_act_flg =           awd_gp_var_pln_act_flg;
+	current.u_awd_init_gpratio_for_deproj_flg =  awd_init_gpratio_for_deproj_flg;
+	current.u_awd_in_quarter_revenue_d_flg =     awd_in_quarter_revenue_d_flg;
+	current.u_awd_num_of_brands_flg =            awd_num_of_brands_flg;
+	current.u_awd_num_of_fte_flg =               awd_num_of_fte_flg;
+	current.u_awd_oem_flg =                      awd_oem_flg;
+	current.u_awd_opportunity_no_flg =           awd_opportunity_no_flg;
+	current.u_awd_prize_d_flg =                  awd_prize_d_flg;
+	current.u_awd_prize_y_flg =                  awd_prize_y_flg;
+	current.u_awd_project_introduction_flg =     awd_project_introduction_flg;
+	current.u_awd_project_name_en_flg =          awd_project_name_en_flg;
+	current.u_awd_project_name_jn_flg =          awd_project_name_jn_flg;
+	current.u_awd_project_summary_flg =          awd_project_summary_flg;
+	current.u_awd_reason_flg =                   awd_reason_flg;
+	current.u_awd_request_reason_flg =           awd_request_reason_flg;
+	current.u_awd_roadmap_status_flg =           awd_roadmap_status_flg;
+	current.u_awd_role_en_flg =                  awd_role_en_flg;
+	current.u_awd_servicein_date_flg =           awd_servicein_date_flg;
+	current.u_awd_solution_description_flg =     awd_solution_description_flg;
+	current.u_awd_ss_mgr_flg =                   awd_ss_mgr_flg;
+	current.u_awd_ss_rep_notes_id_flg =          awd_ss_rep_notes_id_flg;
+	current.u_awd_subentry_field_flg =           awd_subentry_field_flg;
+	current.u_awd_target_revenue_d_flg =         awd_target_revenue_d_flg;
+	current.u_awd_target_tcv_d_flg =             awd_target_tcv_d_flg;
+	current.u_awd_tcv_d_flg =                    awd_tcv_d_flg;
+	current.u_awd_tsv_d_flg =                    awd_tsv_d_flg;
+	current.u_awd_work_no_flg =                  awd_work_no_flg;
+	current.u_cnd_dept_code_flg =                cnd_dept_code_flg;
+	current.u_cnd_dept_name_flg =                cnd_dept_name_flg;
+	current.u_cnd_employee_no_flg =              cnd_employee_no_flg;
+	current.u_cnd_mgr_notes_id_flg =             cnd_mgr_notes_id_flg;
+	current.u_cnd_name_en_flg =                  cnd_name_en_flg;
+	current.u_cnd_name_jp_flg =                  cnd_name_jp_flg;
+	current.u_cnd_notes_id_flg =                 cnd_notes_id_flg;
+	current.u_cnd_notes_id_elg_flg = 	         cnd_notes_id_elg_flg;	
+	current.u_cnd_employee_no_elg_flg = 		 cnd_employee_no_elg_flg;			
+	current.u_cnd_name_jp_elg_flg = 	         cnd_name_jp_elg_flg;	
+	current.u_cnd_name_en_elg_flg = 			 cnd_name_en_elg_flg;			
+	current.u_cnd_dept_code_elg_flg = 		     cnd_dept_code_elg_flg;		
+	current.u_cnd_dept_name_elg_flg = 			 cnd_dept_name_elg_flg;			
+	current.u_cnd_mgr_notes_id_elg_flg =         cnd_mgr_notes_id_elg_flg;
+    current.u_nomination_status_flag =           nomination_status_flag;
+	current.u_task_status =                      'draft';
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-06 14:24:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c916d7221ba4d410cbd3ece9bc4bcb8c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Task Master - Set values when insert</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_script_c916d7221ba4d410cbd3ece9bc4bcb8c</sys_update_name>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-15 05:50:09</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c916d7221ba4d410cbd3ece9bc4bcb8c"/>
+</record_update>

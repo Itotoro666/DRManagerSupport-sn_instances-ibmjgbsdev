@@ -1,0 +1,1669 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-orlando-12-11-2019__patch1a-04-06-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>createall</internal_name>
+        <label_cache>[{"name":"070d67f0-5c71-4e86-8a1a-6cbf335cf24b.Records","label":"1➛Manager Task Records","reference":"x_ibmj_mgr_spt_manager_task","reference_display":"Manager Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"070d67f0-5c71-4e86-8a1a-6cbf335cf24b.Table","label":"1➛Manager Task Table","reference":"x_ibmj_mgr_spt_manager_task","reference_display":"Manager Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"070d67f0-5c71-4e86-8a1a-6cbf335cf24b.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Manager Task Record","reference":"x_ibmj_mgr_spt_manager_task","reference_display":"Manager Task","type":"reference","base_type":"reference","attributes":{}},{"name":"3fb325a3-edf0-48a7-9033-3317eba61a36.item","label":"1➛Manager Task Record","reference":"x_ibmj_mgr_spt_manager_task","reference_display":"Manager Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"2bb4acc3-5291-4f77-8865-e73c5cb56bd3.Records","label":"1.1➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2bb4acc3-5291-4f77-8865-e73c5cb56bd3.Table","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2bb4acc3-5291-4f77-8865-e73c5cb56bd3.Count","label":"1.1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3fb325a3-edf0-48a7-9033-3317eba61a36.item.u_assigned_to","label":"1➛Manager Task Record➛Assigned To","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_ibmj_mgr_spt_manager_task","column_name":"u_assigned_to"},{"name":"c6c5210d-2d55-4c3c-90d9-41929ba57d01.record","label":"1.2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c6c5210d-2d55-4c3c-90d9-41929ba57d01.table_name","label":"1.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"59233dd4-8517-4767-a412-b8e672e94078.Records","label":"1➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"59233dd4-8517-4767-a412-b8e672e94078.Table","label":"1➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"59233dd4-8517-4767-a412-b8e672e94078.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_assigned_to","label":"Trigger➛Manager Task Record➛Assigned To","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_ibmj_mgr_spt_manager_task","column_name":"u_assigned_to"},{"name":"e89fec1d-f3d6-4c30-b4c2-535566a2d05a.item","label":"2➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"0176865c-954c-4058-8585-03a5baec77c1.record","label":"2.1➛Record","reference":"sys_hub_action_input","reference_display":"Action Inputs","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"0176865c-954c-4058-8585-03a5baec77c1.table_name","label":"2.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"0176865c-954c-4058-8585-03a5baec77c1.status","label":"2.1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"0176865c-954c-4058-8585-03a5baec77c1.error_message","label":"2.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}}]</label_cache>
+        <latest_snapshot>9a2414601b705010d16d8735cc4bcbf3</latest_snapshot>
+        <master_snapshot>09df442c1b305010d16d8735cc4bcb79</master_snapshot>
+        <name>createall</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>1ddf442c1b305010d16d8735cc4bcbff</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 03:11:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>629f3fd01b305010d16d8735cc4bcb27</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>createall</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_hub_flow_629f3fd01b305010d16d8735cc4bcb27</sys_update_name>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:44:31</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=629f3fd01b305010d16d8735cc4bcb27"/>
+    <sys_variable_value action="DELETE" query="document_key=629f3fd01b305010d16d8735cc4bcb27"/>
+    <sys_flow_record_trigger action="DELETE">
+        <active>true</active>
+        <condition table="x_ibmj_mgr_spt_manager_task">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>foreground</run_flow_in>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ddf442c1b305010d16d8735cc4bcbff</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:28</sys_updated_on>
+        <table>x_ibmj_mgr_spt_manager_task</table>
+    </sys_flow_record_trigger>
+    <sys_hub_flow_component action="DELETE" query="flow=629f3fd01b305010d16d8735cc4bcb27^sys_idNOT IN712f4ce81b305010d16d8735cc4bcbae,f12f4ce81b305010d16d8735cc4bcbab,f52f4ce81b305010d16d8735cc4bcba5"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">352f4ce81b305010d16d8735cc4bcbad</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="createall">629f3fd01b305010d16d8735cc4bcb27</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>712f4ce81b305010d16d8735cc4bcbae</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:29</sys_updated_on>
+        <ui_id>e89fec1d-f3d6-4c30-b4c2-535566a2d05a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=712f4ce81b305010d16d8735cc4bcbae"/>
+    <sys_element_mapping action="DELETE" query="id=712f4ce81b305010d16d8735cc4bcbae"/>
+    <sys_element_mapping action="DELETE">
+        <field>items</field>
+        <id>712f4ce81b305010d16d8735cc4bcbae</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>fd2f4ce81b305010d16d8735cc4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{59233dd4-8517-4767-a412-b8e672e94078.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="createall">629f3fd01b305010d16d8735cc4bcb27</flow>
+        <order>2.1</order>
+        <parent_ui_id>e89fec1d-f3d6-4c30-b4c2-535566a2d05a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>f12f4ce81b305010d16d8735cc4bcbab</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:46</sys_updated_on>
+        <ui_id>0176865c-954c-4058-8585-03a5baec77c1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=f12f4ce81b305010d16d8735cc4bcbab"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f12f4ce81b305010d16d8735cc4bcbab</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>bd2f4ce81b305010d16d8735cc4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <value>x_ibmj_mgr_spt_manager_task</value>
+        <variable display_value="">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=f12f4ce81b305010d16d8735cc4bcbab"/>
+    <sys_element_mapping action="DELETE">
+        <field>fields</field>
+        <id>f12f4ce81b305010d16d8735cc4bcbab</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>792f4ce81b305010d16d8735cc4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>u_parent_managertask={{Created or Updated_1.current}}^u_assigned_to={{e89fec1d-f3d6-4c30-b4c2-535566a2d05a.item}}^u_mgr_task_status=working</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>f12f4ce81b305010d16d8735cc4bcbab</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>3d2f4ce81b305010d16d8735cc4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="createall">629f3fd01b305010d16d8735cc4bcb27</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>f52f4ce81b305010d16d8735cc4bcba5</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:46</sys_updated_on>
+        <ui_id>59233dd4-8517-4767-a412-b8e672e94078</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=f52f4ce81b305010d16d8735cc4bcba5"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f52f4ce81b305010d16d8735cc4bcba5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>f52f4ce81b305010d16d8735cc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=f52f4ce81b305010d16d8735cc4bcba5"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>f52f4ce81b305010d16d8735cc4bcba5</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>bd2f4ce81b305010d16d8735cc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>manager={{Created or Updated_1.current.u_assigned_to}}^active=true^u_ismanager=true</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>f52f4ce81b305010d16d8735cc4bcba5</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>752f4ce81b305010d16d8735cc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="DELETE" query="flow=629f3fd01b305010d16d8735cc4bcb27^sys_idNOT INfd2f4ce81b305010d16d8735cc4bcb9f"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="createall">629f3fd01b305010d16d8735cc4bcb27</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>fd2f4ce81b305010d16d8735cc4bcb9f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:29</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=fd2f4ce81b305010d16d8735cc4bcb9f"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>fd2f4ce81b305010d16d8735cc4bcb9f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:24:12</sys_created_on>
+        <sys_id>5d201c2c1b305010d16d8735cc4bcb1a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:25</sys_updated_on>
+        <value>foreground</value>
+        <variable display_value="">231e76460f103300b599bca2ff767e11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>fd2f4ce81b305010d16d8735cc4bcb9f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>7d2f4ce81b305010d16d8735cc4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <value>x_ibmj_mgr_spt_manager_task</value>
+        <variable display_value="">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>fd2f4ce81b305010d16d8735cc4bcb9f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>b12f4ce81b305010d16d8735cc4bcba1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:29:54</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>fd2f4ce81b305010d16d8735cc4bcb9f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>b92f4ce81b305010d16d8735cc4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="DELETE" query="id=629f3fd01b305010d16d8735cc4bcb27^sys_idNOT INe29f3fd01b305010d16d8735cc4bcb29"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>629f3fd01b305010d16d8735cc4bcb27</id>
+        <name>createall</name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 03:11:55</sys_created_on>
+        <sys_id>e29f3fd01b305010d16d8735cc4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 03:11:55</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="DELETE" query="model=629f3fd01b305010d16d8735cc4bcb27^sys_idNOT IN392f4ce81b305010d16d8735cc4bcb8c,b92f4ce81b305010d16d8735cc4bcb98,bd2f4ce81b305010d16d8735cc4bcb92"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="createall">629f3fd01b305010d16d8735cc4bcb27</model>
+        <model_id>629f3fd01b305010d16d8735cc4bcb27</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_629f3fd01b305010d16d8735cc4bcb27</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:51</sys_created_on>
+        <sys_id>392f4ce81b305010d16d8735cc4bcb8c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="createall">629f3fd01b305010d16d8735cc4bcb27</model>
+        <model_id>629f3fd01b305010d16d8735cc4bcb27</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_629f3fd01b305010d16d8735cc4bcb27</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>b92f4ce81b305010d16d8735cc4bcb98</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDca149060bb705010080956bc536eb3ca,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="createall">629f3fd01b305010d16d8735cc4bcb27</model>
+        <model_id>629f3fd01b305010d16d8735cc4bcb27</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_629f3fd01b305010d16d8735cc4bcb27</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>bd2f4ce81b305010d16d8735cc4bcb92</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="DELETE" query="flow=629f3fd01b305010d16d8735cc4bcb27^sys_idNOT INf12f4ce81b305010d16d8735cc4bcbab,f52f4ce81b305010d16d8735cc4bcba5"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="createall">629f3fd01b305010d16d8735cc4bcb27</flow>
+        <order>2.1</order>
+        <parent_ui_id>e89fec1d-f3d6-4c30-b4c2-535566a2d05a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>f12f4ce81b305010d16d8735cc4bcbab</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:46</sys_updated_on>
+        <ui_id>0176865c-954c-4058-8585-03a5baec77c1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=f12f4ce81b305010d16d8735cc4bcbab"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f12f4ce81b305010d16d8735cc4bcbab</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>bd2f4ce81b305010d16d8735cc4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <value>x_ibmj_mgr_spt_manager_task</value>
+        <variable display_value="">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=f12f4ce81b305010d16d8735cc4bcbab"/>
+    <sys_element_mapping action="DELETE">
+        <field>fields</field>
+        <id>f12f4ce81b305010d16d8735cc4bcbab</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>792f4ce81b305010d16d8735cc4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>u_parent_managertask={{Created or Updated_1.current}}^u_assigned_to={{e89fec1d-f3d6-4c30-b4c2-535566a2d05a.item}}^u_mgr_task_status=working</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>f12f4ce81b305010d16d8735cc4bcbab</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>3d2f4ce81b305010d16d8735cc4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="createall">629f3fd01b305010d16d8735cc4bcb27</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>f52f4ce81b305010d16d8735cc4bcba5</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:46</sys_updated_on>
+        <ui_id>59233dd4-8517-4767-a412-b8e672e94078</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=f52f4ce81b305010d16d8735cc4bcba5"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f52f4ce81b305010d16d8735cc4bcba5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>f52f4ce81b305010d16d8735cc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=f52f4ce81b305010d16d8735cc4bcba5"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>f52f4ce81b305010d16d8735cc4bcba5</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>bd2f4ce81b305010d16d8735cc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>manager={{Created or Updated_1.current.u_assigned_to}}^active=true^u_ismanager=true</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>f52f4ce81b305010d16d8735cc4bcba5</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>752f4ce81b305010d16d8735cc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="DELETE" query="flow=629f3fd01b305010d16d8735cc4bcb27^sys_idNOT IN712f4ce81b305010d16d8735cc4bcbae"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">352f4ce81b305010d16d8735cc4bcbad</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="createall">629f3fd01b305010d16d8735cc4bcb27</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>712f4ce81b305010d16d8735cc4bcbae</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:29</sys_updated_on>
+        <ui_id>e89fec1d-f3d6-4c30-b4c2-535566a2d05a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=712f4ce81b305010d16d8735cc4bcbae"/>
+    <sys_element_mapping action="DELETE" query="id=712f4ce81b305010d16d8735cc4bcbae"/>
+    <sys_element_mapping action="DELETE">
+        <field>items</field>
+        <id>712f4ce81b305010d16d8735cc4bcbae</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>fd2f4ce81b305010d16d8735cc4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{59233dd4-8517-4767-a412-b8e672e94078.Records}}</value>
+    </sys_element_mapping>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_629f3fd01b305010d16d8735cc4bcb27^sys_idNOT INb92f4ce81b305010d16d8735cc4bcb9c,f12f4ce81b305010d16d8735cc4bcb97,f52f4ce81b305010d16d8735cc4bcb91"/>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_629f3fd01b305010d16d8735cc4bcb27</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>b92f4ce81b305010d16d8735cc4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_629f3fd01b305010d16d8735cc4bcb27</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>f12f4ce81b305010d16d8735cc4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_629f3fd01b305010d16d8735cc4bcb27</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:19:52</sys_created_on>
+        <sys_id>f52f4ce81b305010d16d8735cc4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:19:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=629f3fd01b305010d16d8735cc4bcb27^sys_idNOT IN19df842c1b305010d16d8735cc4bcb00"/>
+    <sys_flow_trigger_plan action="DELETE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"19df842c1b305010d16d8735cc4bcb00","name":"plan"}}</plan>
+        <plan_id>629f3fd01b305010d16d8735cc4bcb27</plan_id>
+        <snapshot>9a2414601b705010d16d8735cc4bcbf3</snapshot>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>19df842c1b305010d16d8735cc4bcb00</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:28</sys_updated_on>
+        <trigger display_value="">1ddf442c1b305010d16d8735cc4bcbff</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>createall</internal_name>
+        <label_cache>[{"name":"0176865c-954c-4058-8585-03a5baec77c1.error_message","label":"2.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"0176865c-954c-4058-8585-03a5baec77c1.status","label":"2.1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"0176865c-954c-4058-8585-03a5baec77c1.table_name","label":"2.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"0176865c-954c-4058-8585-03a5baec77c1.record","label":"2.1➛Record","reference":"sys_hub_action_input","reference_display":"Action Inputs","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"e89fec1d-f3d6-4c30-b4c2-535566a2d05a.item","label":"2➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current.u_assigned_to","label":"Trigger➛Manager Task Record➛Assigned To","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_ibmj_mgr_spt_manager_task","column_name":"u_assigned_to"},{"name":"59233dd4-8517-4767-a412-b8e672e94078.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"59233dd4-8517-4767-a412-b8e672e94078.Table","label":"1➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"59233dd4-8517-4767-a412-b8e672e94078.Records","label":"1➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c6c5210d-2d55-4c3c-90d9-41929ba57d01.table_name","label":"1.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c6c5210d-2d55-4c3c-90d9-41929ba57d01.record","label":"1.2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3fb325a3-edf0-48a7-9033-3317eba61a36.item.u_assigned_to","label":"1➛Manager Task Record➛Assigned To","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_ibmj_mgr_spt_manager_task","column_name":"u_assigned_to"},{"name":"2bb4acc3-5291-4f77-8865-e73c5cb56bd3.Count","label":"1.1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2bb4acc3-5291-4f77-8865-e73c5cb56bd3.Table","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2bb4acc3-5291-4f77-8865-e73c5cb56bd3.Records","label":"1.1➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3fb325a3-edf0-48a7-9033-3317eba61a36.item","label":"1➛Manager Task Record","reference":"x_ibmj_mgr_spt_manager_task","reference_display":"Manager Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current","label":"Trigger➛Manager Task Record","reference":"x_ibmj_mgr_spt_manager_task","reference_display":"Manager Task","type":"reference","base_type":"reference","attributes":{}},{"name":"070d67f0-5c71-4e86-8a1a-6cbf335cf24b.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"070d67f0-5c71-4e86-8a1a-6cbf335cf24b.Table","label":"1➛Manager Task Table","reference":"x_ibmj_mgr_spt_manager_task","reference_display":"Manager Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"070d67f0-5c71-4e86-8a1a-6cbf335cf24b.Records","label":"1➛Manager Task Records","reference":"x_ibmj_mgr_spt_manager_task","reference_display":"Manager Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>createall</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="createall">629f3fd01b305010d16d8735cc4bcb27</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>09df442c1b305010d16d8735cc4bcb79</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:28</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=09df442c1b305010d16d8735cc4bcb79"/>
+    <sys_variable_value action="DELETE" query="document_key=09df442c1b305010d16d8735cc4bcb79"/>
+    <sys_hub_flow_component action="DELETE" query="flow=09df442c1b305010d16d8735cc4bcb79^sys_idNOT IN15df442c1b305010d16d8735cc4bcbcc,91df442c1b305010d16d8735cc4bcbd1,c1df442c1b305010d16d8735cc4bcbc6"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="createall">09df442c1b305010d16d8735cc4bcb79</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>15df442c1b305010d16d8735cc4bcbcc</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:28</sys_updated_on>
+        <ui_id>59233dd4-8517-4767-a412-b8e672e94078</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=15df442c1b305010d16d8735cc4bcbcc"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>15df442c1b305010d16d8735cc4bcbcc</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>9ddf442c1b305010d16d8735cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:50</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=15df442c1b305010d16d8735cc4bcbcc"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>15df442c1b305010d16d8735cc4bcbcc</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>59df442c1b305010d16d8735cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>manager={{Created or Updated_1.current.u_assigned_to}}^active=true^u_ismanager=true</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>15df442c1b305010d16d8735cc4bcbcc</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>1ddf442c1b305010d16d8735cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="createall">09df442c1b305010d16d8735cc4bcb79</flow>
+        <order>2.1</order>
+        <parent_ui_id>e89fec1d-f3d6-4c30-b4c2-535566a2d05a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>91df442c1b305010d16d8735cc4bcbd1</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:28</sys_updated_on>
+        <ui_id>0176865c-954c-4058-8585-03a5baec77c1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=91df442c1b305010d16d8735cc4bcbd1"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>91df442c1b305010d16d8735cc4bcbd1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>95df442c1b305010d16d8735cc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:50</sys_updated_on>
+        <value>x_ibmj_mgr_spt_manager_task</value>
+        <variable display_value="">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=91df442c1b305010d16d8735cc4bcbd1"/>
+    <sys_element_mapping action="DELETE">
+        <field>fields</field>
+        <id>91df442c1b305010d16d8735cc4bcbd1</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>51df442c1b305010d16d8735cc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>u_parent_managertask={{Created or Updated_1.current}}^u_assigned_to={{e89fec1d-f3d6-4c30-b4c2-535566a2d05a.item}}^u_mgr_task_status=working</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>91df442c1b305010d16d8735cc4bcbd1</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>15df442c1b305010d16d8735cc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">352f4ce81b305010d16d8735cc4bcbad</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="createall">09df442c1b305010d16d8735cc4bcb79</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:49</sys_created_on>
+        <sys_id>c1df442c1b305010d16d8735cc4bcbc6</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:28</sys_updated_on>
+        <ui_id>e89fec1d-f3d6-4c30-b4c2-535566a2d05a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=c1df442c1b305010d16d8735cc4bcbc6"/>
+    <sys_element_mapping action="DELETE" query="id=c1df442c1b305010d16d8735cc4bcbc6"/>
+    <sys_element_mapping action="DELETE">
+        <field>items</field>
+        <id>c1df442c1b305010d16d8735cc4bcbc6</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:49</sys_created_on>
+        <sys_id>0ddf442c1b305010d16d8735cc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{59233dd4-8517-4767-a412-b8e672e94078.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="DELETE" query="flow=09df442c1b305010d16d8735cc4bcb79^sys_idNOT IN99df442c1b305010d16d8735cc4bcbd2"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="createall">09df442c1b305010d16d8735cc4bcb79</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>99df442c1b305010d16d8735cc4bcbd2</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:28</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=99df442c1b305010d16d8735cc4bcbd2"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>99df442c1b305010d16d8735cc4bcbd2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:24:19</sys_created_on>
+        <sys_id>0b205c2c1b305010d16d8735cc4bcb8d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:27</sys_updated_on>
+        <value>foreground</value>
+        <variable display_value="">231e76460f103300b599bca2ff767e11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>99df442c1b305010d16d8735cc4bcbd2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>11df442c1b305010d16d8735cc4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:50</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>99df442c1b305010d16d8735cc4bcbd2</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>5ddf442c1b305010d16d8735cc4bcbd3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:30:01</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>99df442c1b305010d16d8735cc4bcbd2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>d1df442c1b305010d16d8735cc4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:50</sys_updated_on>
+        <value>x_ibmj_mgr_spt_manager_task</value>
+        <variable display_value="">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="DELETE" query="id=09df442c1b305010d16d8735cc4bcb79^sys_idNOT IN81df442c1b305010d16d8735cc4bcb7a"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>09df442c1b305010d16d8735cc4bcb79</id>
+        <name>createall</name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:49</sys_created_on>
+        <sys_id>81df442c1b305010d16d8735cc4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:49</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="DELETE" query="model=09df442c1b305010d16d8735cc4bcb79^sys_idNOT IN41df442c1b305010d16d8735cc4bcb7d,41df442c1b305010d16d8735cc4bcbb1,81df442c1b305010d16d8735cc4bcbba"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="createall">09df442c1b305010d16d8735cc4bcb79</model>
+        <model_id>09df442c1b305010d16d8735cc4bcb79</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_09df442c1b305010d16d8735cc4bcb79</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:49</sys_created_on>
+        <sys_id>41df442c1b305010d16d8735cc4bcb7d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDca149060bb705010080956bc536eb3ca,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="createall">09df442c1b305010d16d8735cc4bcb79</model>
+        <model_id>09df442c1b305010d16d8735cc4bcb79</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_09df442c1b305010d16d8735cc4bcb79</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:49</sys_created_on>
+        <sys_id>41df442c1b305010d16d8735cc4bcbb1</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="createall">09df442c1b305010d16d8735cc4bcb79</model>
+        <model_id>09df442c1b305010d16d8735cc4bcb79</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_09df442c1b305010d16d8735cc4bcb79</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:49</sys_created_on>
+        <sys_id>81df442c1b305010d16d8735cc4bcbba</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="DELETE" query="flow=09df442c1b305010d16d8735cc4bcb79^sys_idNOT IN15df442c1b305010d16d8735cc4bcbcc,91df442c1b305010d16d8735cc4bcbd1"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="createall">09df442c1b305010d16d8735cc4bcb79</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>15df442c1b305010d16d8735cc4bcbcc</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:28</sys_updated_on>
+        <ui_id>59233dd4-8517-4767-a412-b8e672e94078</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=15df442c1b305010d16d8735cc4bcbcc"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>15df442c1b305010d16d8735cc4bcbcc</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>9ddf442c1b305010d16d8735cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:50</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=15df442c1b305010d16d8735cc4bcbcc"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>15df442c1b305010d16d8735cc4bcbcc</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>59df442c1b305010d16d8735cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>manager={{Created or Updated_1.current.u_assigned_to}}^active=true^u_ismanager=true</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>15df442c1b305010d16d8735cc4bcbcc</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>1ddf442c1b305010d16d8735cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="createall">09df442c1b305010d16d8735cc4bcb79</flow>
+        <order>2.1</order>
+        <parent_ui_id>e89fec1d-f3d6-4c30-b4c2-535566a2d05a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>91df442c1b305010d16d8735cc4bcbd1</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:28</sys_updated_on>
+        <ui_id>0176865c-954c-4058-8585-03a5baec77c1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=91df442c1b305010d16d8735cc4bcbd1"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>91df442c1b305010d16d8735cc4bcbd1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>95df442c1b305010d16d8735cc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:50</sys_updated_on>
+        <value>x_ibmj_mgr_spt_manager_task</value>
+        <variable display_value="">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=91df442c1b305010d16d8735cc4bcbd1"/>
+    <sys_element_mapping action="DELETE">
+        <field>fields</field>
+        <id>91df442c1b305010d16d8735cc4bcbd1</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>51df442c1b305010d16d8735cc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>u_parent_managertask={{Created or Updated_1.current}}^u_assigned_to={{e89fec1d-f3d6-4c30-b4c2-535566a2d05a.item}}^u_mgr_task_status=working</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>91df442c1b305010d16d8735cc4bcbd1</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:50</sys_created_on>
+        <sys_id>15df442c1b305010d16d8735cc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="DELETE" query="flow=09df442c1b305010d16d8735cc4bcb79^sys_idNOT INc1df442c1b305010d16d8735cc4bcbc6"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">352f4ce81b305010d16d8735cc4bcbad</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="createall">09df442c1b305010d16d8735cc4bcb79</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:49</sys_created_on>
+        <sys_id>c1df442c1b305010d16d8735cc4bcbc6</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:41:28</sys_updated_on>
+        <ui_id>e89fec1d-f3d6-4c30-b4c2-535566a2d05a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=c1df442c1b305010d16d8735cc4bcbc6"/>
+    <sys_element_mapping action="DELETE" query="id=c1df442c1b305010d16d8735cc4bcbc6"/>
+    <sys_element_mapping action="DELETE">
+        <field>items</field>
+        <id>c1df442c1b305010d16d8735cc4bcbc6</id>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:49</sys_created_on>
+        <sys_id>0ddf442c1b305010d16d8735cc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{59233dd4-8517-4767-a412-b8e672e94078.Records}}</value>
+    </sys_element_mapping>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_09df442c1b305010d16d8735cc4bcb79^sys_idNOT IN41df442c1b305010d16d8735cc4bcbb6,8ddf442c1b305010d16d8735cc4bcbbe,c9df442c1b305010d16d8735cc4bcb81"/>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_09df442c1b305010d16d8735cc4bcb79</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:49</sys_created_on>
+        <sys_id>41df442c1b305010d16d8735cc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_09df442c1b305010d16d8735cc4bcb79</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:49</sys_created_on>
+        <sys_id>8ddf442c1b305010d16d8735cc4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_09df442c1b305010d16d8735cc4bcb79</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:22:49</sys_created_on>
+        <sys_id>c9df442c1b305010d16d8735cc4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:22:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sys_hub_flow_629f3fd01b305010d16d8735cc4bcb27</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build&gt;glide-orlando-12-11-2019__patch1a-04-06-2020&lt;/compiler_build&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;createall&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"070d67f0-5c71-4e86-8a1a-6cbf335cf24b.Records","label":"1➛Manager Task Records","reference":"x_ibmj_mgr_spt_manager_task","reference_display":"Manager Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"070d67f0-5c71-4e86-8a1a-6cbf335cf24b.Table","label":"1➛Manager Task Table","reference":"x_ibmj_mgr_spt_manager_task","reference_display":"Manager Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"070d67f0-5c71-4e86-8a1a-6cbf335cf24b.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Manager Task Record","reference":"x_ibmj_mgr_spt_manager_task","reference_display":"Manager Task","type":"reference","base_type":"reference","attributes":{}},{"name":"3fb325a3-edf0-48a7-9033-3317eba61a36.item","label":"1➛Manager Task Record","reference":"x_ibmj_mgr_spt_manager_task","reference_display":"Manager Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"2bb4acc3-5291-4f77-8865-e73c5cb56bd3.Records","label":"1.1➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2bb4acc3-5291-4f77-8865-e73c5cb56bd3.Table","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2bb4acc3-5291-4f77-8865-e73c5cb56bd3.Count","label":"1.1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3fb325a3-edf0-48a7-9033-3317eba61a36.item.u_assigned_to","label":"1➛Manager Task Record➛Assigned To","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_ibmj_mgr_spt_manager_task","column_name":"u_assigned_to"},{"name":"c6c5210d-2d55-4c3c-90d9-41929ba57d01.record","label":"1.2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c6c5210d-2d55-4c3c-90d9-41929ba57d01.table_name","label":"1.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"59233dd4-8517-4767-a412-b8e672e94078.Records","label":"1➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"59233dd4-8517-4767-a412-b8e672e94078.Table","label":"1➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"59233dd4-8517-4767-a412-b8e672e94078.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_assigned_to","label":"Trigger➛Manager Task Record➛Assigned To","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_ibmj_mgr_spt_manager_task","column_name":"u_assigned_to"},{"name":"e89fec1d-f3d6-4c30-b4c2-535566a2d05a.item","label":"2➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"0176865c-954c-4058-8585-03a5baec77c1.record","label":"2.1➛Record","reference":"sys_hub_action_input","reference_display":"Action Inputs","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"0176865c-954c-4058-8585-03a5baec77c1.table_name","label":"2.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"0176865c-954c-4058-8585-03a5baec77c1.status","label":"2.1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"0176865c-954c-4058-8585-03a5baec77c1.error_message","label":"2.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}}]&lt;/label_cache&gt;&lt;latest_snapshot&gt;9a2414601b705010d16d8735cc4bcbf3&lt;/latest_snapshot&gt;&lt;master_snapshot&gt;09df442c1b305010d16d8735cc4bcb79&lt;/master_snapshot&gt;&lt;name&gt;createall&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;remote_trigger_id&gt;1ddf442c1b305010d16d8735cc4bcbff&lt;/remote_trigger_id&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 03:11:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;createall&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Manager Support" source="x_ibmj_mgr_spt"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_629f3fd01b305010d16d8735cc4bcb27&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:44:31&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=629f3fd01b305010d16d8735cc4bcb27"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=629f3fd01b305010d16d8735cc4bcb27"/&gt;&lt;sys_flow_record_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition table="x_ibmj_mgr_spt_manager_task"&gt;^EQ&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;name/&gt;&lt;on_delete&gt;false&lt;/on_delete&gt;&lt;on_insert&gt;true&lt;/on_insert&gt;&lt;on_update&gt;true&lt;/on_update&gt;&lt;run_flow_in&gt;foreground&lt;/run_flow_in&gt;&lt;run_when_setting&gt;both&lt;/run_when_setting&gt;&lt;run_when_user_list/&gt;&lt;run_when_user_setting&gt;any&lt;/run_when_user_setting&gt;&lt;sys_class_name&gt;sys_flow_record_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1ddf442c1b305010d16d8735cc4bcbff&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:28&lt;/sys_updated_on&gt;&lt;table&gt;x_ibmj_mgr_spt_manager_task&lt;/table&gt;&lt;/sys_flow_record_trigger&gt;&lt;sys_hub_flow_component action="delete_multiple" query="flow=629f3fd01b305010d16d8735cc4bcb27^sys_idNOT IN712f4ce81b305010d16d8735cc4bcbae,f12f4ce81b305010d16d8735cc4bcbab,f52f4ce81b305010d16d8735cc4bcba5"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;352f4ce81b305010d16d8735cc4bcbad&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="createall"&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/flow&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="For Each"&gt;098e1dc5c3e232002841b63b12d3ae33&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;712f4ce81b305010d16d8735cc4bcbae&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:29&lt;/sys_updated_on&gt;&lt;ui_id&gt;e89fec1d-f3d6-4c30-b4c2-535566a2d05a&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=712f4ce81b305010d16d8735cc4bcbae"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=712f4ce81b305010d16d8735cc4bcbae"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;items&lt;/field&gt;&lt;id&gt;712f4ce81b305010d16d8735cc4bcbae&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;fd2f4ce81b305010d16d8735cc4bcbb0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33&lt;/table&gt;&lt;value&gt;{{59233dd4-8517-4767-a412-b8e672e94078.Records}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create or Update Record"&gt;ab575ae253b3230034c6ddeeff7b12f1&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;ab575ae253b3230034c6ddeeff7b12f1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="createall"&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/flow&gt;&lt;order&gt;2.1&lt;/order&gt;&lt;parent_ui_id&gt;e89fec1d-f3d6-4c30-b4c2-535566a2d05a&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;f12f4ce81b305010d16d8735cc4bcbab&lt;/sys_id&gt;&lt;sys_mod_count&gt;38&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:46&lt;/sys_updated_on&gt;&lt;ui_id&gt;0176865c-954c-4058-8585-03a5baec77c1&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=f12f4ce81b305010d16d8735cc4bcbab"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;f12f4ce81b305010d16d8735cc4bcbab&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;bd2f4ce81b305010d16d8735cc4bcbac&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;value&gt;x_ibmj_mgr_spt_manager_task&lt;/value&gt;&lt;variable display_value=""&gt;27575ae253b3230034c6ddeeff7b12f4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=f12f4ce81b305010d16d8735cc4bcbab"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;fields&lt;/field&gt;&lt;id&gt;f12f4ce81b305010d16d8735cc4bcbab&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;792f4ce81b305010d16d8735cc4bcbac&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1&lt;/table&gt;&lt;value&gt;u_parent_managertask={{Created or Updated_1.current}}^u_assigned_to={{e89fec1d-f3d6-4c30-b4c2-535566a2d05a.item}}^u_mgr_task_status=working&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;f12f4ce81b305010d16d8735cc4bcbab&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;3d2f4ce81b305010d16d8735cc4bcbac&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Records"&gt;43400a1587003300663ca1bb36cb0b4b&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;43400a1587003300663ca1bb36cb0b4b&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="createall"&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;f52f4ce81b305010d16d8735cc4bcba5&lt;/sys_id&gt;&lt;sys_mod_count&gt;38&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:46&lt;/sys_updated_on&gt;&lt;ui_id&gt;59233dd4-8517-4767-a412-b8e672e94078&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=f52f4ce81b305010d16d8735cc4bcba5"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;f52f4ce81b305010d16d8735cc4bcba5&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;f52f4ce81b305010d16d8735cc4bcba8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;value&gt;sys_user&lt;/value&gt;&lt;variable display_value=""&gt;8f400a1587003300663ca1bb36cb0b4b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=f52f4ce81b305010d16d8735cc4bcba5"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;f52f4ce81b305010d16d8735cc4bcba5&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;bd2f4ce81b305010d16d8735cc4bcba7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value&gt;manager={{Created or Updated_1.current.u_assigned_to}}^active=true^u_ismanager=true&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;f52f4ce81b305010d16d8735cc4bcba5&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;752f4ce81b305010d16d8735cc4bcba8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=629f3fd01b305010d16d8735cc4bcb27^sys_idNOT INfd2f4ce81b305010d16d8735cc4bcb9f"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="createall"&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/flow&gt;&lt;name&gt;Created or Updated&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;fd2f4ce81b305010d16d8735cc4bcb9f&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:29&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created or Updated"&gt;a45d9180c32222002841b63b12d3aea7&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create_or_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=fd2f4ce81b305010d16d8735cc4bcb9f"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;fd2f4ce81b305010d16d8735cc4bcb9f&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:24:12&lt;/sys_created_on&gt;&lt;sys_id&gt;5d201c2c1b305010d16d8735cc4bcb1a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:25&lt;/sys_updated_on&gt;&lt;value&gt;foreground&lt;/value&gt;&lt;variable display_value=""&gt;231e76460f103300b599bca2ff767e11&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;fd2f4ce81b305010d16d8735cc4bcb9f&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;7d2f4ce81b305010d16d8735cc4bcba1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;value&gt;x_ibmj_mgr_spt_manager_task&lt;/value&gt;&lt;variable display_value=""&gt;cf1e1980c32222002841b63b12d3aea0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;fd2f4ce81b305010d16d8735cc4bcb9f&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;b12f4ce81b305010d16d8735cc4bcba1&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:29:54&lt;/sys_updated_on&gt;&lt;value&gt;unique_changes&lt;/value&gt;&lt;variable display_value=""&gt;2b9def50c31132002841b63b12d3ae5b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;fd2f4ce81b305010d16d8735cc4bcb9f&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;b92f4ce81b305010d16d8735cc4bcba1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;value&gt;^EQ&lt;/value&gt;&lt;variable display_value=""&gt;707dd180c32222002841b63b12d3aecb&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=629f3fd01b305010d16d8735cc4bcb27^sys_idNOT INe29f3fd01b305010d16d8735cc4bcb29"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/id&gt;&lt;name&gt;createall&lt;/name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 03:11:55&lt;/sys_created_on&gt;&lt;sys_id&gt;e29f3fd01b305010d16d8735cc4bcb29&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 03:11:55&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=629f3fd01b305010d16d8735cc4bcb27^sys_idNOT IN392f4ce81b305010d16d8735cc4bcb8c,b92f4ce81b305010d16d8735cc4bcb98,bd2f4ce81b305010d16d8735cc4bcb92"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="createall"&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/model&gt;&lt;model_id&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_629f3fd01b305010d16d8735cc4bcb27&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:51&lt;/sys_created_on&gt;&lt;sys_id&gt;392f4ce81b305010d16d8735cc4bcb8c&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:29&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="createall"&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/model&gt;&lt;model_id&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_629f3fd01b305010d16d8735cc4bcb27&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;b92f4ce81b305010d16d8735cc4bcb98&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:29&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDca149060bb705010080956bc536eb3ca,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="createall"&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/model&gt;&lt;model_id&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_629f3fd01b305010d16d8735cc4bcb27&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;bd2f4ce81b305010d16d8735cc4bcb92&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:29&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=629f3fd01b305010d16d8735cc4bcb27^sys_idNOT INf12f4ce81b305010d16d8735cc4bcbab,f52f4ce81b305010d16d8735cc4bcba5"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create or Update Record"&gt;ab575ae253b3230034c6ddeeff7b12f1&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;ab575ae253b3230034c6ddeeff7b12f1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="createall"&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/flow&gt;&lt;order&gt;2.1&lt;/order&gt;&lt;parent_ui_id&gt;e89fec1d-f3d6-4c30-b4c2-535566a2d05a&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;f12f4ce81b305010d16d8735cc4bcbab&lt;/sys_id&gt;&lt;sys_mod_count&gt;38&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:46&lt;/sys_updated_on&gt;&lt;ui_id&gt;0176865c-954c-4058-8585-03a5baec77c1&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=f12f4ce81b305010d16d8735cc4bcbab"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;f12f4ce81b305010d16d8735cc4bcbab&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;bd2f4ce81b305010d16d8735cc4bcbac&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;value&gt;x_ibmj_mgr_spt_manager_task&lt;/value&gt;&lt;variable display_value=""&gt;27575ae253b3230034c6ddeeff7b12f4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=f12f4ce81b305010d16d8735cc4bcbab"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;fields&lt;/field&gt;&lt;id&gt;f12f4ce81b305010d16d8735cc4bcbab&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;792f4ce81b305010d16d8735cc4bcbac&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1&lt;/table&gt;&lt;value&gt;u_parent_managertask={{Created or Updated_1.current}}^u_assigned_to={{e89fec1d-f3d6-4c30-b4c2-535566a2d05a.item}}^u_mgr_task_status=working&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;f12f4ce81b305010d16d8735cc4bcbab&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;3d2f4ce81b305010d16d8735cc4bcbac&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Records"&gt;43400a1587003300663ca1bb36cb0b4b&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;43400a1587003300663ca1bb36cb0b4b&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="createall"&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;f52f4ce81b305010d16d8735cc4bcba5&lt;/sys_id&gt;&lt;sys_mod_count&gt;38&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:46&lt;/sys_updated_on&gt;&lt;ui_id&gt;59233dd4-8517-4767-a412-b8e672e94078&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=f52f4ce81b305010d16d8735cc4bcba5"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;f52f4ce81b305010d16d8735cc4bcba5&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;f52f4ce81b305010d16d8735cc4bcba8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;value&gt;sys_user&lt;/value&gt;&lt;variable display_value=""&gt;8f400a1587003300663ca1bb36cb0b4b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=f52f4ce81b305010d16d8735cc4bcba5"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;f52f4ce81b305010d16d8735cc4bcba5&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;bd2f4ce81b305010d16d8735cc4bcba7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value&gt;manager={{Created or Updated_1.current.u_assigned_to}}^active=true^u_ismanager=true&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;f52f4ce81b305010d16d8735cc4bcba5&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;752f4ce81b305010d16d8735cc4bcba8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=629f3fd01b305010d16d8735cc4bcb27^sys_idNOT IN712f4ce81b305010d16d8735cc4bcbae"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;352f4ce81b305010d16d8735cc4bcbad&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="createall"&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/flow&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="For Each"&gt;098e1dc5c3e232002841b63b12d3ae33&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;712f4ce81b305010d16d8735cc4bcbae&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:29&lt;/sys_updated_on&gt;&lt;ui_id&gt;e89fec1d-f3d6-4c30-b4c2-535566a2d05a&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=712f4ce81b305010d16d8735cc4bcbae"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=712f4ce81b305010d16d8735cc4bcbae"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;items&lt;/field&gt;&lt;id&gt;712f4ce81b305010d16d8735cc4bcbae&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;fd2f4ce81b305010d16d8735cc4bcbb0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33&lt;/table&gt;&lt;value&gt;{{59233dd4-8517-4767-a412-b8e672e94078.Records}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_629f3fd01b305010d16d8735cc4bcb27^sys_idNOT INb92f4ce81b305010d16d8735cc4bcb9c,f12f4ce81b305010d16d8735cc4bcb97,f52f4ce81b305010d16d8735cc4bcb91"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_629f3fd01b305010d16d8735cc4bcb27&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;b92f4ce81b305010d16d8735cc4bcb9c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Manager Support" source="x_ibmj_mgr_spt"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_629f3fd01b305010d16d8735cc4bcb27&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;f12f4ce81b305010d16d8735cc4bcb97&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Manager Support" source="x_ibmj_mgr_spt"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_629f3fd01b305010d16d8735cc4bcb27&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:19:52&lt;/sys_created_on&gt;&lt;sys_id&gt;f52f4ce81b305010d16d8735cc4bcb91&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Manager Support" source="x_ibmj_mgr_spt"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:19:52&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=629f3fd01b305010d16d8735cc4bcb27^sys_idNOT IN19df842c1b305010d16d8735cc4bcb00"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.OncePerUniqueChange&lt;/binding_strategy&gt;&lt;plan&gt;{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"19df842c1b305010d16d8735cc4bcb00","name":"plan"}}&lt;/plan&gt;&lt;plan_id&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/plan_id&gt;&lt;snapshot&gt;9a2414601b705010d16d8735cc4bcbf3&lt;/snapshot&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;19df842c1b305010d16d8735cc4bcb00&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:28&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;1ddf442c1b305010d16d8735cc4bcbff&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;createall&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"0176865c-954c-4058-8585-03a5baec77c1.error_message","label":"2.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"0176865c-954c-4058-8585-03a5baec77c1.status","label":"2.1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"0176865c-954c-4058-8585-03a5baec77c1.table_name","label":"2.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"0176865c-954c-4058-8585-03a5baec77c1.record","label":"2.1➛Record","reference":"sys_hub_action_input","reference_display":"Action Inputs","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"e89fec1d-f3d6-4c30-b4c2-535566a2d05a.item","label":"2➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current.u_assigned_to","label":"Trigger➛Manager Task Record➛Assigned To","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_ibmj_mgr_spt_manager_task","column_name":"u_assigned_to"},{"name":"59233dd4-8517-4767-a412-b8e672e94078.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"59233dd4-8517-4767-a412-b8e672e94078.Table","label":"1➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"59233dd4-8517-4767-a412-b8e672e94078.Records","label":"1➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c6c5210d-2d55-4c3c-90d9-41929ba57d01.table_name","label":"1.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c6c5210d-2d55-4c3c-90d9-41929ba57d01.record","label":"1.2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3fb325a3-edf0-48a7-9033-3317eba61a36.item.u_assigned_to","label":"1➛Manager Task Record➛Assigned To","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_ibmj_mgr_spt_manager_task","column_name":"u_assigned_to"},{"name":"2bb4acc3-5291-4f77-8865-e73c5cb56bd3.Count","label":"1.1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2bb4acc3-5291-4f77-8865-e73c5cb56bd3.Table","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2bb4acc3-5291-4f77-8865-e73c5cb56bd3.Records","label":"1.1➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3fb325a3-edf0-48a7-9033-3317eba61a36.item","label":"1➛Manager Task Record","reference":"x_ibmj_mgr_spt_manager_task","reference_display":"Manager Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current","label":"Trigger➛Manager Task Record","reference":"x_ibmj_mgr_spt_manager_task","reference_display":"Manager Task","type":"reference","base_type":"reference","attributes":{}},{"name":"070d67f0-5c71-4e86-8a1a-6cbf335cf24b.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"070d67f0-5c71-4e86-8a1a-6cbf335cf24b.Table","label":"1➛Manager Task Table","reference":"x_ibmj_mgr_spt_manager_task","reference_display":"Manager Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"070d67f0-5c71-4e86-8a1a-6cbf335cf24b.Records","label":"1➛Manager Task Records","reference":"x_ibmj_mgr_spt_manager_task","reference_display":"Manager Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;createall&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="createall"&gt;629f3fd01b305010d16d8735cc4bcb27&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:49&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;09df442c1b305010d16d8735cc4bcb79&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:28&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=09df442c1b305010d16d8735cc4bcb79"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=09df442c1b305010d16d8735cc4bcb79"/&gt;&lt;sys_hub_flow_component action="delete_multiple" query="flow=09df442c1b305010d16d8735cc4bcb79^sys_idNOT IN15df442c1b305010d16d8735cc4bcbcc,91df442c1b305010d16d8735cc4bcbd1,c1df442c1b305010d16d8735cc4bcbc6"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Records"&gt;43400a1587003300663ca1bb36cb0b4b&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Records"&gt;d1c56ec50b30030085c083eb37673a50&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;43400a1587003300663ca1bb36cb0b4b&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="createall"&gt;09df442c1b305010d16d8735cc4bcb79&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;15df442c1b305010d16d8735cc4bcbcc&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:28&lt;/sys_updated_on&gt;&lt;ui_id&gt;59233dd4-8517-4767-a412-b8e672e94078&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=15df442c1b305010d16d8735cc4bcbcc"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;15df442c1b305010d16d8735cc4bcbcc&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;9ddf442c1b305010d16d8735cc4bcbcd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:50&lt;/sys_updated_on&gt;&lt;value&gt;sys_user&lt;/value&gt;&lt;variable display_value=""&gt;8f400a1587003300663ca1bb36cb0b4b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=15df442c1b305010d16d8735cc4bcbcc"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;15df442c1b305010d16d8735cc4bcbcc&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;59df442c1b305010d16d8735cc4bcbcd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value&gt;manager={{Created or Updated_1.current.u_assigned_to}}^active=true^u_ismanager=true&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;15df442c1b305010d16d8735cc4bcbcc&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;1ddf442c1b305010d16d8735cc4bcbcd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create or Update Record"&gt;ab575ae253b3230034c6ddeeff7b12f1&lt;/action_type&gt;&lt;action_type_parent display_value="Create or Update Record"&gt;e057d2e253b3230034c6ddeeff7b1261&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;ab575ae253b3230034c6ddeeff7b12f1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="createall"&gt;09df442c1b305010d16d8735cc4bcb79&lt;/flow&gt;&lt;order&gt;2.1&lt;/order&gt;&lt;parent_ui_id&gt;e89fec1d-f3d6-4c30-b4c2-535566a2d05a&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;91df442c1b305010d16d8735cc4bcbd1&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:28&lt;/sys_updated_on&gt;&lt;ui_id&gt;0176865c-954c-4058-8585-03a5baec77c1&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=91df442c1b305010d16d8735cc4bcbd1"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;91df442c1b305010d16d8735cc4bcbd1&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;95df442c1b305010d16d8735cc4bcbd2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:50&lt;/sys_updated_on&gt;&lt;value&gt;x_ibmj_mgr_spt_manager_task&lt;/value&gt;&lt;variable display_value=""&gt;27575ae253b3230034c6ddeeff7b12f4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=91df442c1b305010d16d8735cc4bcbd1"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;fields&lt;/field&gt;&lt;id&gt;91df442c1b305010d16d8735cc4bcbd1&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;51df442c1b305010d16d8735cc4bcbd2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1&lt;/table&gt;&lt;value&gt;u_parent_managertask={{Created or Updated_1.current}}^u_assigned_to={{e89fec1d-f3d6-4c30-b4c2-535566a2d05a.item}}^u_mgr_task_status=working&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;91df442c1b305010d16d8735cc4bcbd1&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;15df442c1b305010d16d8735cc4bcbd2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;352f4ce81b305010d16d8735cc4bcbad&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="createall"&gt;09df442c1b305010d16d8735cc4bcb79&lt;/flow&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="For Each"&gt;098e1dc5c3e232002841b63b12d3ae33&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:49&lt;/sys_created_on&gt;&lt;sys_id&gt;c1df442c1b305010d16d8735cc4bcbc6&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:28&lt;/sys_updated_on&gt;&lt;ui_id&gt;e89fec1d-f3d6-4c30-b4c2-535566a2d05a&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=c1df442c1b305010d16d8735cc4bcbc6"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=c1df442c1b305010d16d8735cc4bcbc6"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;items&lt;/field&gt;&lt;id&gt;c1df442c1b305010d16d8735cc4bcbc6&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:49&lt;/sys_created_on&gt;&lt;sys_id&gt;0ddf442c1b305010d16d8735cc4bcbc8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33&lt;/table&gt;&lt;value&gt;{{59233dd4-8517-4767-a412-b8e672e94078.Records}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=09df442c1b305010d16d8735cc4bcb79^sys_idNOT IN99df442c1b305010d16d8735cc4bcbd2"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="createall"&gt;09df442c1b305010d16d8735cc4bcb79&lt;/flow&gt;&lt;name&gt;Created or Updated&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;99df442c1b305010d16d8735cc4bcbd2&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:28&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created or Updated"&gt;a45d9180c32222002841b63b12d3aea7&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create_or_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=99df442c1b305010d16d8735cc4bcbd2"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;99df442c1b305010d16d8735cc4bcbd2&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:24:19&lt;/sys_created_on&gt;&lt;sys_id&gt;0b205c2c1b305010d16d8735cc4bcb8d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:27&lt;/sys_updated_on&gt;&lt;value&gt;foreground&lt;/value&gt;&lt;variable display_value=""&gt;231e76460f103300b599bca2ff767e11&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;99df442c1b305010d16d8735cc4bcbd2&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;11df442c1b305010d16d8735cc4bcbd4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:50&lt;/sys_updated_on&gt;&lt;value&gt;^EQ&lt;/value&gt;&lt;variable display_value=""&gt;707dd180c32222002841b63b12d3aecb&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;99df442c1b305010d16d8735cc4bcbd2&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;5ddf442c1b305010d16d8735cc4bcbd3&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:30:01&lt;/sys_updated_on&gt;&lt;value&gt;unique_changes&lt;/value&gt;&lt;variable display_value=""&gt;2b9def50c31132002841b63b12d3ae5b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;99df442c1b305010d16d8735cc4bcbd2&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;d1df442c1b305010d16d8735cc4bcbd4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:50&lt;/sys_updated_on&gt;&lt;value&gt;x_ibmj_mgr_spt_manager_task&lt;/value&gt;&lt;variable display_value=""&gt;cf1e1980c32222002841b63b12d3aea0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=09df442c1b305010d16d8735cc4bcb79^sys_idNOT IN81df442c1b305010d16d8735cc4bcb7a"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;09df442c1b305010d16d8735cc4bcb79&lt;/id&gt;&lt;name&gt;createall&lt;/name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:49&lt;/sys_created_on&gt;&lt;sys_id&gt;81df442c1b305010d16d8735cc4bcb7a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:49&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=09df442c1b305010d16d8735cc4bcb79^sys_idNOT IN41df442c1b305010d16d8735cc4bcb7d,41df442c1b305010d16d8735cc4bcbb1,81df442c1b305010d16d8735cc4bcbba"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="createall"&gt;09df442c1b305010d16d8735cc4bcb79&lt;/model&gt;&lt;model_id&gt;09df442c1b305010d16d8735cc4bcb79&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_09df442c1b305010d16d8735cc4bcb79&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:49&lt;/sys_created_on&gt;&lt;sys_id&gt;41df442c1b305010d16d8735cc4bcb7d&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:28&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDca149060bb705010080956bc536eb3ca,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="createall"&gt;09df442c1b305010d16d8735cc4bcb79&lt;/model&gt;&lt;model_id&gt;09df442c1b305010d16d8735cc4bcb79&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_09df442c1b305010d16d8735cc4bcb79&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:49&lt;/sys_created_on&gt;&lt;sys_id&gt;41df442c1b305010d16d8735cc4bcbb1&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:28&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="createall"&gt;09df442c1b305010d16d8735cc4bcb79&lt;/model&gt;&lt;model_id&gt;09df442c1b305010d16d8735cc4bcb79&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_09df442c1b305010d16d8735cc4bcb79&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:49&lt;/sys_created_on&gt;&lt;sys_id&gt;81df442c1b305010d16d8735cc4bcbba&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:27&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=09df442c1b305010d16d8735cc4bcb79^sys_idNOT IN15df442c1b305010d16d8735cc4bcbcc,91df442c1b305010d16d8735cc4bcbd1"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Records"&gt;43400a1587003300663ca1bb36cb0b4b&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Records"&gt;d1c56ec50b30030085c083eb37673a50&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;43400a1587003300663ca1bb36cb0b4b&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="createall"&gt;09df442c1b305010d16d8735cc4bcb79&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;15df442c1b305010d16d8735cc4bcbcc&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:28&lt;/sys_updated_on&gt;&lt;ui_id&gt;59233dd4-8517-4767-a412-b8e672e94078&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=15df442c1b305010d16d8735cc4bcbcc"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;15df442c1b305010d16d8735cc4bcbcc&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;9ddf442c1b305010d16d8735cc4bcbcd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:50&lt;/sys_updated_on&gt;&lt;value&gt;sys_user&lt;/value&gt;&lt;variable display_value=""&gt;8f400a1587003300663ca1bb36cb0b4b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=15df442c1b305010d16d8735cc4bcbcc"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;15df442c1b305010d16d8735cc4bcbcc&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;59df442c1b305010d16d8735cc4bcbcd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value&gt;manager={{Created or Updated_1.current.u_assigned_to}}^active=true^u_ismanager=true&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;15df442c1b305010d16d8735cc4bcbcc&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;1ddf442c1b305010d16d8735cc4bcbcd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create or Update Record"&gt;ab575ae253b3230034c6ddeeff7b12f1&lt;/action_type&gt;&lt;action_type_parent display_value="Create or Update Record"&gt;e057d2e253b3230034c6ddeeff7b1261&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;ab575ae253b3230034c6ddeeff7b12f1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="createall"&gt;09df442c1b305010d16d8735cc4bcb79&lt;/flow&gt;&lt;order&gt;2.1&lt;/order&gt;&lt;parent_ui_id&gt;e89fec1d-f3d6-4c30-b4c2-535566a2d05a&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;91df442c1b305010d16d8735cc4bcbd1&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:28&lt;/sys_updated_on&gt;&lt;ui_id&gt;0176865c-954c-4058-8585-03a5baec77c1&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=91df442c1b305010d16d8735cc4bcbd1"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;91df442c1b305010d16d8735cc4bcbd1&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;95df442c1b305010d16d8735cc4bcbd2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:50&lt;/sys_updated_on&gt;&lt;value&gt;x_ibmj_mgr_spt_manager_task&lt;/value&gt;&lt;variable display_value=""&gt;27575ae253b3230034c6ddeeff7b12f4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=91df442c1b305010d16d8735cc4bcbd1"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;fields&lt;/field&gt;&lt;id&gt;91df442c1b305010d16d8735cc4bcbd1&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;51df442c1b305010d16d8735cc4bcbd2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1&lt;/table&gt;&lt;value&gt;u_parent_managertask={{Created or Updated_1.current}}^u_assigned_to={{e89fec1d-f3d6-4c30-b4c2-535566a2d05a.item}}^u_mgr_task_status=working&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;91df442c1b305010d16d8735cc4bcbd1&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;15df442c1b305010d16d8735cc4bcbd2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=09df442c1b305010d16d8735cc4bcb79^sys_idNOT INc1df442c1b305010d16d8735cc4bcbc6"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;352f4ce81b305010d16d8735cc4bcbad&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="createall"&gt;09df442c1b305010d16d8735cc4bcb79&lt;/flow&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="For Each"&gt;098e1dc5c3e232002841b63b12d3ae33&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:49&lt;/sys_created_on&gt;&lt;sys_id&gt;c1df442c1b305010d16d8735cc4bcbc6&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:41:28&lt;/sys_updated_on&gt;&lt;ui_id&gt;e89fec1d-f3d6-4c30-b4c2-535566a2d05a&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=c1df442c1b305010d16d8735cc4bcbc6"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=c1df442c1b305010d16d8735cc4bcbc6"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;items&lt;/field&gt;&lt;id&gt;c1df442c1b305010d16d8735cc4bcbc6&lt;/id&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:49&lt;/sys_created_on&gt;&lt;sys_id&gt;0ddf442c1b305010d16d8735cc4bcbc8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33&lt;/table&gt;&lt;value&gt;{{59233dd4-8517-4767-a412-b8e672e94078.Records}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_09df442c1b305010d16d8735cc4bcb79^sys_idNOT IN41df442c1b305010d16d8735cc4bcbb6,8ddf442c1b305010d16d8735cc4bcbbe,c9df442c1b305010d16d8735cc4bcb81"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_09df442c1b305010d16d8735cc4bcb79&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:49&lt;/sys_created_on&gt;&lt;sys_id&gt;41df442c1b305010d16d8735cc4bcbb6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Manager Support" source="x_ibmj_mgr_spt"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:49&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_09df442c1b305010d16d8735cc4bcb79&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:49&lt;/sys_created_on&gt;&lt;sys_id&gt;8ddf442c1b305010d16d8735cc4bcbbe&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Manager Support" source="x_ibmj_mgr_spt"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:49&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_09df442c1b305010d16d8735cc4bcb79&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-12 04:22:49&lt;/sys_created_on&gt;&lt;sys_id&gt;c9df442c1b305010d16d8735cc4bcb81&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Manager Support" source="x_ibmj_mgr_spt"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-12 04:22:49&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1446950166</payload_hash>
+        <record_name>createall</record_name>
+        <reverted_from/>
+        <source>e49465e11bcc9410cbd3ece9bc4bcb00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:44:32</sys_created_on>
+        <sys_id>8fc490a01b705010d16d8735cc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1720732d8ba0000001</sys_recorded_at>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:44:32</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>c7c490a0f7705010d5a2e95b48b291c9</update_guid>
+        <update_guid_history>c7c490a0f7705010d5a2e95b48b291c9:1446950166,b614d06031705010debc2140b5ddf0b7:1816409275,35149060dd7050102eb791a5dfaa475b:181148612,1b93d4202e705010d9c6197d9abe141c:2071472144,229354204f70501041ce3f5c0fa1b2cd:-1651706828,a19354203f705010389e4e616fee750f:1203149429,d37154acc93050104fa278bf173e57e3:-46783099,4a7114aceb305010682457f68c4fbc17:988217579,5d71d0ac5c3050101dbe86e2f175424f:231897982,af209c2c49305010794c32db169f6982:360377314,b6205c2ce9305010ff6a8d7d2e8ac637:2093989802,2d201c2cad305010dd99a3a3d626dd65:-1529496915,2ddf842c83305010bfc71da820d9d172:1691669010,0ddf442c23305010811ea8b690be804f:-759513345,8a2f4ce8a4305010d136c701aba2fcd0:601585562,ea9f3fd0cf30501023acd427dc556dff:-304048918</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-12 04:47:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>0d493cff084747e8853e84768778fe84</sys_id>
+        <sys_metadata>629f3fd01b305010d16d8735cc4bcb27</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>createall</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_629f3fd01b305010d16d8735cc4bcb27</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_629f3fd01b305010d16d8735cc4bcb27">8fc490a01b705010d16d8735cc4bcbc9</sys_update_version>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-12 04:47:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

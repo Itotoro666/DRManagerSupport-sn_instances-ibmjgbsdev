@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-04-27 09:22:05</sys_created_on>
+        <sys_id>ae744cbf1bdc1010cbd3ece9bc4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ibmj_mgr_spt_task_ctrl.x_ibmj_mgr_spt._user</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_security_acl display_value="x_ibmj_mgr_spt_task_ctrl">22744cbf1bdc1010cbd3ece9bc4bcbe0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ae744cbf1bdc1010cbd3ece9bc4bcbe2</sys_update_name>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-04-27 09:22:05</sys_updated_on>
+        <sys_user_role display_value="x_ibmj_mgr_spt._user" name="x_ibmj_mgr_spt._user">62744cbf1bdc1010cbd3ece9bc4bcba9</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sys_security_acl_role_ae744cbf1bdc1010cbd3ece9bc4bcbe2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>Jian.Ge</sys_created_by><sys_created_on>2020-04-27 09:22:05</sys_created_on><sys_id>ae744cbf1bdc1010cbd3ece9bc4bcbe2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_ibmj_mgr_spt_task_ctrl.x_ibmj_mgr_spt._user</sys_name><sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package><sys_policy/><sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope><sys_security_acl display_value="x_ibmj_mgr_spt_task_ctrl">22744cbf1bdc1010cbd3ece9bc4bcbe0</sys_security_acl><sys_update_name>sys_security_acl_role_ae744cbf1bdc1010cbd3ece9bc4bcbe2</sys_update_name><sys_updated_by>Jian.Ge</sys_updated_by><sys_updated_on>2020-04-27 09:22:05</sys_updated_on><sys_user_role display_value="x_ibmj_mgr_spt._user" name="x_ibmj_mgr_spt._user">62744cbf1bdc1010cbd3ece9bc4bcba9</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1906958619</payload_hash>
+        <record_name>x_ibmj_mgr_spt_task_ctrl.x_ibmj_mgr_spt._user</record_name>
+        <reverted_from/>
+        <source>e49465e11bcc9410cbd3ece9bc4bcb00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-04-27 09:22:05</sys_created_on>
+        <sys_id>66744cbf1bdc1010cbd3ece9bc4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171baf191b30000001</sys_recorded_at>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-04-27 09:22:05</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>ae744cbf18dc1010254d93ce283543e4</update_guid>
+        <update_guid_history>ae744cbf18dc1010254d93ce283543e4:-1906958619</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">10e4c94c1ba85010cbd3ece9bc4bcb4c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-04-28 08:41:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>144014ba1c2e4bc2bc6f588b327e8b09</sys_id>
+        <sys_metadata>ae744cbf1bdc1010cbd3ece9bc4bcbe2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ibmj_mgr_spt_task_ctrl.x_ibmj_mgr_spt._user</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent display_value="">22744cbf1bdc1010cbd3ece9bc4bcbe0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_ae744cbf1bdc1010cbd3ece9bc4bcbe2</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_ae744cbf1bdc1010cbd3ece9bc4bcbe2">66744cbf1bdc1010cbd3ece9bc4bcbe5</sys_update_version>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-04-28 08:41:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

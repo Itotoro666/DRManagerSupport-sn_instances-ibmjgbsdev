@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_ibmj_mgr_spt.getValueForSubmitToUplineManagerUIAction</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getValueForSubmitToUplineManagerUIAction</name>
+        <script><![CDATA[var getValueForSubmitToUplineManagerUIAction = Class.create();
+getValueForSubmitToUplineManagerUIAction.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	countRelatedLisRecords: function(){
+		var key = this.getParameter('sysparm_sys_id');
+		var candidateCount = 0;
+		var gr = new GlideAggregate('x_ibmj_mgr_spt_additional_info');
+		gr.addQuery('u_parent_managertask', key);
+		gr.addQuery('u_active', true);
+		gr.addQuery('u_nomination_status', 'Selected');
+		gr.addAggregate("COUNT");
+		gr.query();
+		while(gr.next()) {
+			candidateCount = gr.getAggregate("COUNT");
+		}
+		return candidateCount;
+	},
+    type: 'getValueForSubmitToUplineManagerUIAction'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-05-11 14:55:02</sys_created_on>
+        <sys_id>6725d19c1bb81010d16d8735cc4bcbd9</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>getValueForSubmitToUplineManagerUIAction</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_script_include_6725d19c1bb81010d16d8735cc4bcbd9</sys_update_name>
+        <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+        <sys_updated_on>2020-05-12 06:15:01</sys_updated_on>
+    </sys_script_include>
+</record_update>

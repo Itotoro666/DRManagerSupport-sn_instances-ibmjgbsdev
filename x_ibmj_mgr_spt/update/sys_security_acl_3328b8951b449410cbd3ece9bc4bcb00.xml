@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_ibmj_mgr_spt_mgr_support</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>Akiyoshi.Kawabe</sys_created_by>
+        <sys_created_on>2020-04-07 08:27:29</sys_created_on>
+        <sys_id>3328b8951b449410cbd3ece9bc4bcb00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ibmj_mgr_spt_mgr_support</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_security_acl_3328b8951b449410cbd3ece9bc4bcb00</sys_update_name>
+        <sys_updated_by>Akiyoshi.Kawabe</sys_updated_by>
+        <sys_updated_on>2020-04-07 08:27:29</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

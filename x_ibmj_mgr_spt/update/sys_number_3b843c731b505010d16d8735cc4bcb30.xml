@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_ibmj_mgr_spt_manager_task">x_ibmj_mgr_spt_manager_task</category>
+        <maximum_digits>12</maximum_digits>
+        <number>1000</number>
+        <prefix>TSK</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-04-27 12:52:10</sys_created_on>
+        <sys_id>3b843c731b505010d16d8735cc4bcb30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TSK</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_number_3b843c731b505010d16d8735cc4bcb30</sys_update_name>
+        <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+        <sys_updated_on>2020-04-27 12:52:10</sys_updated_on>
+    </sys_number>
+</record_update>

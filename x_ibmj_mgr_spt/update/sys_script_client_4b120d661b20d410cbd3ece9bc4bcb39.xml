@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_candidate</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Additional Info - show employee</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading) {
+      return;
+   }
+	
+	var tskmst = g_form.getValue('u_parent_taskmaster');
+	var eid = g_form.getValue('u_candidate');
+	g_form.setValue('u_submit_ctrl_flg',true);
+
+	// Show detail candidate information
+	
+	var getEmpl = new GlideAjax('getEmployee');
+    getEmpl.addParam('sysparm_name','getValue');
+    getEmpl.addParam('sysparm_sys_id',eid);
+    getEmpl.getXML(populateFields);
+	
+	function populateFields(response){
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		var cObj = JSON.parse(answer);
+		
+		g_form.setValue('u_cnd_employee_no', cObj.u_emp_id);
+		g_form.setValue('u_cnd_name_jp', cObj.u_name_j);
+		g_form.setValue('u_cnd_name_en', cObj.u_name_e);
+		g_form.setValue('u_cnd_notes_id', cObj.u_notesid);
+		g_form.setValue('u_cnd_dept_code', cObj.u_dept_code);
+		g_form.setValue('u_cnd_dept_name', cObj.u_dept_name);
+		g_form.setValue('u_cnd_mgr_notes_id', cObj.u_mgr_notesid);
+		
+		//check duplicate candidate
+	
+		var ga = new GlideAjax('checkDupliEmployee');
+		ga.addParam('sysparm_name','getValue');
+		ga.addParam('sysparm_sys_id',eid);
+		ga.addParam('sysparm_tskmst',tskmst);
+		ga.getXML(checkit);
+
+		function checkit(response){
+			var answer = response.responseXML.documentElement.getAttribute("answer");
+
+			if (answer > 0){ //exist, error
+				var name = g_form.getValue('u_cnd_name_jp');
+				if (name == ''){
+					name = g_form.getValue('u_cnd_name_en');
+				}
+				g_form.setValue('u_submit_ctrl_flg',false);
+				g_form.clearMessages();
+				g_form.addErrorMessage(name+'さんは既にノミネーションされていますので、ノミネーションすることはできません。');
+			}
+			else{ // not exist, go ahead
+				g_form.setValue('u_submit_ctrl_flg',true);
+				g_form.clearMessages();
+			}
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-06 03:00:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4b120d661b20d410cbd3ece9bc4bcb39</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Additional Info - show employee</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_script_client_4b120d661b20d410cbd3ece9bc4bcb39</sys_update_name>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-14 03:40:49</sys_updated_on>
+        <table>x_ibmj_mgr_spt_additional_info</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

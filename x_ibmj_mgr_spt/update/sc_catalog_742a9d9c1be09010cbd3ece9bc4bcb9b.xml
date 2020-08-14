@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color>white</background_color>
+        <description>Manager Support Catalog</description>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image>8775852a1b20d410cbd3ece9bc4bcb47</desktop_image>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager display_value="jian ge">99bd671c2f770410b09c11c82799b6ad</manager>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-04-29 04:54:10</sys_created_on>
+        <sys_id>742a9d9c1be09010cbd3ece9bc4bcb9b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Manager Support Catalog</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sc_catalog_742a9d9c1be09010cbd3ece9bc4bcb9b</sys_update_name>
+        <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+        <sys_updated_on>2020-05-06 03:09:24</sys_updated_on>
+        <title>Manager Support Catalog</title>
+    </sc_catalog>
+    <sys_translated_text action="delete_multiple" query="documentkey=742a9d9c1be09010cbd3ece9bc4bcb9b"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ffffff</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>desktop_image</file_name>
+        <hash>4eab2a40c49f0d35a03e6c9b8ae88b9db76d4f1242fc7a536d8d6ded023796fc</hash>
+        <image_height>146</image_height>
+        <image_width>146</image_width>
+        <size_bytes>3812</size_bytes>
+        <size_compressed>3831</size_compressed>
+        <state>available</state>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-05-06 03:09:24</sys_created_on>
+        <sys_id>8775852a1b20d410cbd3ece9bc4bcb47</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+        <sys_updated_on>2020-05-06 03:09:24</sys_updated_on>
+        <table_name>ZZ_YYsc_catalog</table_name>
+        <table_sys_id>742a9d9c1be09010cbd3ece9bc4bcb9b</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="desktop_image" sys_id="8775852a1b20d410cbd3ece9bc4bcb47">8775852a1b20d410cbd3ece9bc4bcb47</sys_attachment>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-05-06 03:09:24</sys_created_on>
+        <sys_id>c775852a1b20d410cbd3ece9bc4bcb47</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>5096</length>
+        <position>1</position>
+        <sys_attachment display_value="desktop_image" sys_id="8775852a1b20d410cbd3ece9bc4bcb47">8775852a1b20d410cbd3ece9bc4bcb47</sys_attachment>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-05-06 03:09:24</sys_created_on>
+        <sys_id>4b75852a1b20d410cbd3ece9bc4bcb47</sys_id>
+    </sys_attachment_doc>
+</record_update>

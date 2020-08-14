@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>本日以前の日付が入力されている時、「レコード適用開始日は、明日以降の日付を入力してください。」というエラーメッセージを出す。</description>
+        <field>u_task_rec_start_dt</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Task Subcategory - Check Effective Date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	var today = new Date();
+	if (newValue <= today.toISOString()){
+		g_form.addErrorMessage('レコード適用開始日は、明日以降の日付を入力してください。');
+	}
+	else{
+		g_form.clearMessages();
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-04-30 13:41:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>deac94fc1bec9010d16d8735cc4bcbe3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Task Subcategory - Check Effective Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_script_client_deac94fc1bec9010d16d8735cc4bcbe3</sys_update_name>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-04 05:29:52</sys_updated_on>
+        <table>x_ibmj_mgr_spt_task_subcategory</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sys_script_client_deac94fc1bec9010d16d8735cc4bcbe3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;本日以前の日付が入力されている時、「レコード適用開始日は、明日以降の日付を入力してください。」というエラーメッセージを出す。&lt;/description&gt;&lt;field&gt;u_task_rec_start_dt&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Task Subcategory - Check Effective Date&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	var today = new Date();
+	if (newValue &lt;= today.toISOString()){
+		g_form.addErrorMessage('レコード適用開始日は、明日以降の日付を入力してください。');
+	}
+	else{
+		g_form.clearMessages();
+	}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Man.Wan&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-30 13:41:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;deac94fc1bec9010d16d8735cc4bcbe3&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Task Subcategory - Check Effective Date&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Manager Support" source="x_ibmj_mgr_spt"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_deac94fc1bec9010d16d8735cc4bcbe3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Man.Wan&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-04 05:29:52&lt;/sys_updated_on&gt;&lt;table&gt;x_ibmj_mgr_spt_task_subcategory&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1432701703</payload_hash>
+        <record_name>Task Subcategory - Check Effective Date</record_name>
+        <reverted_from/>
+        <source>e49465e11bcc9410cbd3ece9bc4bcb00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-04 05:29:52</sys_created_on>
+        <sys_id>097213391b245410d16d8735cc4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171de2978b10000001</sys_recorded_at>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-04 05:29:52</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>4172133903245410ec65a2e3d61447fd</update_guid>
+        <update_guid_history>4172133903245410ec65a2e3d61447fd:-1432701703,163864747420d010979b943998959f3f:1802628390,38f764744420d01001ac34f60e63a53a:-855929471,9ace18fca0ec90107d37e53491f9b690:1802628390,daac94fc8dec9010cb750edc599502e5:184384120</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-05 14:16:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>c3e02d35b8aa4d1c90e3b5133b4ff919</sys_id>
+        <sys_metadata>deac94fc1bec9010d16d8735cc4bcbe3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task Subcategory - Check Effective Date</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent display_value="Task Subcategory">1ab311d81b609010d16d8735cc4bcbc2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sys_script_client_deac94fc1bec9010d16d8735cc4bcbe3</sys_update_name>
+        <sys_update_version display_value="sys_script_client_deac94fc1bec9010d16d8735cc4bcbe3">097213391b245410d16d8735cc4bcbfd</sys_update_version>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-05 14:16:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

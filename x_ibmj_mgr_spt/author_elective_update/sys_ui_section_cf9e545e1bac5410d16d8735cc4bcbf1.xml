@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="cf9e545e1bac5410d16d8735cc4bcbf1" sys_domain="global" table="x_ibmj_mgr_spt_task_subcategory" version="3" view="Test_view1">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_parent_taskcategory</element>
+            <position>0</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>4f9e945e1bac5410d16d8735cc4bcb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_task_subcategory</element>
+            <position>1</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>cf9e945e1bac5410d16d8735cc4bcb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_task_rec_start_dt</element>
+            <position>2</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>439e945e1bac5410d16d8735cc4bcb06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_task_rec_end_dt</element>
+            <position>3</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>c39e945e1bac5410d16d8735cc4bcb06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>4</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>479e945e1bac5410d16d8735cc4bcb06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cnd_notes_id_flg</element>
+            <position>5</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>c79e945e1bac5410d16d8735cc4bcb06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cnd_employee_no_flg</element>
+            <position>6</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>4b9e945e1bac5410d16d8735cc4bcb06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cnd_name_jp_flg</element>
+            <position>7</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>cb9e945e1bac5410d16d8735cc4bcb06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cnd_name_en_flg</element>
+            <position>8</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>4f9e945e1bac5410d16d8735cc4bcb06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cnd_dept_code_flg</element>
+            <position>9</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>cf9e945e1bac5410d16d8735cc4bcb06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cnd_dept_name_flg</element>
+            <position>10</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>439e945e1bac5410d16d8735cc4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cnd_mgr_notes_id_flg</element>
+            <position>11</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>c39e945e1bac5410d16d8735cc4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_prize_d_flg</element>
+            <position>12</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>479e945e1bac5410d16d8735cc4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_prize_y_flg</element>
+            <position>13</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>c79e945e1bac5410d16d8735cc4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_customer_name_en_flg</element>
+            <position>14</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>4b9e945e1bac5410d16d8735cc4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_customer_name_jn_flg</element>
+            <position>15</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>cb9e945e1bac5410d16d8735cc4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_customer_issue_flg</element>
+            <position>16</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>4f9e945e1bac5410d16d8735cc4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_customer_sat_date_flg</element>
+            <position>17</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>cf9e945e1bac5410d16d8735cc4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_opportunity_no_flg</element>
+            <position>18</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>439e945e1bac5410d16d8735cc4bcb08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_work_no_flg</element>
+            <position>19</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>c39e945e1bac5410d16d8735cc4bcb08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_oem_flg</element>
+            <position>20</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>479e945e1bac5410d16d8735cc4bcb08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_request_reason_flg</element>
+            <position>21</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>c79e945e1bac5410d16d8735cc4bcb08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_reason_flg</element>
+            <position>22</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>4b9e945e1bac5410d16d8735cc4bcb08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_application_type_flg</element>
+            <position>23</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>cb9e945e1bac5410d16d8735cc4bcb08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_role_en_flg</element>
+            <position>24</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>4f9e945e1bac5410d16d8735cc4bcb08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_roadmap_status_flg</element>
+            <position>25</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>cf9e945e1bac5410d16d8735cc4bcb08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_servicein_date_flg</element>
+            <position>26</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>439e945e1bac5410d16d8735cc4bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_solution_description_flg</element>
+            <position>27</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>c39e945e1bac5410d16d8735cc4bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_attachment_flg</element>
+            <position>28</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>479e945e1bac5410d16d8735cc4bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>29</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>c79e945e1bac5410d16d8735cc4bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_project_name_en_flg</element>
+            <position>30</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>4b9e945e1bac5410d16d8735cc4bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_project_name_jn_flg</element>
+            <position>31</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>cb9e945e1bac5410d16d8735cc4bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_project_summary_flg</element>
+            <position>32</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>4f9e945e1bac5410d16d8735cc4bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_project_introduction_flg</element>
+            <position>33</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>cf9e945e1bac5410d16d8735cc4bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_num_of_fte_flg</element>
+            <position>34</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>439e945e1bac5410d16d8735cc4bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_num_of_brands_flg</element>
+            <position>35</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>c39e945e1bac5410d16d8735cc4bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_tcv_d_flg</element>
+            <position>36</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>479e945e1bac5410d16d8735cc4bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_tsv_d_flg</element>
+            <position>37</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>c79e945e1bac5410d16d8735cc4bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_target_tcv_d_flg</element>
+            <position>38</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>4b9e945e1bac5410d16d8735cc4bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_target_revenue_d_flg</element>
+            <position>39</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>cb9e945e1bac5410d16d8735cc4bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_subentry_field_flg</element>
+            <position>40</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>4f9e945e1bac5410d16d8735cc4bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_add_reason_flg</element>
+            <position>41</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>cf9e945e1bac5410d16d8735cc4bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_close_week_flg</element>
+            <position>42</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>439e945e1bac5410d16d8735cc4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_close_date_flg</element>
+            <position>43</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>c39e945e1bac5410d16d8735cc4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_close_month_flg</element>
+            <position>44</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>479e945e1bac5410d16d8735cc4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_ss_rep_notes_id_flg</element>
+            <position>45</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>c79e945e1bac5410d16d8735cc4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_ss_mgr_flg</element>
+            <position>46</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>4b9e945e1bac5410d16d8735cc4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_gp_var_pln_act_flg</element>
+            <position>47</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>cb9e945e1bac5410d16d8735cc4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_cont_use_ratio_flg</element>
+            <position>48</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>4f9e945e1bac5410d16d8735cc4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_in_quarter_revenue_d_flg</element>
+            <position>49</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>cf9e945e1bac5410d16d8735cc4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_camss_flg</element>
+            <position>50</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>439e945e1bac5410d16d8735cc4bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_comment_flg</element>
+            <position>51</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>c39e945e1bac5410d16d8735cc4bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_awd_init_gpratio_for_deproj_flg</element>
+            <position>52</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>479e945e1bac5410d16d8735cc4bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cnd_notes_id_elg_flg</element>
+            <position>53</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>c79e945e1bac5410d16d8735cc4bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cnd_employee_no_elg_flg</element>
+            <position>54</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>4b9e945e1bac5410d16d8735cc4bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cnd_name_jp_elg_flg</element>
+            <position>55</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>cb9e945e1bac5410d16d8735cc4bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cnd_name_en_elg_flg</element>
+            <position>56</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>4f9e945e1bac5410d16d8735cc4bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cnd_dept_code_elg_flg</element>
+            <position>57</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>cf9e945e1bac5410d16d8735cc4bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cnd_dept_name_elg_flg</element>
+            <position>58</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>439e945e1bac5410d16d8735cc4bcb0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cnd_mgr_notes_id_elg</element>
+            <position>59</position>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_id>c39e945e1bac5410d16d8735cc4bcb0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_ibmj_mgr_spt_task_subcategory</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf9e545e1bac5410d16d8735cc4bcbf1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ibmj_mgr_spt_task_subcategory</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+            <sys_update_name>sys_ui_section_cf9e545e1bac5410d16d8735cc4bcbf1</sys_update_name>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Test view1" name="Test_view1">439e545e1bac5410d16d8735cc4bcbee</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sys_ui_section_cf9e545e1bac5410d16d8735cc4bcbf1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="cf9e545e1bac5410d16d8735cc4bcbf1" sys_domain="global" table="x_ibmj_mgr_spt_task_subcategory" version="3" view="Test_view1"><sys_ui_element action="INSERT_OR_UPDATE"><element>u_parent_taskcategory</element><position>0</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>4f9e945e1bac5410d16d8735cc4bcb05</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_task_subcategory</element><position>1</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>cf9e945e1bac5410d16d8735cc4bcb05</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_task_rec_start_dt</element><position>2</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>439e945e1bac5410d16d8735cc4bcb06</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_task_rec_end_dt</element><position>3</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>c39e945e1bac5410d16d8735cc4bcb06</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>4</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>479e945e1bac5410d16d8735cc4bcb06</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_cnd_notes_id_flg</element><position>5</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>c79e945e1bac5410d16d8735cc4bcb06</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_cnd_employee_no_flg</element><position>6</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>4b9e945e1bac5410d16d8735cc4bcb06</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_cnd_name_jp_flg</element><position>7</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>cb9e945e1bac5410d16d8735cc4bcb06</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_cnd_name_en_flg</element><position>8</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>4f9e945e1bac5410d16d8735cc4bcb06</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_cnd_dept_code_flg</element><position>9</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>cf9e945e1bac5410d16d8735cc4bcb06</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_cnd_dept_name_flg</element><position>10</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>439e945e1bac5410d16d8735cc4bcb07</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_cnd_mgr_notes_id_flg</element><position>11</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>c39e945e1bac5410d16d8735cc4bcb07</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_prize_d_flg</element><position>12</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>479e945e1bac5410d16d8735cc4bcb07</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_prize_y_flg</element><position>13</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>c79e945e1bac5410d16d8735cc4bcb07</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_customer_name_en_flg</element><position>14</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>4b9e945e1bac5410d16d8735cc4bcb07</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_customer_name_jn_flg</element><position>15</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>cb9e945e1bac5410d16d8735cc4bcb07</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_customer_issue_flg</element><position>16</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>4f9e945e1bac5410d16d8735cc4bcb07</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_customer_sat_date_flg</element><position>17</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>cf9e945e1bac5410d16d8735cc4bcb07</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_opportunity_no_flg</element><position>18</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>439e945e1bac5410d16d8735cc4bcb08</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_work_no_flg</element><position>19</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>c39e945e1bac5410d16d8735cc4bcb08</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_oem_flg</element><position>20</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>479e945e1bac5410d16d8735cc4bcb08</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_request_reason_flg</element><position>21</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>c79e945e1bac5410d16d8735cc4bcb08</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_reason_flg</element><position>22</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>4b9e945e1bac5410d16d8735cc4bcb08</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_application_type_flg</element><position>23</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>cb9e945e1bac5410d16d8735cc4bcb08</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_role_en_flg</element><position>24</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>4f9e945e1bac5410d16d8735cc4bcb08</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_roadmap_status_flg</element><position>25</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>cf9e945e1bac5410d16d8735cc4bcb08</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_servicein_date_flg</element><position>26</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>439e945e1bac5410d16d8735cc4bcb09</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_solution_description_flg</element><position>27</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>c39e945e1bac5410d16d8735cc4bcb09</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_attachment_flg</element><position>28</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>479e945e1bac5410d16d8735cc4bcb09</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>29</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>c79e945e1bac5410d16d8735cc4bcb09</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_project_name_en_flg</element><position>30</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>4b9e945e1bac5410d16d8735cc4bcb09</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_project_name_jn_flg</element><position>31</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>cb9e945e1bac5410d16d8735cc4bcb09</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_project_summary_flg</element><position>32</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>4f9e945e1bac5410d16d8735cc4bcb09</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_project_introduction_flg</element><position>33</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>cf9e945e1bac5410d16d8735cc4bcb09</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_num_of_fte_flg</element><position>34</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>439e945e1bac5410d16d8735cc4bcb0a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_num_of_brands_flg</element><position>35</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>c39e945e1bac5410d16d8735cc4bcb0a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_tcv_d_flg</element><position>36</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>479e945e1bac5410d16d8735cc4bcb0a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_tsv_d_flg</element><position>37</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>c79e945e1bac5410d16d8735cc4bcb0a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_target_tcv_d_flg</element><position>38</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>4b9e945e1bac5410d16d8735cc4bcb0a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_target_revenue_d_flg</element><position>39</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>cb9e945e1bac5410d16d8735cc4bcb0a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_subentry_field_flg</element><position>40</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>4f9e945e1bac5410d16d8735cc4bcb0a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_add_reason_flg</element><position>41</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>cf9e945e1bac5410d16d8735cc4bcb0a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_close_week_flg</element><position>42</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>439e945e1bac5410d16d8735cc4bcb0b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_close_date_flg</element><position>43</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>c39e945e1bac5410d16d8735cc4bcb0b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_close_month_flg</element><position>44</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>479e945e1bac5410d16d8735cc4bcb0b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_ss_rep_notes_id_flg</element><position>45</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>c79e945e1bac5410d16d8735cc4bcb0b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_ss_mgr_flg</element><position>46</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>4b9e945e1bac5410d16d8735cc4bcb0b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_gp_var_pln_act_flg</element><position>47</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>cb9e945e1bac5410d16d8735cc4bcb0b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_cont_use_ratio_flg</element><position>48</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>4f9e945e1bac5410d16d8735cc4bcb0b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_in_quarter_revenue_d_flg</element><position>49</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>cf9e945e1bac5410d16d8735cc4bcb0b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_camss_flg</element><position>50</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>439e945e1bac5410d16d8735cc4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_comment_flg</element><position>51</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>c39e945e1bac5410d16d8735cc4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_awd_init_gpratio_for_deproj_flg</element><position>52</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>479e945e1bac5410d16d8735cc4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_cnd_notes_id_elg_flg</element><position>53</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>c79e945e1bac5410d16d8735cc4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_cnd_employee_no_elg_flg</element><position>54</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>4b9e945e1bac5410d16d8735cc4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_cnd_name_jp_elg_flg</element><position>55</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>cb9e945e1bac5410d16d8735cc4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_cnd_name_en_elg_flg</element><position>56</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>4f9e945e1bac5410d16d8735cc4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_cnd_dept_code_elg_flg</element><position>57</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>cf9e945e1bac5410d16d8735cc4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_cnd_dept_name_elg_flg</element><position>58</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>439e945e1bac5410d16d8735cc4bcb0d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_cnd_mgr_notes_id_elg</element><position>59</position><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_id>c39e945e1bac5410d16d8735cc4bcb0d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_task_subcategory" sys_domain="global" view="439e545e1bac5410d16d8735cc4bcbee">cf9e545e1bac5410d16d8735cc4bcbf1</sys_ui_section><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_ibmj_mgr_spt_task_subcategory</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-05 05:41:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cf9e545e1bac5410d16d8735cc4bcbf1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_ibmj_mgr_spt_task_subcategory</sys_name><sys_overrides/><sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package><sys_policy/><sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope><sys_update_name>sys_ui_section_cf9e545e1bac5410d16d8735cc4bcbf1</sys_update_name><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-05 05:41:05</sys_updated_on><sys_user/><title>false</title><view display_value="Test view1" name="Test_view1">439e545e1bac5410d16d8735cc4bcbee</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>502527331</payload_hash>
+        <record_name>Task Subcategory</record_name>
+        <reverted_from/>
+        <source>e49465e11bcc9410cbd3ece9bc4bcb00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-05 05:41:05</sys_created_on>
+        <sys_id>579e945e1bac5410d16d8735cc4bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171e35a1c080000001</sys_recorded_at>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-05 05:41:05</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>df9e945e9eac5410edfac8af7a429711</update_guid>
+        <update_guid_history>df9e945e9eac5410edfac8af7a429711:502527331</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-05 05:42:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>adc0c343e10546b0bcedfbce59bcb440</sys_id>
+        <sys_metadata>cf9e545e1bac5410d16d8735cc4bcbf1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ibmj_mgr_spt_task_subcategory</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent display_value="Task Subcategory">1ab311d81b609010d16d8735cc4bcbc2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sys_ui_section_cf9e545e1bac5410d16d8735cc4bcbf1</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_cf9e545e1bac5410d16d8735cc4bcbf1">579e945e1bac5410d16d8735cc4bcb12</sys_update_version>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-05 05:42:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

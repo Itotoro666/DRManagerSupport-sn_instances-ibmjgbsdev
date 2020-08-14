@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_ibmj_mgr_spt.hr_chkpoint_goal" name="x_ibmj_mgr_spt.hr_chkpoint_goal">8b6248b61b785410d16d8735cc4bcbdd</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-19 03:10:56</sys_created_on>
+        <sys_id>d88208b61b785410d16d8735cc4bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8b6248b61b785410d16d8735cc4bcbdd</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_embedded_help_role_d88208b61b785410d16d8735cc4bcb4c</sys_update_name>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-19 03:10:56</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

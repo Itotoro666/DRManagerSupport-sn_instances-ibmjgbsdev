@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_1st_level_flg</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-05-07 10:49:48</sys_created_on>
+        <sys_id>b61833b21ba4d410d16d8735cc4bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_1st_level_flg</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b61833b21ba4d410d16d8735cc4bcb8c</sys_update_name>
+        <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+        <sys_updated_on>2020-05-07 10:49:48</sys_updated_on>
+        <table>x_ibmj_mgr_spt_manager_task</table>
+        <ui_policy display_value="Manager Task - Hide form fields">c31d66961be89410cbd3ece9bc4bcbf1</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sys_ui_policy_action_b61833b21ba4d410d16d8735cc4bcb8c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_1st_level_flg</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>GaoTang.Xiong</sys_created_by><sys_created_on>2020-05-07 10:49:48</sys_created_on><sys_id>b61833b21ba4d410d16d8735cc4bcb8c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_1st_level_flg</sys_name><sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package><sys_policy/><sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope><sys_update_name>sys_ui_policy_action_b61833b21ba4d410d16d8735cc4bcb8c</sys_update_name><sys_updated_by>GaoTang.Xiong</sys_updated_by><sys_updated_on>2020-05-07 10:49:48</sys_updated_on><table>x_ibmj_mgr_spt_manager_task</table><ui_policy display_value="Manager Task - Hide form fields">c31d66961be89410cbd3ece9bc4bcbf1</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>2122875886</payload_hash>
+        <record_name>u_1st_level_flg</record_name>
+        <reverted_from/>
+        <source>e49465e11bcc9410cbd3ece9bc4bcb00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-05-07 10:49:48</sys_created_on>
+        <sys_id>0d78f3b21ba4d410d16d8735cc4bcb59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171eec1787d0000001</sys_recorded_at>
+        <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+        <sys_updated_on>2020-05-07 10:49:48</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>4578f3b20ca4d410518147c94afddb59</update_guid>
+        <update_guid_history>4578f3b20ca4d410518147c94afddb59:2122875886</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-05-07 12:11:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>0548d5fd16e24e1eb50d5024f66aa681</sys_id>
+        <sys_metadata>b61833b21ba4d410d16d8735cc4bcb8c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_1st_level_flg</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent display_value="Manager Task - Hide form fields">c31d66961be89410cbd3ece9bc4bcbf1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_b61833b21ba4d410d16d8735cc4bcb8c</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_b61833b21ba4d410d16d8735cc4bcb8c">0d78f3b21ba4d410d16d8735cc4bcb59</sys_update_version>
+        <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+        <sys_updated_on>2020-05-07 12:11:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_ibmj_mgr_spt_employee" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_emp_id</element>
+            <list_id display_value="x_ibmj_mgr_spt_employee" element="NULL" name="x_ibmj_mgr_spt_employee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4deefe961bfc1410d16d8735cc4bcbe6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>Jian.Ge</sys_created_by>
+            <sys_created_on>2020-05-18 03:37:03</sys_created_on>
+            <sys_id>09eefe961bfc1410d16d8735cc4bcbe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Jian.Ge</sys_updated_by>
+            <sys_updated_on>2020-05-18 03:37:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_first_name_e</element>
+            <list_id display_value="x_ibmj_mgr_spt_employee" element="NULL" name="x_ibmj_mgr_spt_employee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4deefe961bfc1410d16d8735cc4bcbe6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Jian.Ge</sys_created_by>
+            <sys_created_on>2020-05-18 03:37:03</sys_created_on>
+            <sys_id>89eefe961bfc1410d16d8735cc4bcbe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Jian.Ge</sys_updated_by>
+            <sys_updated_on>2020-05-18 03:37:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_last_name_e</element>
+            <list_id display_value="x_ibmj_mgr_spt_employee" element="NULL" name="x_ibmj_mgr_spt_employee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4deefe961bfc1410d16d8735cc4bcbe6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>Jian.Ge</sys_created_by>
+            <sys_created_on>2020-05-18 03:37:03</sys_created_on>
+            <sys_id>0deefe961bfc1410d16d8735cc4bcbe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Jian.Ge</sys_updated_by>
+            <sys_updated_on>2020-05-18 03:37:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_last_name_j</element>
+            <list_id display_value="x_ibmj_mgr_spt_employee" element="NULL" name="x_ibmj_mgr_spt_employee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4deefe961bfc1410d16d8735cc4bcbe6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>Jian.Ge</sys_created_by>
+            <sys_created_on>2020-05-18 03:37:03</sys_created_on>
+            <sys_id>8deefe961bfc1410d16d8735cc4bcbe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Jian.Ge</sys_updated_by>
+            <sys_updated_on>2020-05-18 03:37:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_first_name_j</element>
+            <list_id display_value="x_ibmj_mgr_spt_employee" element="NULL" name="x_ibmj_mgr_spt_employee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4deefe961bfc1410d16d8735cc4bcbe6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>Jian.Ge</sys_created_by>
+            <sys_created_on>2020-05-18 03:37:03</sys_created_on>
+            <sys_id>01eefe961bfc1410d16d8735cc4bcbe8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Jian.Ge</sys_updated_by>
+            <sys_updated_on>2020-05-18 03:37:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_email_address</element>
+            <list_id display_value="x_ibmj_mgr_spt_employee" element="NULL" name="x_ibmj_mgr_spt_employee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4deefe961bfc1410d16d8735cc4bcbe6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>Jian.Ge</sys_created_by>
+            <sys_created_on>2020-05-18 03:37:03</sys_created_on>
+            <sys_id>81eefe961bfc1410d16d8735cc4bcbe8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Jian.Ge</sys_updated_by>
+            <sys_updated_on>2020-05-18 03:37:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_notesid</element>
+            <list_id display_value="x_ibmj_mgr_spt_employee" element="NULL" name="x_ibmj_mgr_spt_employee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4deefe961bfc1410d16d8735cc4bcbe6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>Jian.Ge</sys_created_by>
+            <sys_created_on>2020-05-18 03:37:03</sys_created_on>
+            <sys_id>05eefe961bfc1410d16d8735cc4bcbe8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Jian.Ge</sys_updated_by>
+            <sys_updated_on>2020-05-18 03:37:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_dept_code</element>
+            <list_id display_value="x_ibmj_mgr_spt_employee" element="NULL" name="x_ibmj_mgr_spt_employee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4deefe961bfc1410d16d8735cc4bcbe6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>Jian.Ge</sys_created_by>
+            <sys_created_on>2020-05-18 03:37:03</sys_created_on>
+            <sys_id>85eefe961bfc1410d16d8735cc4bcbe8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Jian.Ge</sys_updated_by>
+            <sys_updated_on>2020-05-18 03:37:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_dept_name</element>
+            <list_id display_value="x_ibmj_mgr_spt_employee" element="NULL" name="x_ibmj_mgr_spt_employee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4deefe961bfc1410d16d8735cc4bcbe6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>Jian.Ge</sys_created_by>
+            <sys_created_on>2020-05-18 03:37:03</sys_created_on>
+            <sys_id>09eefe961bfc1410d16d8735cc4bcbe8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Jian.Ge</sys_updated_by>
+            <sys_updated_on>2020-05-18 03:37:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_is_manager</element>
+            <list_id display_value="x_ibmj_mgr_spt_employee" element="NULL" name="x_ibmj_mgr_spt_employee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4deefe961bfc1410d16d8735cc4bcbe6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>Jian.Ge</sys_created_by>
+            <sys_created_on>2020-05-18 03:37:03</sys_created_on>
+            <sys_id>89eefe961bfc1410d16d8735cc4bcbe8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Jian.Ge</sys_updated_by>
+            <sys_updated_on>2020-05-18 03:37:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_ibmj_mgr_spt_employee</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Jian.Ge</sys_created_by>
+            <sys_created_on>2020-05-18 03:37:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4deefe961bfc1410d16d8735cc4bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ibmj_mgr_spt_employee</sys_name>
+            <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+            <sys_update_name>sys_ui_list_x_ibmj_mgr_spt_employee_null</sys_update_name>
+            <sys_updated_by>Jian.Ge</sys_updated_by>
+            <sys_updated_on>2020-05-18 03:37:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Manager Support</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Manager Support</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">b4e6a5842f320010b09c11c82799b6d5</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>Akiyoshi.Kawabe</sys_created_by>
+        <sys_created_on>2020-04-07 08:27:27</sys_created_on>
+        <sys_id>5f2878951b449410cbd3ece9bc4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manager Support</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_wizard_answer_5f2878951b449410cbd3ece9bc4bcbbf</sys_update_name>
+        <sys_updated_by>Akiyoshi.Kawabe</sys_updated_by>
+        <sys_updated_on>2020-04-07 08:27:27</sys_updated_on>
+        <table/>
+        <target_url>x_ibmj_mgr_spt_mgr_support.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

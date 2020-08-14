@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Award Request">647704051be4d010d16d8735cc4bcba2</sc_cat_item>
+        <sc_category display_value="Biz Ops">78fa159c1be09010cbd3ece9bc4bcb7c</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-05-01 07:00:28</sys_created_on>
+        <sys_id>cf6a80851be4d010d16d8735cc4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Biz Ops.AWARDノミネーション起票</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sc_cat_item_category_cf6a80851be4d010d16d8735cc4bcb53</sys_update_name>
+        <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+        <sys_updated_on>2020-05-01 07:00:28</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

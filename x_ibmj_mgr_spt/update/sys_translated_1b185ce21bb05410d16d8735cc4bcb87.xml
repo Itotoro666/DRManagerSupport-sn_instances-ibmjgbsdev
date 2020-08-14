@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>title</element>
+        <id/>
+        <label>すべて - 現在OPEN中のみ</label>
+        <language>ja</language>
+        <name>sys_app_module</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-18 10:06:52</sys_created_on>
+        <sys_id>1b185ce21bb05410d16d8735cc4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>すべて - 現在OPEN中のみ</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_translated_1b185ce21bb05410d16d8735cc4bcb87</sys_update_name>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-18 10:06:52</sys_updated_on>
+        <value>All - Currently Open Only </value>
+    </sys_translated>
+</record_update>

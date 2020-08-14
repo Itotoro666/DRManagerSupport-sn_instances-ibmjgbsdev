@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="31aa3bae1b6c9410d16d8735cc4bcb7d" sys_domain="global" table="x_ibmj_mgr_spt_manager_task" version="3" view="test">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-06 16:23:19</sys_created_on>
+            <sys_id>303bbfae1b6c9410d16d8735cc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-06 16:23:19</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_parent_taskmaster.u_task_category</element>
+            <position>1</position>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-06 16:23:19</sys_created_on>
+            <sys_id>b03bbfae1b6c9410d16d8735cc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-06 16:23:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requester</element>
+            <position>2</position>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-06 16:23:19</sys_created_on>
+            <sys_id>343bbfae1b6c9410d16d8735cc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-06 16:23:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-06 16:23:19</sys_created_on>
+            <sys_id>b43bbfae1b6c9410d16d8735cc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-06 16:23:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-06 16:23:19</sys_created_on>
+            <sys_id>383bbfae1b6c9410d16d8735cc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-06 16:23:19</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_task_detail</element>
+            <position>5</position>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-06 16:23:19</sys_created_on>
+            <sys_id>b83bbfae1b6c9410d16d8735cc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-06 16:23:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_task_comment</element>
+            <position>6</position>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-06 16:23:19</sys_created_on>
+            <sys_id>3c3bbfae1b6c9410d16d8735cc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-06 16:23:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>7</position>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-06 16:23:19</sys_created_on>
+            <sys_id>bc3bbfae1b6c9410d16d8735cc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-06 16:23:19</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nomination_slot</element>
+            <position>8</position>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-06 16:23:19</sys_created_on>
+            <sys_id>303bbfae1b6c9410d16d8735cc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-06 16:23:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_task_due_date</element>
+            <position>9</position>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-06 16:23:19</sys_created_on>
+            <sys_id>b03bbfae1b6c9410d16d8735cc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-06 16:23:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-06 16:23:19</sys_created_on>
+            <sys_id>343bbfae1b6c9410d16d8735cc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-06 16:23:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_parent_taskmaster</element>
+            <position>11</position>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-06 16:23:19</sys_created_on>
+            <sys_id>b43bbfae1b6c9410d16d8735cc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-06 16:23:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_parent_managertask</element>
+            <position>12</position>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-06 16:23:19</sys_created_on>
+            <sys_id>383bbfae1b6c9410d16d8735cc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-06 16:23:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_ibmj_mgr_spt_manager_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>GaoTang.Xiong</sys_created_by>
+            <sys_created_on>2020-05-06 16:20:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31aa3bae1b6c9410d16d8735cc4bcb7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ibmj_mgr_spt_manager_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+            <sys_update_name>sys_ui_section_31aa3bae1b6c9410d16d8735cc4bcb7d</sys_update_name>
+            <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+            <sys_updated_on>2020-05-06 16:20:56</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="test" name="test">f1aa3bae1b6c9410d16d8735cc4bcb79</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sys_ui_section_31aa3bae1b6c9410d16d8735cc4bcb7d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="31aa3bae1b6c9410d16d8735cc4bcb7d" sys_domain="global" table="x_ibmj_mgr_spt_manager_task" version="3" view="test"><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>GaoTang.Xiong</sys_created_by><sys_created_on>2020-05-06 16:23:19</sys_created_on><sys_id>303bbfae1b6c9410d16d8735cc4bcbb9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section><sys_updated_by>GaoTang.Xiong</sys_updated_by><sys_updated_on>2020-05-06 16:23:19</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_parent_taskmaster.u_task_category</element><position>1</position><sys_created_by>GaoTang.Xiong</sys_created_by><sys_created_on>2020-05-06 16:23:19</sys_created_on><sys_id>b03bbfae1b6c9410d16d8735cc4bcbb9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section><sys_updated_by>GaoTang.Xiong</sys_updated_by><sys_updated_on>2020-05-06 16:23:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_requester</element><position>2</position><sys_created_by>GaoTang.Xiong</sys_created_by><sys_created_on>2020-05-06 16:23:19</sys_created_on><sys_id>343bbfae1b6c9410d16d8735cc4bcbb9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section><sys_updated_by>GaoTang.Xiong</sys_updated_by><sys_updated_on>2020-05-06 16:23:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>GaoTang.Xiong</sys_created_by><sys_created_on>2020-05-06 16:23:19</sys_created_on><sys_id>b43bbfae1b6c9410d16d8735cc4bcbb9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section><sys_updated_by>GaoTang.Xiong</sys_updated_by><sys_updated_on>2020-05-06 16:23:19</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>GaoTang.Xiong</sys_created_by><sys_created_on>2020-05-06 16:23:19</sys_created_on><sys_id>383bbfae1b6c9410d16d8735cc4bcbb9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section><sys_updated_by>GaoTang.Xiong</sys_updated_by><sys_updated_on>2020-05-06 16:23:19</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_task_detail</element><position>5</position><sys_created_by>GaoTang.Xiong</sys_created_by><sys_created_on>2020-05-06 16:23:19</sys_created_on><sys_id>b83bbfae1b6c9410d16d8735cc4bcbb9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section><sys_updated_by>GaoTang.Xiong</sys_updated_by><sys_updated_on>2020-05-06 16:23:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_task_comment</element><position>6</position><sys_created_by>GaoTang.Xiong</sys_created_by><sys_created_on>2020-05-06 16:23:19</sys_created_on><sys_id>3c3bbfae1b6c9410d16d8735cc4bcbb9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section><sys_updated_by>GaoTang.Xiong</sys_updated_by><sys_updated_on>2020-05-06 16:23:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>7</position><sys_created_by>GaoTang.Xiong</sys_created_by><sys_created_on>2020-05-06 16:23:19</sys_created_on><sys_id>bc3bbfae1b6c9410d16d8735cc4bcbb9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section><sys_updated_by>GaoTang.Xiong</sys_updated_by><sys_updated_on>2020-05-06 16:23:19</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_nomination_slot</element><position>8</position><sys_created_by>GaoTang.Xiong</sys_created_by><sys_created_on>2020-05-06 16:23:19</sys_created_on><sys_id>303bbfae1b6c9410d16d8735cc4bcbba</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section><sys_updated_by>GaoTang.Xiong</sys_updated_by><sys_updated_on>2020-05-06 16:23:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_task_due_date</element><position>9</position><sys_created_by>GaoTang.Xiong</sys_created_by><sys_created_on>2020-05-06 16:23:19</sys_created_on><sys_id>b03bbfae1b6c9410d16d8735cc4bcbba</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section><sys_updated_by>GaoTang.Xiong</sys_updated_by><sys_updated_on>2020-05-06 16:23:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>10</position><sys_created_by>GaoTang.Xiong</sys_created_by><sys_created_on>2020-05-06 16:23:19</sys_created_on><sys_id>343bbfae1b6c9410d16d8735cc4bcbba</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section><sys_updated_by>GaoTang.Xiong</sys_updated_by><sys_updated_on>2020-05-06 16:23:19</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_parent_taskmaster</element><position>11</position><sys_created_by>GaoTang.Xiong</sys_created_by><sys_created_on>2020-05-06 16:23:19</sys_created_on><sys_id>b43bbfae1b6c9410d16d8735cc4bcbba</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section><sys_updated_by>GaoTang.Xiong</sys_updated_by><sys_updated_on>2020-05-06 16:23:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_parent_managertask</element><position>12</position><sys_created_by>GaoTang.Xiong</sys_created_by><sys_created_on>2020-05-06 16:23:19</sys_created_on><sys_id>383bbfae1b6c9410d16d8735cc4bcbba</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ibmj_mgr_spt_manager_task" sys_domain="global" view="f1aa3bae1b6c9410d16d8735cc4bcb79">31aa3bae1b6c9410d16d8735cc4bcb7d</sys_ui_section><sys_updated_by>GaoTang.Xiong</sys_updated_by><sys_updated_on>2020-05-06 16:23:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_ibmj_mgr_spt_manager_task</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>GaoTang.Xiong</sys_created_by><sys_created_on>2020-05-06 16:20:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>31aa3bae1b6c9410d16d8735cc4bcb7d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_ibmj_mgr_spt_manager_task</sys_name><sys_overrides/><sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package><sys_policy/><sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope><sys_update_name>sys_ui_section_31aa3bae1b6c9410d16d8735cc4bcb7d</sys_update_name><sys_updated_by>GaoTang.Xiong</sys_updated_by><sys_updated_on>2020-05-06 16:20:56</sys_updated_on><sys_user/><title>false</title><view display_value="test" name="test">f1aa3bae1b6c9410d16d8735cc4bcb79</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-2108763715</payload_hash>
+        <record_name>Manager Task</record_name>
+        <reverted_from/>
+        <source>e49465e11bcc9410cbd3ece9bc4bcb00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-05-06 16:23:19</sys_created_on>
+        <sys_id>783bbfae1b6c9410d16d8735cc4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171eacc74b00000001</sys_recorded_at>
+        <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+        <sys_updated_on>2020-05-06 16:23:19</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>f03bbfae536c94103c9c2d6c4bcc79bc</update_guid>
+        <update_guid_history>f03bbfae536c94103c9c2d6c4bcc79bc:-2108763715,35aa3bae5c6c94107e98ac7fc4e29bdd:-1925393969</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-05-06 16:35:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>02caa325e06f4fc09db1b37904ec6400</sys_id>
+        <sys_metadata>31aa3bae1b6c9410d16d8735cc4bcb7d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ibmj_mgr_spt_manager_task</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent display_value="Manager Task">4e13f4331b505010d16d8735cc4bcbcd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sys_ui_section_31aa3bae1b6c9410d16d8735cc4bcb7d</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_31aa3bae1b6c9410d16d8735cc4bcb7d">783bbfae1b6c9410d16d8735cc4bcbbc</sys_update_version>
+        <sys_updated_by>GaoTang.Xiong</sys_updated_by>
+        <sys_updated_on>2020-05-06 16:35:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

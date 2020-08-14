@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_target_term" label="Target Term" language="en" table="x_ibmj_mgr_spt_task_master">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_target_term</element>
+            <help/>
+            <hint/>
+            <label>Target Term</label>
+            <language>en</language>
+            <name>x_ibmj_mgr_spt_task_master</name>
+            <plural>Target Terms</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Man.Wan</sys_created_by>
+            <sys_created_on>2020-04-27 11:46:54</sys_created_on>
+            <sys_id>719a28882f591410b09c11c82799b684</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Target Term</sys_name>
+            <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+            <sys_update_name>sys_documentation_x_ibmj_mgr_spt_task_master_u_target_term_en</sys_update_name>
+            <sys_updated_by>Man.Wan</sys_updated_by>
+            <sys_updated_on>2020-04-27 11:46:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

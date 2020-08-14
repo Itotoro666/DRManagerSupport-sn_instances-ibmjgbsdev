@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>managerTask_Submit_to_all_line</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments>ノミネーション依頼(配下全Mgr)&#13;
+</comments>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Submit to all line</name>
+        <onclick>SubmitToAllLineOnClick()</onclick>
+        <order>300</order>
+        <script><![CDATA[//Client-side 'onclick' function
+function SubmitToAllLineOnClick(){
+	if(confirm('あなたの配下の全マネージャーに作業依頼をします。')){
+		//Call the UI Action and skip the 'onclick' function
+		gsftSubmit(null, g_form.getFormElement(), 'managerTask_Submit_to_all_line'); 
+	}
+	else{
+		return false;  
+	}
+}
+// check if the manager is the first line manager
+function isFirstLineMgr(username) {
+	var gr = new GlideRecord('sys_user');
+	gr.addQuery('manager.name', username);
+	gr.addQuery('active',true);
+	gr.query();
+
+	if (gr.next()) {
+		if (gr.u_ismanager){
+			//var gr1 = new GlideRecord('sys_user');
+			//gr1.addQuery('manager.name', gr.name);
+			//gr1.addQuery('active',true);
+			//gr1.query();
+			//if (gr1.next()){
+			return false;
+		}
+		else {
+			return true;
+		}			
+		//}
+		//else {return true;}
+	}
+	else {
+		return true;
+	}
+}
+
+//Ensure call to server-side function with no browser errors
+if(typeof window == 'undefined')
+	updateAllLineMgrTaskStatus();
+
+
+//Server-side function
+function updateAllLineMgrTaskStatus(){
+
+	var parent = current.number;
+	var managerTask = new GlideRecord('x_ibmj_mgr_spt_manager_task');
+	managerTask.addQuery('u_parent_managertask.number',parent);
+	managerTask.addQuery('active',true);
+	managerTask.query();
+
+	while(managerTask.next()){
+		
+			var userRec = new GlideRecord('sys_user');
+			userRec.addQuery('user_name', managerTask.u_assigned_to.user_name);
+			userRec.addQuery('active',true);
+			userRec.addQuery('u_ismanager',true);
+			userRec.query();
+
+			if (userRec.next()) {
+			var username =userRec.name;
+			if (isFirstLineMgr(username)) {
+			//	gs.addInfoMessage('Manager '+ username + ' is a first line manager.');	
+				managerTask.u_mgr_task_status = 'not_started';
+				var email1 = managerTask.u_assigned_to.email;
+				//var email1 = 'wanman@cn.ibm.com';
+				//gs.eventQueue('x_ibmj_mgr_spt.newFirstLineManagerTask',managerTask,managerTask.number,email1);
+			}
+			else {
+			//	gs.addInfoMessage('Manager '+ username + ' is not a first line manager.');
+				managerTask.u_mgr_task_status = 'assign_complete';
+				var email2 = managerTask.u_assigned_to.email;
+				//var email2 = 'wanman@cn.ibm.com';
+				//gs.eventQueue('x_ibmj_mgr_spt.newMiddleManagerTask',managerTask,managerTask.number,email2);
+			}
+			managerTask.update();
+		}
+		else {
+			if (managerTask.u_nomination_slot > 0) {
+				gs.addErrorMessage(managerTask.u_assigned_to.name + 'さんは、GBSから離れました。推薦枠をゼロに変更して他の人に推薦枠を割り当ててください。');
+			}
+
+		}
+		current.u_mgr_task_status = 'assign_complete';
+		current.u_assignment_type = 'All Line';
+		current.update();
+		action.setRedirectURL(current);
+	}
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-11 12:05:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fc2070d41b781010d16d8735cc4bcb11</sys_id>
+        <sys_mod_count>57</sys_mod_count>
+        <sys_name>Submit to all line</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_ui_action_fc2070d41b781010d16d8735cc4bcb11</sys_update_name>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-13 07:38:59</sys_updated_on>
+        <table>x_ibmj_mgr_spt_manager_task</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

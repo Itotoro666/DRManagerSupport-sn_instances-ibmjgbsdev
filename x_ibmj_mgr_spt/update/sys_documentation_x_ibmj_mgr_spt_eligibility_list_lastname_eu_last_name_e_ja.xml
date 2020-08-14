@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="lastname_eu_last_name_e" label="姓(英語)" language="ja" table="x_ibmj_mgr_spt_eligibility_list">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>lastname_eu_last_name_e</element>
+            <help/>
+            <hint/>
+            <label>姓(英語)</label>
+            <language>ja</language>
+            <name>x_ibmj_mgr_spt_eligibility_list</name>
+            <plural>姓(英語)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Jian.Ge</sys_created_by>
+            <sys_created_on>2020-05-05 03:19:31</sys_created_on>
+            <sys_id>e62efb4e1b249410cbd3ece9bc4bcbfd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>姓(英語)</sys_name>
+            <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+            <sys_update_name>sys_documentation_x_ibmj_mgr_spt_eligibility_list_lastname_eu_last_name_e_ja</sys_update_name>
+            <sys_updated_by>Jian.Ge</sys_updated_by>
+            <sys_updated_on>2020-05-05 03:19:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Task Category" max_length="40" name="x_ibmj_mgr_spt_task_category" sizeclass="0" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="タスクカテゴリ番号" max_length="40" name="number" type="string"/>
+        <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Owner Group" max_length="32" name="u_owner_group" reference="sys_user_group" type="reference"/>
+        <element label="Show Button Flag" max_length="40" name="u_show_button_flag" type="boolean"/>
+        <element display="true" label="Task Category" mandatory="true" max_length="50" name="u_task_category" type="string"/>
+        <element label="Expire Date" max_length="40" name="u_task_rec_end_dt" type="glide_date"/>
+        <element label="レコード適用開始日" mandatory="true" max_length="40" name="u_task_rec_start_dt" type="glide_date"/>
+        <index name="index">
+            <element name="u_owner_group"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_awd_gp_var_pln_act_flg</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Task Subcategory - hide update button</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	//	var items = $$('BUTTON').each(function(item){
+	//		if(item.innerHTML.indexof('Update') > -1){
+	//			item.hide(); 
+	//		}
+	//	});
+	//	$j('#sysverb_update')[0].hide();
+	//	$j('#sysverb_update')[1].hide();
+	//	$$('sysverb_update')[2].hide();
+
+	//Remove the 'Update' button
+	/*	var items = $$('BUTTON').each(function(item){
+		if(item.id == 'sysverb_update'){
+			item.hide(); 
+		}
+	});
+*/
+	//	g_form.addInfoMessage('test');
+
+	//	g_form.addInfoMessage('element is ' + top.document.getElementById("sysverb_update"));
+	//	g_form.addInfoMessage('element3 is ' + g_form.getFormElement());
+	//	top.document.getElementById("sysverb_update").style.display = 'none'; // hide
+	//	g_form.getElement("sysverb_update").hide();
+	sysverb_update.hide();
+	sysverb_update_bottom.hide();
+	var element = g_form.getElement("sysverb_update");
+	var element2 = g_form.getElement("sysverb_update_bottom");
+	g_form.addInfoMessage('element tostring is ' + element.toString());	
+	g_form.addInfoMessage('element.style.display is ' + element.style.display);
+	
+	//element.style.display='none';
+	//element2.style.display='none';
+	g_form.addInfoMessage('element.style.display2 is ' + element.style.display);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-04 10:57:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>922dd08e1ba45410d16d8735cc4bcbdf</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name>Task Subcategory - hide update button</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_script_client_922dd08e1ba45410d16d8735cc4bcbdf</sys_update_name>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-06 05:55:04</sys_updated_on>
+        <table>x_ibmj_mgr_spt_task_subcategory</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sys_script_client_922dd08e1ba45410d16d8735cc4bcbdf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_awd_gp_var_pln_act_flg&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Task Subcategory - hide update button&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	//	var items = $$('BUTTON').each(function(item){
+	//		if(item.innerHTML.indexof('Update') &gt; -1){
+	//			item.hide(); 
+	//		}
+	//	});
+	//	$j('#sysverb_update')[0].hide();
+	//	$j('#sysverb_update')[1].hide();
+	//	$$('sysverb_update')[2].hide();
+
+	//Remove the 'Update' button
+	/*	var items = $$('BUTTON').each(function(item){
+		if(item.id == 'sysverb_update'){
+			item.hide(); 
+		}
+	});
+*/
+	//	g_form.addInfoMessage('test');
+
+	//	g_form.addInfoMessage('element is ' + top.document.getElementById("sysverb_update"));
+	//	g_form.addInfoMessage('element3 is ' + g_form.getFormElement());
+	//	top.document.getElementById("sysverb_update").style.display = 'none'; // hide
+	//	g_form.getElement("sysverb_update").hide();
+	sysverb_update.hide();
+	sysverb_update_bottom.hide();
+	var element = g_form.getElement("sysverb_update");
+	var element2 = g_form.getElement("sysverb_update_bottom");
+	g_form.addInfoMessage('element tostring is ' + element.toString());	
+	g_form.addInfoMessage('element.style.display is ' + element.style.display);
+	
+	//element.style.display='none';
+	//element2.style.display='none';
+	g_form.addInfoMessage('element.style.display2 is ' + element.style.display);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Man.Wan&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-04 10:57:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;922dd08e1ba45410d16d8735cc4bcbdf&lt;/sys_id&gt;&lt;sys_mod_count&gt;48&lt;/sys_mod_count&gt;&lt;sys_name&gt;Task Subcategory - hide update button&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Manager Support" source="x_ibmj_mgr_spt"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_922dd08e1ba45410d16d8735cc4bcbdf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Man.Wan&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-06 05:55:04&lt;/sys_updated_on&gt;&lt;table&gt;x_ibmj_mgr_spt_task_subcategory&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-84848566</payload_hash>
+        <record_name>Task Subcategory - hide update button</record_name>
+        <reverted_from/>
+        <source>e49465e11bcc9410cbd3ece9bc4bcb00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-06 05:55:04</sys_created_on>
+        <sys_id>f16ba9261b689410d16d8735cc4bcbf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171e88d46730000001</sys_recorded_at>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-06 05:55:04</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>3d6ba92657689410517a6fd32c6908f6</update_guid>
+        <update_guid_history>3d6ba92657689410517a6fd32c6908f6:-84848566,454a616619689410f9be134f0337b7d6:-1740548995,aac9a926d768941058676b70f6cf7382:1433299271,90a9e926de68941041843289602071a9:-728388409,508969263e68941039000ab6330df5b7:-1376597123,bf5929264368941058846824ac000403:135018640,6635e1a26d6894101c5374bd1f452b77:-670722044,e800adee5d28941050d828bed1c02ac0:2112629489,20ef19eeb42894104216000fb8778a21:-670722044,591fd1ee0a2894102c140c8329a00901:-335375095,c0be11ee2a289410c7247a255d4ba9e2:-1935014698,ce7ed16eb4289410fe9b7d23d2338f96:-1164262026,5aed99aeba289410c027d7bd0ae71be1:-762372145,ef2dd52e31289410ecf3fbdf89c776df:1969607494,467b956ea2289410d02b999ee1c40d0d:-1440789407,ad6bd16e692894104656685c9bf61c7b:-1348603666,a34b99eab7289410145131b6bd98a1f6:-26970763,003b952e96289410c675a7d0a32a241d:-1830104049,5da9952e672894101e3589ad5468a7ef:1437277661,cd1899ea202894107f0bc0dcc7a564a4:-62088839,cbe719aa322894100a1ac198656857c9:-954688307,79d595aa63289410fa05da73784c69fd:-102183760,e4a551aa6428941085fe399688b5e520:-507696936,aa7511aa8a2894106fdc28b94f9a76b6:-1748337709,fb0511aa0a289410db2b26575caf19b2:1972467110,57e3d56a6b28941007f79419ac29ca38:-1214594376,42ac8d66832894104d79f171689cbe16:-1587172767,e7284da205289410609e6f1a870bfe4a:2002014145,e408c922e62894101c01a5ea235d6315:1339616641,2de7c1e23928941063e4749b59203fe1:1948438113,f2a70da25b2894102e9141ac9ee1c57f:-1689003115,62f681a2b62894108940786d79d0b8ff:-1635427083,47368562c7289410da9d9edac45f15a3:-1428809694,8fb585223a289410f2d072f353cc06c3:1387759295,26348deecee49410d8d798c39c6bab75:-56292604,21d385624028941073f6e9386cb36a3b:-578070841,ce40c9ae83e494100fc359d0e868aaaf:1786630618,72451e1e9fa0941045b54f9ab5caaee9:-333385654,9af41e1e0da0941015dd06ca4969346d:-1165620243,a6d4de1e69a09410d524546bd8014050:-739471117,fc9dd952ab6094105767f975c3edce9a:808285760,5a4d981e9eac54104b48aef2cd8b99b0:959436848,ca665c1610ac54104661fb5ea9dd9753:533287722,b05dc8920bac5410289ff8b9e76a9cb4:-1165620243,d7490c92d2ac54104e7a62d11350661d:-333385654,c3570982f2285410d5cdb3a22f779ee3:1214222149,4680490225285410d8c949b1b12d75cb:55203153,bacd58ce8ba454106284bea6776c97c1:1683945200,3b7d94cef1a454108de959ad4d87a7ca:-1094223184</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-06 13:19:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1f23110f53c34740841b0f05c37ad100</sys_id>
+        <sys_metadata>922dd08e1ba45410d16d8735cc4bcbdf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task Subcategory - hide update button</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent display_value="Task Subcategory">1ab311d81b609010d16d8735cc4bcbc2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sys_script_client_922dd08e1ba45410d16d8735cc4bcbdf</sys_update_name>
+        <sys_update_version display_value="sys_script_client_922dd08e1ba45410d16d8735cc4bcbdf">f16ba9261b689410d16d8735cc4bcbf7</sys_update_version>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-06 13:19:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

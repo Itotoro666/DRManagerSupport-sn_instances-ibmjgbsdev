@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>Manager Support assigned_to</name>
+        <parent>53e830d51b449410cbd3ece9bc4bcbac</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>Akiyoshi.Kawabe</sys_created_by>
+        <sys_created_on>2020-04-07 08:30:43</sys_created_on>
+        <sys_id>dbe830d51b449410cbd3ece9bc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manager Support assigned_to</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_dbe830d51b449410cbd3ece9bc4bcbad</sys_update_name>
+        <sys_updated_by>Akiyoshi.Kawabe</sys_updated_by>
+        <sys_updated_on>2020-04-07 08:30:43</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

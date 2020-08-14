@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_tel_no" label="電話番号" language="ja" table="x_ibmj_mgr_spt_eligibility_list">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_tel_no</element>
+            <help/>
+            <hint/>
+            <label>電話番号</label>
+            <language>ja</language>
+            <name>x_ibmj_mgr_spt_eligibility_list</name>
+            <plural>電話番号</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Jian.Ge</sys_created_by>
+            <sys_created_on>2020-05-05 03:20:48</sys_created_on>
+            <sys_id>0b7ebf4e1b249410cbd3ece9bc4bcbab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>電話番号</sys_name>
+            <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+            <sys_update_name>sys_documentation_x_ibmj_mgr_spt_eligibility_list_u_tel_no_ja</sys_update_name>
+            <sys_updated_by>Jian.Ge</sys_updated_by>
+            <sys_updated_on>2020-05-05 03:20:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

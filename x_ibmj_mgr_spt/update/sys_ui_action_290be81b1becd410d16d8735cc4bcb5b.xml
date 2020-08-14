@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>managerTask_Submit_to_direct_line</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments>ノミネーション依頼（直属）&#13;
+</comments>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Submit to direct line</name>
+        <onclick>SubmitToDirectLineOnClick()</onclick>
+        <order>200</order>
+        <script><![CDATA[//Client-side 'onclick' function
+function SubmitToDirectLineOnClick(){
+	if(confirm('「推薦枠のアサイン」に枠の割当があるメンバーに作業依頼をします。')){
+		//Call the UI Action and skip the 'onclick' function
+		gsftSubmit(null, g_form.getFormElement(), 'managerTask_Submit_to_direct_line'); 
+	}
+	else{
+		return false;  
+	}
+}
+//Ensure call to server-side function with no browser errors
+if(typeof window == 'undefined')
+	updateTaskStatus();
+
+//Server-side function
+function updateTaskStatus(){
+	var parent = current.number;
+	var managerTask = new GlideRecord('x_ibmj_mgr_spt_manager_task');
+	managerTask.addQuery('u_parent_managertask.number',parent);
+	managerTask.addQuery('active',true);
+	managerTask.query();
+
+	while(managerTask.next()){
+		if (managerTask.u_nomination_slot == null || managerTask.u_nomination_slot == ''){
+			gs.addErrorMessage('推薦枠の入力がありません。');
+		} 
+		else if (managerTask.u_nomination_slot == '0'){
+			managerTask.u_mgr_task_status = 'recommend_complete';
+		}
+		else {
+			var gr = new GlideRecord('sys_user');
+			gr.addQuery('user_name', managerTask.u_assigned_to.user_name);
+			gr.addQuery('active',true);
+			gr.query();
+			if (gr.next()) {
+				managerTask.u_mgr_task_status = 'not_started';	
+				var email = managerTask.u_assigned_to.email;
+				//var email = 'wanman@cn.ibm.com';
+				gs.eventQueue('x_ibmj_mgr_spt.newDirectLineManagerTask',managerTask,managerTask.number,email);
+			}
+			else {
+				gs.addErrorMessage(managerTask.u_assigned_to.name + 'さんは、GBSから離れました。推薦枠をゼロに変更して他の人に推薦枠を割り当ててください。');
+			}
+		}
+		managerTask.update();
+	}
+	current.u_mgr_task_status = 'assign_complete';
+	current.u_assignment_type = 'Direct Line';
+	current.update();
+	action.setRedirectURL(current);
+}
+]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-08 09:14:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>290be81b1becd410d16d8735cc4bcb5b</sys_id>
+        <sys_mod_count>56</sys_mod_count>
+        <sys_name>Submit to direct line</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_ui_action_290be81b1becd410d16d8735cc4bcb5b</sys_update_name>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-12 10:32:20</sys_updated_on>
+        <table>x_ibmj_mgr_spt_manager_task</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

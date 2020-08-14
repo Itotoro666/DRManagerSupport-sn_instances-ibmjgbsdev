@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>false</active>
+        <application display_value="Manager Support">4e29f0151b449410cbd3ece9bc4bcb7c</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>All Manager Task</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_ibmj_mgr_spt_manager_task</name>
+        <order>3005</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>GaoTang.Xiong</sys_created_by>
+        <sys_created_on>2020-05-13 15:28:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b06173b81b709010d16d8735cc4bcbb9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>All Manager Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_app_module_b06173b81b709010d16d8735cc4bcbb9</sys_update_name>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-14 04:41:25</sys_updated_on>
+        <timeline_page/>
+        <title>All Manager Task</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sys_app_module_b06173b81b709010d16d8735cc4bcbb9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>false</active><application display_value="Manager Support">4e29f0151b449410cbd3ece9bc4bcb7c</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>All Manager Task</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_ibmj_mgr_spt_manager_task</name><order>3005</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>GaoTang.Xiong</sys_created_by><sys_created_on>2020-05-13 15:28:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b06173b81b709010d16d8735cc4bcbb9</sys_id><sys_mod_count>6</sys_mod_count><sys_name>All Manager Task</sys_name><sys_overrides/><sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package><sys_policy/><sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope><sys_update_name>sys_app_module_b06173b81b709010d16d8735cc4bcbb9</sys_update_name><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-14 04:41:25</sys_updated_on><timeline_page/><title>All Manager Task</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1028102918</payload_hash>
+        <record_name>All Manager Task</record_name>
+        <reverted_from/>
+        <source>e49465e11bcc9410cbd3ece9bc4bcb00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-14 04:41:26</sys_created_on>
+        <sys_id>4947e6c51bf49010d16d8735cc4bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172117cb8f60000001</sys_recorded_at>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-14 04:41:26</sys_updated_on>
+        <type>モジュール</type>
+        <update_guid>8147e6c5def490107c6c0483950e994a</update_guid>
+        <update_guid_history>8147e6c5def490107c6c0483950e994a:1028102918,e82c164137f49010b5051176303c1bed:92775493,c025120da8b49010bbd6df68c7866ca4:-1890296465,7245bff8887090104aae2d66bc1d655c:609935529,64b47ff872709010631501715aa4f993:-1433386136,00037bb860709010645a828286606420:1769985159,00037bb860709010645a828286606420:1769985159,57a1b7b818709010ccec3fcbc9263489:-1518352383</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c6c867c91b789010d16d8735cc4bcb15</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-14 09:27:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>14a6b1699c58406e839cf3456eb458c4</sys_id>
+        <sys_metadata>b06173b81b709010d16d8735cc4bcbb9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Manager Task</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sys_app_module_b06173b81b709010d16d8735cc4bcbb9</sys_update_name>
+        <sys_update_version display_value="sys_app_module_b06173b81b709010d16d8735cc4bcbb9">4947e6c51bf49010d16d8735cc4bcb4a</sys_update_version>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-14 09:27:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

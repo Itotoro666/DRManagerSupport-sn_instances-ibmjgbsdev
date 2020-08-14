@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Service Line, Practice, JR/Sにミスマッチの見直し">0b52207a1bb85410d16d8735cc4bcb3d</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-19 06:25:58</sys_created_on>
+        <sys_id>1d2f2c321bf85410d16d8735cc4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Line, Practice, JR/Sにミスマッチの見直し.Group Member</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_1d2f2c321bf85410d16d8735cc4bcb0a</sys_update_name>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-19 06:25:58</sys_updated_on>
+        <user_criteria display_value="Group Member">d01fa8321bf85410d16d8735cc4bcbe6</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_1d2f2c321bf85410d16d8735cc4bcb0a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Service Line, Practice, JR/Sにミスマッチの見直し">0b52207a1bb85410d16d8735cc4bcb3d</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>Man.Wan</sys_created_by><sys_created_on>2020-05-19 06:25:58</sys_created_on><sys_id>1d2f2c321bf85410d16d8735cc4bcb0a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Line, Practice, JR/Sにミスマッチの見直し.Group Member</sys_name><sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package><sys_policy/><sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_1d2f2c321bf85410d16d8735cc4bcb0a</sys_update_name><sys_updated_by>Man.Wan</sys_updated_by><sys_updated_on>2020-05-19 06:25:58</sys_updated_on><user_criteria display_value="Group Member">d01fa8321bf85410d16d8735cc4bcbe6</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-278699671</payload_hash>
+        <record_name>Service Line, Practice, JR/Sにミスマッチの見直し.Group Member</record_name>
+        <reverted_from/>
+        <source>e49465e11bcc9410cbd3ece9bc4bcb00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-19 06:25:58</sys_created_on>
+        <sys_id>d12f2c321bf85410d16d8735cc4bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1722b9c3b310000001</sys_recorded_at>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-19 06:25:58</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>1d2f2c32a9f85410b766eaddac031e0c</update_guid>
+        <update_guid_history>1d2f2c32a9f85410b766eaddac031e0c:-278699671</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e97f6c321bf85410d16d8735cc4bcb07</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Man.Wan</sys_created_by>
+        <sys_created_on>2020-05-19 06:27:22</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>61d4b42c67954794baf5c8e4ff95b349</sys_id>
+        <sys_metadata>1d2f2c321bf85410d16d8735cc4bcb0a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Line, Practice, JR/Sにミスマッチの見直し.Group Member</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent display_value="Service Line, Practice, JR/Sにミスマッチの見直し">0b52207a1bb85410d16d8735cc4bcb3d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_1d2f2c321bf85410d16d8735cc4bcb0a</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_1d2f2c321bf85410d16d8735cc4bcb0a">d12f2c321bf85410d16d8735cc4bcb0d</sys_update_version>
+        <sys_updated_by>Man.Wan</sys_updated_by>
+        <sys_updated_on>2020-05-19 06:27:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

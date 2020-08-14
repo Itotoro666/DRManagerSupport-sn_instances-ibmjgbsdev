@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="候補者リスト" max_length="40" name="x_ibmj_mgr_spt_eligibility_list" sizeclass="0" type="collection">
+        <element label="LastName (E)" max_length="100" name="lastname_eu_last_name_e" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Dept Code" max_length="10" name="u_dept_code" type="string"/>
+        <element label="Dept Name" max_length="100" name="u_dept_name" type="string"/>
+        <element label="eMail Address" max_length="40" name="u_email_address" type="string"/>
+        <element label="Emp No" mandatory="true" max_length="10" name="u_emp_id" type="string"/>
+        <element label="First Name (E)" max_length="100" name="u_first_name_e" type="string"/>
+        <element label="First Name (J)" max_length="100" name="u_first_name_j" type="string"/>
+        <element label="LastName (E)" max_length="100" name="u_last_name_e" type="string"/>
+        <element label="LastName (J)" max_length="100" name="u_last_name_j" type="string"/>
+        <element label="Manager eMail Address" max_length="40" name="u_mgr_email_address" type="string"/>
+        <element label="Manager Emp No" max_length="10" name="u_mgr_emp_id" type="string"/>
+        <element label="Manager Notes ID" max_length="50" name="u_mgr_notesid" type="string"/>
+        <element label="Name (E)" max_length="200" name="u_name_e" type="string"/>
+        <element label="Name (J)" max_length="200" name="u_name_j" type="string"/>
+        <element display="true" label="Notes ID" max_length="50" name="u_notesid" type="string"/>
+        <element label="Parent Task Master" mandatory="true" max_length="32" name="u_parent_taskmaster" reference="x_ibmj_mgr_spt_task_master" type="reference"/>
+        <element label="Tel No" max_length="20" name="u_tel_no" type="string"/>
+        <index name="index">
+            <element name="u_parent_taskmaster"/>
+        </index>
+    </element>
+</database>

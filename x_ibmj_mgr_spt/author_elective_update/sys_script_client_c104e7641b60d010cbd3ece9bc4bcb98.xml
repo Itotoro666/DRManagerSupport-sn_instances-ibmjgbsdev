@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_task_rec_start_dt</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>[to dele]Task Category -  effective date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	var today = new Date();
+	if (newValue <= today.toISOString()){
+		g_form.addErrorMessage('レコード適用開始日は、明日以降の日付を入力してください。');
+	}
+	else{
+		g_form.clearMessages();
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-04-30 09:35:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c104e7641b60d010cbd3ece9bc4bcb98</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>[to dele]Task Category -  effective date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_update_name>sys_script_client_c104e7641b60d010cbd3ece9bc4bcb98</sys_update_name>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-05 09:40:07</sys_updated_on>
+        <table>x_ibmj_mgr_spt_task_category</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</application>
+        <file_path/>
+        <instance_id>09cf326edb3bc014f492c5970596197a</instance_id>
+        <instance_name>ibmjgbsdev</instance_name>
+        <name>sys_script_client_c104e7641b60d010cbd3ece9bc4bcb98</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_task_rec_start_dt&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;[to dele]Task Category -  effective date&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	var today = new Date();
+	if (newValue &lt;= today.toISOString()){
+		g_form.addErrorMessage('レコード適用開始日は、明日以降の日付を入力してください。');
+	}
+	else{
+		g_form.clearMessages();
+	}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Jian.Ge&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-30 09:35:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c104e7641b60d010cbd3ece9bc4bcb98&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;[to dele]Task Category -  effective date&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Manager Support" source="x_ibmj_mgr_spt"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Manager Support"&gt;5284b0151b449410cbd3ece9bc4bcb11&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_c104e7641b60d010cbd3ece9bc4bcb98&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Jian.Ge&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-05 09:40:07&lt;/sys_updated_on&gt;&lt;table&gt;x_ibmj_mgr_spt_task_category&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>661707823</payload_hash>
+        <record_name>[to dele]Task Category -  effective date</record_name>
+        <reverted_from/>
+        <source>e49465e11bcc9410cbd3ece9bc4bcb00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-05 09:40:07</sys_created_on>
+        <sys_id>ec55dd121b289410cbd3ece9bc4bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171e434f11b0000001</sys_recorded_at>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-05 09:40:07</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>2855dd12eb2894102bb4437e1da44983</update_guid>
+        <update_guid_history>2855dd12eb2894102bb4437e1da44983:661707823,47b8dfb05968d010eaeff4aed3668438:1675036281,7cceffa02ca0d0108188354543a10cc5:-93044954,69ca63283160d010880b99fb1fb90771:1274641664,a53aaba47a60d010fe1ec175129969bb:-1912694719,ba0a23281160d010be5bf7ec92636546:1896110995,d398af643860d010c1a025485dcdf93d:811197890,2008aba46260d010805cb5d94b95ceb5:-1274834226,2ce663e43860d010c7940cfca660ec00:-740061737,2496aba41a60d0103379603295cfe879:-218309328,272667643b60d0105332d96ec016d340:-1576167414,cac5a7a41660d01056552ec497069444:1439781866,f75467646260d0101e0cdf67e721611a:-624057090</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Jian.Ge</sys_created_by>
+        <sys_created_on>2020-05-08 05:54:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>05a6725f2b0947b08fba95057583eee4</sys_id>
+        <sys_metadata>c104e7641b60d010cbd3ece9bc4bcb98</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[to dele]Task Category -  effective date</sys_name>
+        <sys_package display_value="Manager Support" source="x_ibmj_mgr_spt">5284b0151b449410cbd3ece9bc4bcb11</sys_package>
+        <sys_parent display_value="Task Category">5c9215581b609010d16d8735cc4bcb7c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Manager Support">5284b0151b449410cbd3ece9bc4bcb11</sys_scope>
+        <sys_scope_delete display_value="">aee48816bafd4a98aa5e7a126e5a3990</sys_scope_delete>
+        <sys_update_name>sys_script_client_c104e7641b60d010cbd3ece9bc4bcb98</sys_update_name>
+        <sys_update_version display_value="sys_script_client_c104e7641b60d010cbd3ece9bc4bcb98">ec55dd121b289410cbd3ece9bc4bcb83</sys_update_version>
+        <sys_updated_by>Jian.Ge</sys_updated_by>
+        <sys_updated_on>2020-05-08 05:54:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

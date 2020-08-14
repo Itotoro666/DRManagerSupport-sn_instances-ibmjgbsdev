@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="マネージャータスク" max_length="40" name="x_ibmj_mgr_spt_manager_task" sizeclass="0" type="collection">
+        <element label="最上位フラグ" max_length="40" name="u_1st_level_flg" type="boolean"/>
+        <element label="Additional Assignment" max_length="4000" name="u_additional_assignment" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element label="Additional Assignment from bottom" max_length="4000" name="u_additional_assignment_from_bottom" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element label="Assigned To" max_length="32" name="u_assigned_to" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Assignment Type" max_length="40" name="u_assignment_type" type="string"/>
+        <element choice="3" default="draft" label="Status" mandatory="true" max_length="100" name="u_mgr_task_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="draft"/>
+                <element inactive_on_update="false" label="ドラフト" language="ja" sequence="1" value="draft"/>
+                <element inactive_on_update="false" label="Not started" sequence="2" value="not_started"/>
+                <element inactive_on_update="false" label="未着手" language="ja" sequence="2" value="not_started"/>
+                <element inactive_on_update="false" label="Working" sequence="3" value="working"/>
+                <element inactive_on_update="false" label="アサイン中" language="ja" sequence="3" value="working"/>
+                <element inactive_on_update="false" label="Assign completed" sequence="4" value="assign_complete"/>
+                <element inactive_on_update="false" label="部下の処理待" language="ja" sequence="4" value="assign_complete"/>
+                <element inactive_on_update="false" label="Wait recommend" sequence="5" value="wait_recommend"/>
+                <element inactive_on_update="false" label="推薦待ち" language="ja" sequence="5" value="wait_recommend"/>
+                <element inactive_on_update="false" label="Working recommend" sequence="6" value="working_recommend"/>
+                <element inactive_on_update="false" label="推薦中" language="ja" sequence="6" value="working_recommend"/>
+                <element inactive_on_update="false" label="Recommend completed" sequence="7" value="recommend_complete"/>
+                <element inactive_on_update="false" label="推薦完了" language="ja" sequence="7" value="recommend_complete"/>
+            </choice>
+        </element>
+        <element default="0" label="Nomination Slot" max_length="5" name="u_nomination_slot" type="integer"/>
+        <element label="Owner Group" max_length="32" name="u_owner_group" reference="sys_user_group" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="親 Manager Task" max_length="32" name="u_parent_managertask" reference="x_ibmj_mgr_spt_manager_task" reference_floats="true" type="reference"/>
+        <element label="Parent Task Master" mandatory="true" max_length="32" name="u_parent_taskmaster" reference="x_ibmj_mgr_spt_task_master" type="reference"/>
+        <element label="Requester" max_length="32" name="u_requester" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Comment" max_length="500" name="u_task_comment" type="string"/>
+        <element label="詳細" max_length="8000" name="u_task_detail" type="html"/>
+        <element label="完了期限" max_length="40" name="u_task_due_date" type="glide_date_time"/>
+        <element default="true" label="User Insert Flag" max_length="40" name="u_user_insert_flag" type="boolean"/>
+    </element>
+</database>
